@@ -1,0 +1,312 @@
+
+/* =========================================================
+   HOMEPAGE 
+   ========================================================= */
+
+/* ==============================
+   FIX SEARCH BUTTON HEIGHT (TABLET)
+   ============================== */
+/* ==============================
+   SEARCH BUTTON – TABLET ONLY
+   ============================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .elementor-18618 
+  .elementor-element.elementor-element-aeb11da 
+  .search_wr_elementor {
+    padding: 0 !important;
+  }
+
+  .elementor-18618 
+  .elementor-element.elementor-element-aeb11da 
+  .elemenentor_submit_wrapper {
+    display: flex;
+    height: 100%;
+    width: 35%;
+  }
+
+  .elementor-18618 
+  .elementor-element.elementor-element-aeb11da 
+  .wpresidence_button {
+    width: 100%;
+    height: 100%;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* bo góc chỉ cho tablet */
+    border-radius: 0 25px 25px 0 !important;
+  }
+
+}
+
+
+/* =========================================================
+   POLICY / TERMS PAGE TEMPLATE
+   ========================================================= */
+
+
+
+/* ================= HERO ================= */
+.policy-hero {
+  height: 580px;
+  background: url('') center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+.policy-hero-inner {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.policy-hero-inner h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 1025px) {
+	.policy-hero{
+		background-attachment: fixed;
+    }
+}
+/* ================= LAYOUT ================= */
+.policy-wrapper {
+  width: 100%;
+}
+
+.policy-container {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* ================= SIDEBAR ================= */
+.policy-sidebar {
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
+  padding-top: 15px;
+}
+
+/* reset */
+.policy-menu,
+.policy-submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== PARENT (DROPDOWN HEADER) ===== */
+.policy-parent {
+  margin-bottom: 8px;
+}
+
+/* toggle button */
+.policy-toggle {
+  width: 100%;
+  background: #890202;
+  color: #fff;
+  border: none;
+  padding: 12px 14px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+/* arrow */
+.policy-toggle .arrow::before {
+  content: "▼";
+  font-size: 11px;
+  transition: transform 0.3s ease;
+}
+
+/* ================= SUBMENU (ANIMATION) ================= */
+.policy-submenu {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+/* open */
+.policy-parent.open .policy-submenu {
+  max-height: 500px;
+  opacity: 1;
+  border: 1px solid #890202;
+  border-radius: 0 0 10px 10px;
+}
+
+.policy-parent.open .policy-toggle .arrow::before {
+  transform: rotate(180deg);
+}
+
+/* ================= CHILD ITEMS ================= */
+.policy-child {
+  padding-left: 22px;
+  position: relative;
+}
+
+.policy-child::before {
+  content: "›";
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  color: #999;
+}
+
+.policy-child a {
+  display: block;
+  padding: 6px 0;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.policy-child a:hover {
+  color: #c0392b;
+}
+
+.policy-child.current a {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+/* ================= CONTENT ================= */
+.policy-content {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #333;
+  border-left: 1px solid #c9c9c9;
+  padding-left: 30px;
+}
+
+.policy-content h2,
+.policy-content h3 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .policy-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .policy-sidebar {
+    position: static;
+    order: 1;
+  }
+
+  .policy-content {
+    order: 2;
+    border-left: none;
+    padding-left: 0;
+  }
+
+
+  .policy-hero-inner h1 {
+    font-size: 26px;
+  }
+}
+
+/* ================= HIDE SEARCH ================= */
+.is-policy-page .search_wrapper,
+.is-policy-page .advanced_search_shortcode {
+  display: none !important;
+}
+/* ================= HIDE IMG HERO ================= */
+.is-policy-page .header_media,
+.is-policy-page .title_bar,
+.is-policy-page .wpestate_header_image {
+  display: none !important;
+}
+
+
+/*property card design*/
+
+.jp-property-details-v3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 24px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.jp-detail-item {
+    display: flex;
+    gap: 8px;
+}
+
+.jp-detail-item .jp-label {
+    background: #f2f2f2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #666;
+    min-width: 70px;
+    text-align: center;
+}
+
+.jp-detail-item .jp-value {
+    font-weight: 500;
+    color: #222;
+}
+
+/*hide whats app button*/
+/* Hide all WhatsApp buttons on property page */
+.realtor_whatsapp {
+    display: none !important;
+}
+
+/***Property Card Design**/
+/*---slider images--*/
+.property_listing .carousel{
+  width: 100% !important;
+}
+
+/*mobile header*/
+.mobile_header.mobile_header_sticky_yes{
+  z-index: 9999 !important;
+
+}
+
+/***agent_contanct_form_sidebar***/
+
+.agent_contanct_form_sidebar .contact_form_flex_input_wrapper {
+  display: none !important;
+}
+
+.agent_contanct_form_sidebar #agent_comment {
+  display: none !important;
+}
+
+.agent_contanct_form_sidebar .gpr_wrapper {
+  display: none !important;
+}
+
+.agent_contanct_form_sidebar .wpresidence_button.agent_submit_class {
+  display: none !important;
+}
+
+.agent_contanct_form_sidebar.widget-container.wpestate_contact_form_parent{
+  position: sticky;
+  top: 120px;
+  z-index: 2;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}

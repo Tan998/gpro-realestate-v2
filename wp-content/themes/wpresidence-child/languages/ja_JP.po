@@ -1,0 +1,5546 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpresidence\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wpresidence\n"
+"POT-Creation-Date: 2025-12-16T09:58:34+00:00\n"
+"PO-Revision-Date: 2026-01-22 08:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: Japanese (Japan)\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-8.2.4"
+
+#. Theme Name of the theme
+#: style.css
+msgid "WpResidence"
+msgstr "WpResidence"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://themeforest.net/user/wpestate"
+msgstr "https://themeforest.net/user/wpestate"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"WP Residence is a premium & responsive WordPress theme designed for Real "
+"Estate companies and independent agents."
+msgstr ""
+"WP Residence is a premium & responsive WordPress theme designed for Real "
+"Estate companies and independent agents."
+
+#. Author of the theme
+#: style.css
+msgid "wpestate"
+msgstr "wpestate"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.wpestate.org"
+msgstr "https://www.wpestate.org"
+
+#: 404.php:23
+msgid "Page not found"
+msgstr "ページが見つかりませんでした"
+
+#: 404.php:26
+msgid ""
+"We're sorry. Your page could not be found, But you can check our latest "
+"listings & articles"
+msgstr ""
+"申し訳ございません。\n"
+"下記より最新の物件リストをご覧いただけます。"
+
+#: 404.php:30
+msgid "Latest Listings"
+msgstr "最新の物件リスト"
+
+#: 404.php:35
+msgid "Latest Articles"
+msgstr "最新記事"
+
+#: archive.php:32
+#, php-format
+msgid "Category Archives: %s"
+msgstr "カテゴリ一覧: %s"
+
+#: archive.php:34
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: archive.php:36
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "月別一覧: %s"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:38
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "年別一覧: %s"
+
+#: archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:40
+msgid "Blog Archives"
+msgstr "ブログのアーカイブ"
+
+#: comments.php:15
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "この投稿はパスワードで保護されています。コメントを表示するには、パスワードを入力します。"
+
+#: comments.php:24
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;へ%1$s件のコメント"
+
+#: comments.php:37
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:38
+msgid "&laquo; Older Comments"
+msgstr "&quot; 古いコメント"
+
+#: comments.php:39
+msgid "Newer Comments &raquo;"
+msgstr "新しいコメント &quot;"
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr "コメントは締め切りました。"
+
+#: comments.php:59
+msgid "Leave a Reply"
+msgstr "返信を残す"
+
+#: comments.php:60
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%sに返信する"
+
+#: comments.php:61
+msgid "Cancel Reply"
+msgstr "返信をキャンセル"
+
+#: comments.php:62
+msgid "Post Comment"
+msgstr "コメントを投稿"
+
+#: comments.php:63
+msgid "Your email address will not be published."
+msgstr "メール アドレスは公開されません。"
+
+#: comments.php:64
+msgid "Comment"
+msgstr "コメント"
+
+#: comments.php:66 crm_functions/crm_functions.php:511
+#: libs/css_js_include.php:874 libs/css_js_include.php:878
+#: libs/css_js_include.php:976 libs/css_js_include.php:980
+#: templates/email_templates/contact_email_template.php:37
+#: templates/email_templates/schedule_tour_email_template.php:35
+#: templates/footers/footer_buttons.php:28
+#: templates/listing_templates/contact_form/contact_form_simple.php:34
+msgid "Name"
+msgstr "名"
+
+#: comments.php:67 crm_functions/crm_functions.php:512
+#: libs/css_js_include.php:875 libs/css_js_include.php:879
+#: libs/css_js_include.php:977 libs/css_js_include.php:981
+#: libs/dashboard_functions/dashboard_actions_functions.php:701
+#: libs/design_functions.php:390 libs/design_functions.php:443
+#: templates/dashboard-templates/add_new_agent_template.php:65
+#: templates/dashboard-templates/user_profile.php:34
+#: templates/dashboard-templates/user_profile_agency.php:26
+#: templates/dashboard-templates/user_profile_agent.php:29
+#: templates/dashboard-templates/user_profile_developer.php:26
+#: templates/email_templates/contact_email_template.php:38
+#: templates/email_templates/schedule_tour_email_template.php:36
+#: templates/footers/footer_buttons.php:29
+#: templates/listing_templates/contact_form/contact_form_simple.php:35
+#: templates/login_register_forms/register-modal.php:19
+#: templates/property_cards_templates/property_card_details_templates/property_card_contact.php:73
+msgid "Email"
+msgstr "Eメール"
+
+#: comments.php:68
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: crm_functions/crm_functions.php:19
+msgid "Lead Info"
+msgstr "Lead情報"
+
+#: crm_functions/crm_functions.php:33
+#: crm_functions/templates/dashboard_contact_unit.php:29
+#: crm_functions/templates/dashboard_lead_unit.php:61
+msgid "New"
+msgstr "New"
+
+#: crm_functions/crm_functions.php:72
+msgid "Invalid input data"
+msgstr "無効な入力データ"
+
+#: crm_functions/crm_functions.php:107
+msgid "You are not allowed to edit this!"
+msgstr "これを編集することは禁じられている！"
+
+#: crm_functions/crm_functions.php:159
+msgid "Authentication required"
+msgstr "認証が必要"
+
+#: crm_functions/crm_functions.php:166
+msgid "Missing required parameters"
+msgstr "必要なパラメータの欠落"
+
+#: crm_functions/crm_functions.php:176
+msgid "Invalid input parameters"
+msgstr "無効な入力パラメータ"
+
+#: crm_functions/crm_functions.php:187
+msgid "You do not have permission to add comments"
+msgstr "コメントを追加する権限がありません"
+
+#: crm_functions/crm_functions.php:207
+msgid "Failed to add comment"
+msgstr "コメントの追加に失敗"
+
+#: crm_functions/crm_functions.php:220
+msgid "from"
+msgstr "から"
+
+#: crm_functions/crm_functions.php:222 templates/blog_post/post_meta.php:28
+msgid "on"
+msgstr "に"
+
+#: crm_functions/crm_functions.php:228
+msgid "Comment added successfully"
+msgstr "コメント追加成功"
+
+#: crm_functions/crm_functions.php:235
+msgid "An error occurred while processing your request"
+msgstr "リクエストの処理中にエラーが発生しました"
+
+#: crm_functions/crm_functions.php:260
+msgid "Invalid contact ID"
+msgstr "無効なコンタクトID"
+
+#: crm_functions/crm_functions.php:264 crm_functions/crm_functions.php:333
+msgid "Invalid agent list"
+msgstr "無効なエージェントリスト"
+
+#: crm_functions/crm_functions.php:270
+msgid "Contact not found"
+msgstr "連絡先が見つかりません"
+
+#: crm_functions/crm_functions.php:276
+msgid "You are not allowed to delete this contact"
+msgstr "この連絡先を削除することはできません"
+
+#: crm_functions/crm_functions.php:290
+msgid "Failed to delete contact"
+msgstr "コンタクトの削除に失敗しました"
+
+#: crm_functions/crm_functions.php:329
+msgid "Invalid contact data provided"
+msgstr "無効な連絡先データ"
+
+#: crm_functions/crm_functions.php:361
+msgid "You are not allowed to edit this contact"
+msgstr "この連絡先は編集できません"
+
+#: crm_functions/crm_functions.php:428 crm_functions/crm_functions.php:476
+#: crm_functions/crm_functions.php:559
+msgid "Invalid agent list provided"
+msgstr "無効なエージェントリストが提供されました"
+
+#: crm_functions/crm_functions.php:447
+msgid "Invalid action specified"
+msgstr "無効な操作が指定されました"
+
+#: crm_functions/crm_functions.php:499
+msgid "Your Contacts"
+msgstr "連絡先"
+
+#: crm_functions/crm_functions.php:503
+msgid "Create Contact"
+msgstr "連絡先を作成"
+
+#: crm_functions/crm_functions.php:513 libs/css_js_include.php:876
+#: libs/css_js_include.php:880 libs/css_js_include.php:978
+#: libs/css_js_include.php:982
+#: templates/dashboard-templates/add_new_agent_template.php:55
+#: templates/dashboard-templates/user_profile.php:35
+#: templates/dashboard-templates/user_profile_agency.php:25
+#: templates/dashboard-templates/user_profile_agent.php:28
+#: templates/dashboard-templates/user_profile_developer.php:25
+#: templates/email_templates/contact_email_template.php:39
+#: templates/email_templates/schedule_tour_email_template.php:37
+#: templates/footers/footer_buttons.php:30
+#: templates/listing_templates/contact_form/contact_form_simple.php:36
+msgid "Phone"
+msgstr "電話"
+
+#: crm_functions/crm_functions.php:514
+msgid "Added on"
+msgstr "追加日"
+
+#: crm_functions/crm_functions.php:515 crm_functions/crm_functions.php:598
+#: libs/advanced_search/searchfunctions.php:2263
+#: libs/dashboard_functions/dashboard_actions_functions.php:622
+#: libs/dashboard_functions/dashboard_actions_functions.php:702
+#: libs/dashboard_functions/dashboard_actions_functions.php:841
+#: libs/dashboard_functions/dashboard_actions_functions.php:847
+#: libs/elementor_help_files2.php:62 libs/elementor_help_files2.php:384
+#: libs/elementor_help_files2.php:537
+#: page-templates/user_dashboard_favorite.php:61
+#: page-templates/user_dashboard_favorite.php:67
+msgid "Status"
+msgstr "状態"
+
+#: crm_functions/crm_functions.php:516 crm_functions/crm_functions.php:599
+#: crm_functions/templates/crm_contact_unit_actions.php:42
+#: crm_functions/templates/crm_lead_unit_actions.php:42
+#: libs/dashboard_functions/dashboard_actions_functions.php:703
+#: libs/dashboard_functions/dashboard_actions_functions.php:852
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-agent-unit-actions.php:50
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:54
+msgid "Actions"
+msgstr "アクション"
+
+#: crm_functions/crm_functions.php:523
+msgid "You don't have any Contacts!"
+msgstr "コンタクトがない！"
+
+#: crm_functions/crm_functions.php:582
+msgid "Your Leads/Deals"
+msgstr "リード/ディール"
+
+#: crm_functions/crm_functions.php:586
+msgid "Add New Lead/Deal"
+msgstr "新しいリード/ディールを追加する"
+
+#: crm_functions/crm_functions.php:594
+msgid "Lead No"
+msgstr "リードなし"
+
+#: crm_functions/crm_functions.php:595
+msgid "Request By"
+msgstr "リクエスト"
+
+#: crm_functions/crm_functions.php:596
+msgid "Agent in Charge"
+msgstr "担当エージェント"
+
+#: crm_functions/crm_functions.php:597
+#: libs/dashboard_functions/dashboard_actions_functions.php:619
+#: libs/dashboard_functions/dashboard_actions_functions.php:1351
+msgid "Date"
+msgstr "日付"
+
+#: crm_functions/crm_functions.php:606
+msgid "You don't have any Leads!"
+msgstr "リードを持っていない！"
+
+#: crm_functions/templates/crm_add_contact.php:61
+#: crm_functions/templates/crm_add_lead.php:61
+#: templates/front_end_submission.php:89 templates/front_end_submission.php:129
+msgid "Save Changes"
+msgstr "変更内容を保存"
+
+#: crm_functions/templates/crm_add_contact.php:67
+msgid "Add Contact"
+msgstr "担当者を追加"
+
+#: crm_functions/templates/crm_add_lead.php:67
+msgid "Add Lead"
+msgstr "リード追加"
+
+#: crm_functions/templates/crm_contact_submit.php:20
+#: templates/dashboard-templates/user_profile.php:62
+#: templates/dashboard-templates/user_profile_agency.php:113
+#: templates/dashboard-templates/user_profile_agent.php:103
+#: templates/dashboard-templates/user_profile_developer.php:111
+msgid "Contact Information"
+msgstr "問い合わせ先"
+
+#: crm_functions/templates/crm_contact_unit_actions.php:34
+#: crm_functions/templates/crm_lead_unit_actions.php:34
+msgid "Are you sure you wish to delete "
+msgstr "削除してもよろしいですか？"
+
+#: crm_functions/templates/crm_contact_unit_actions.php:50
+msgid "View/Edit Contact"
+msgstr "コンタクトの表示/編集"
+
+#: crm_functions/templates/crm_contact_unit_actions.php:61
+msgid "Delete Contact"
+msgstr "連絡先の削除"
+
+#: crm_functions/templates/crm_leads_submit.php:17
+msgid "Lead Information"
+msgstr "リード情報"
+
+#: crm_functions/templates/crm_leads_submit.php:36
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: crm_functions/templates/crm_lead_unit_actions.php:50
+msgid "View/Edit Lead"
+msgstr "リードの表示/編集"
+
+#: crm_functions/templates/crm_lead_unit_actions.php:61
+msgid "Delete Lead"
+msgstr "リード削除"
+
+#: crm_functions/templates/dashboard_lead_unit.php:3
+msgid "Lead no "
+msgstr "Lead情報 "
+
+#: crm_functions/templates/dashboard_lead_unit.php:23
+msgid "added manually"
+msgstr "手動で追加"
+
+#: functions.php:300
+msgid ""
+"For better speed results, the theme offers a built-in caching system for "
+"properties and categories. Check this article on how to enable/disable theme "
+"cache: "
+msgstr ""
+"より良いスピード結果を得るために、このテーマはプロパティとカテゴリのためのビルトインキャッシュシステムを提供しています。テーマのキャッシュを有効/無効にする方法については、こちらの記事をご覧ください："
+
+#: functions.php:301
+msgid "help article"
+msgstr "ヘルプ記事"
+
+#: functions.php:307
+msgid ""
+"The Google Maps JavaScript API v3 REQUIRES an API key to function correctly. "
+"Get an APIs Console key and post the code in Theme Options. You can get it "
+"from"
+msgstr ""
+"Google Maps JavaScript API v3では、APIキーが正しく機能する必要があります。 "
+"APIコンソールキーを取得し、テーマオプションでコードを投稿してください。あなたはそれをから得ることができます"
+
+#: functions.php:308
+msgid "here"
+msgstr "ここに"
+
+#: functions.php:315
+msgid "WordPress Memory Limit is set to "
+msgstr "WordPressメモリ制限がに設定されています"
+
+#: functions.php:316
+msgid "Recommended memory limit should be at least 96MB. Please refer to: "
+msgstr "推奨メモリは96MB以上です。ご参照ください："
+
+#: functions.php:318
+msgid "Increasing memory allocated to PHP"
+msgstr "PHPに割り当てられるメモリの増加"
+
+#: functions.php:331
+msgid "Your PHP version is "
+msgstr "あなたのPHPバージョンは"
+
+#: functions.php:332
+msgid ""
+"We recommend upgrading the PHP version to at least 5.6.1. The upgrade should "
+"be done on your server by your hosting company."
+msgstr ""
+"PHPバージョンを少なくとも5.6."
+"1以上にアップグレードすることを推奨します。アップグレードは、ホスティング会社によってお客様のサーバー上で行われる必要があります。"
+
+#: functions.php:339
+msgid ""
+"PHP GD library is NOT installed on your web server and because of that the "
+"theme will not be able to work with images. Please contact your hosting "
+"company in order to activate this library."
+msgstr ""
+"PHP "
+"GDライブラリはあなたのWebサーバにはインストールされていないので、そのテーマはイメージでは動作しません。このライブラリを有効にするには、ホスティング会社にお問い合わせください。"
+
+#: functions.php:346
+msgid ""
+"MbString extension not detected. Please contact your hosting provider in "
+"order to enable it."
+msgstr "MbString拡張が検出されません。有効にするには、ホスティングプロバイダにお問い合わせください。"
+
+#: functions.php:356
+msgid ""
+"Half Map Template - make sure your page has the \"Hero Media Header\" set as "
+"maps!"
+msgstr ""
+"Half Map Template - make sure your page has the \"Hero Media Header\" set as "
+"maps!"
+
+#: functions.php:364
+msgid ""
+"Please do not manually change the slugs when adding new terms. If you need "
+"to edit a term name copy the new name in the slug field also."
+msgstr ""
+"新しい用語を追加するときに、スラグを手動で変更しないでください。ターム名を編集する必要がある場合は、スラッグフィールドの新しい名前もコピーします。"
+
+#: functions.php:509
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: functions.php:510
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">←</span>古い投稿"
+
+#: functions.php:511
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿<span class=\"meta-nav\">→</span>"
+
+#: functions.php:540
+msgid "Pingback:"
+msgstr "Pingback："
+
+#: functions.php:542 functions.php:563
+msgid "Edit"
+msgstr "編集"
+
+#: functions.php:556 templates/dashboard-templates/message-listing-unit.php:132
+#: templates/dashboard-templates/message-listing-unit.php:139
+msgid "Reply"
+msgstr "応答"
+
+#: functions.php:567
+msgid " on "
+msgstr "に"
+
+#: functions.php:570
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#: functions.php:597 functions.php:601
+msgid "Please edit your profile page from site interface."
+msgstr "サイトのインターフェイスからプロフィールページを編集してください。"
+
+#: functions.php:774 functions.php:789
+msgid "Message sent from page: "
+msgstr "ページから送信されたメッセージ："
+
+#: functions.php:1411 functions.php:1426 functions.php:1441 functions.php:1457
+#: functions.php:1472 functions.php:1487 functions.php:1502 functions.php:1517
+#: functions.php:1533 functions.php:1548 functions.php:1563 functions.php:1578
+#: functions.php:1593 functions.php:1608 functions.php:1623 functions.php:1637
+#: functions.php:1652 functions.php:1668 functions.php:1684 functions.php:1700
+#: functions.php:1715 functions.php:1731 functions.php:1747 functions.php:1764
+#: functions.php:1779 functions.php:1795 functions.php:1813 functions.php:1828
+#: functions.php:1843 functions.php:1855 functions.php:1871 functions.php:1888
+#: functions.php:1904 functions.php:1919 functions.php:1936 functions.php:1953
+#: functions.php:1969 functions.php:1984 functions.php:1999 functions.php:2014
+#: functions.php:2029 functions.php:2044 functions.php:2059 functions.php:2075
+#: functions.php:2090 functions.php:2107 functions.php:2122 functions.php:2137
+#: functions.php:2153
+msgid "Clear theme cache after demo import is complete!"
+msgstr "デモのインポートが完了したら、テーマキャッシュをクリアしてください！"
+
+#: libs/3rdparty.php:88
+msgid "right now"
+msgstr "たった今"
+
+#: libs/3rdparty.php:90
+msgid " seconds ago"
+msgstr "秒前"
+
+#: libs/3rdparty.php:92
+msgid "about 1 minute ago"
+msgstr "約1分前"
+
+#: libs/3rdparty.php:94
+msgid " minutes ago"
+msgstr "数分前"
+
+#: libs/3rdparty.php:96
+msgid "about 1 hour ago"
+msgstr "約1時間前"
+
+#: libs/3rdparty.php:98
+msgid " hours ago"
+msgstr "時間前"
+
+#: libs/3rdparty.php:100
+msgid "yesterday"
+msgstr "昨日"
+
+#: libs/3rdparty.php:102
+msgid " days ago"
+msgstr "数日前"
+
+#: libs/3rdparty.php:104
+msgid "over a year ago"
+msgstr "1年以上前"
+
+#: libs/3rdparty.php:227 libs/3rdparty.php:232
+msgid " package on "
+msgstr "パッケージオン"
+
+#: libs/3rdparty.php:347 libs/3rdparty.php:348
+msgid "PayPal payment agreement"
+msgstr "PayPal支払い決済"
+
+#: libs/advanced_search/searchfunctions.php:12
+#: templates/advanced_search/advanced_search_type_half.php:81
+#: templates/dashboard-templates/user_profile_agency.php:129
+#: templates/dashboard-templates/user_profile_developer.php:127
+#: templates/property_shortcode_slider_templates/property_slider_shortcode.php:72
+msgid "Location"
+msgstr "ロケーション"
+
+#: libs/advanced_search/searchfunctions.php:62
+msgid "Radius: "
+msgstr "半径: "
+
+#: libs/advanced_search/searchfunctions.php:267
+msgid "Enter an address, state, city, area or zip code"
+msgstr "住所、都道府県、市区町村、地域、郵便番号を入力してください"
+
+#: libs/advanced_search/searchfunctions.php:328
+#: libs/advanced_search/searchfunctions.php:2260
+#: libs/advanced_search/searchfunctions.php:2506
+#: libs/property_page_functions/property_address_section_functions.php:125
+#: page-templates/compare_listings.php:122
+#: templates/dashboard-templates/add_new_agent_template.php:141
+#: templates/dashboard-templates/user_profile_agency.php:61
+#: templates/dashboard-templates/user_profile_agent.php:61
+#: templates/dashboard-templates/user_profile_developer.php:61
+#: templates/submit_templates/property_location.php:115
+msgid "City"
+msgstr "シティ"
+
+#: libs/advanced_search/searchfunctions.php:340
+#: libs/advanced_search/searchfunctions.php:2261
+#: libs/advanced_search/searchfunctions.php:2513
+#: libs/property_page_functions/property_address_section_functions.php:126
+#: page-templates/compare_listings.php:123
+#: templates/dashboard-templates/add_new_agent_template.php:153
+#: templates/dashboard-templates/user_profile_agency.php:63
+#: templates/dashboard-templates/user_profile_agent.php:63
+#: templates/dashboard-templates/user_profile_developer.php:63
+msgid "Area"
+msgstr "エリア"
+
+#: libs/advanced_search/searchfunctions.php:351
+msgid "County or State"
+msgstr "郡または州"
+
+#: libs/advanced_search/searchfunctions.php:500
+#: templates/advanced_search/advanced_search_type10.php:37
+#: templates/advanced_search/adv_search_mobile.php:81
+msgid "Type address, state, city or area"
+msgstr "タイプ住所、州、市または区域"
+
+#: libs/advanced_search/searchfunctions.php:527
+#: libs/advanced_search/searchfunctions.php:577
+#: libs/advanced_search/searchfunctions2.php:119
+#: libs/elementor_help_files2.php:23 libs/elementor_help_files2.php:368
+#: libs/elementor_help_files2.php:518 libs/help_functions.php:1869
+#: libs/help_functions.php:1875 libs/help_functions.php:2255
+#: libs/help_functions.php:2735 page-templates/property_list_directory.php:66
+#: templates/advanced_property_list_filters.php:52
+#: templates/advanced_property_list_filters.php:92
+#: templates/advanced_search/advanced_search_type8.php:139
+#: templates/advanced_search/advanced_search_type9.php:146
+#: templates/advanced_search/advanced_search_type_half.php:128
+#: templates/advanced_search/advanced_search_type_half.php:170
+#: templates/advanced_search/advanced_search_type_half.php:181
+#: templates/advanced_search/adv_search_mobile.php:77
+#: templates/advanced_search/adv_search_mobile.php:91
+#: templates/advanced_search/adv_search_mobile.php:150
+#: templates/directory_page_templates/directory_filters.php:36
+#: templates/properties_list_templates/filters_templates/property_list_ajax_tax_hidden_filters.php:21
+#: templates/properties_list_templates/filters_templates/property_list_filters_taxonomy_normal_map_core.php:42
+#: templates/properties_list_templates/filters_templates/search_ajax_tax_hidden_filters.php:37
+#: templates/properties_list_templates/filters_templates/taxomomy_ajax_tax_hidden_filters.php:26
+#: templates/properties_list_templates/filters_templates/taxonomy_agent_hidden_filters.php:40
+#: templates/properties_list_templates/property_list_filters.php:73
+#: templates/properties_list_templates/property_list_filters.php:125
+msgid "Types"
+msgstr "タイプ"
+
+#: libs/advanced_search/searchfunctions.php:562 searchform.php:19
+#: templates/advanced_search/advanced_search_type11.php:36
+#: templates/advanced_search/adv_search_mobile.php:97
+msgid "Type Keyword"
+msgstr "タイプキーワード"
+
+#: libs/advanced_search/searchfunctions.php:596
+#: libs/advanced_search/searchfunctions2.php:120
+#: libs/elementor_help_files2.php:14 libs/elementor_help_files2.php:364
+#: libs/elementor_help_files2.php:514 libs/help_functions.php:1867
+#: libs/help_functions.php:2270 libs/help_functions.php:2861
+#: page-templates/property_list_directory.php:87
+#: templates/advanced_property_list_filters.php:53
+#: templates/advanced_property_list_filters.php:102
+#: templates/advanced_search/advanced_search_type8.php:133
+#: templates/advanced_search/advanced_search_type9.php:115
+#: templates/advanced_search/advanced_search_type_half.php:210
+#: templates/advanced_search/advanced_search_type_half.php:220
+#: templates/advanced_search/adv_search_mobile.php:93
+#: templates/advanced_search/adv_search_mobile.php:138
+#: templates/directory_page_templates/directory_filters.php:37
+#: templates/properties_list_templates/filters_templates/property_list_ajax_tax_hidden_filters.php:23
+#: templates/properties_list_templates/filters_templates/property_list_filters_taxonomy_normal_map_core.php:43
+#: templates/properties_list_templates/filters_templates/search_ajax_tax_hidden_filters.php:38
+#: templates/properties_list_templates/filters_templates/taxomomy_ajax_tax_hidden_filters.php:25
+#: templates/properties_list_templates/filters_templates/taxonomy_agent_hidden_filters.php:41
+#: templates/properties_list_templates/property_list_filters.php:74
+#: templates/properties_list_templates/property_list_filters.php:128
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: libs/advanced_search/searchfunctions.php:2254
+#: libs/advanced_search/searchfunctions.php:2469
+msgid "County, City or Area is "
+msgstr "郡、市またはエリアは"
+
+#: libs/advanced_search/searchfunctions.php:2258
+#: libs/advanced_search/searchfunctions.php:2483
+#: libs/dashboard_functions/dashboard_actions_functions.php:840
+#: libs/dashboard_functions/dashboard_actions_functions.php:846
+#: libs/help_functions.php:3842
+#: libs/property_page_functions/property_overview_functions.php:91
+#: page-templates/user_dashboard_favorite.php:60
+#: page-templates/user_dashboard_favorite.php:66
+#: templates/dashboard-templates/add_new_agent_template.php:303
+#: templates/dashboard-templates/user_profile_agency.php:69
+#: templates/dashboard-templates/user_profile_agency.php:124
+#: templates/dashboard-templates/user_profile_agent.php:120
+#: templates/dashboard-templates/user_profile_developer.php:69
+#: templates/dashboard-templates/user_profile_developer.php:122
+#: templates/property_shortcode_slider_templates/property_slider_shortcode.php:66
+#: templates/submit_templates/property_categories.php:52
+msgid "Category"
+msgstr "カテゴリー"
+
+#: libs/advanced_search/searchfunctions.php:2259
+#: libs/advanced_search/searchfunctions.php:2499
+msgid "For"
+msgstr "ために"
+
+#: libs/advanced_search/searchfunctions.php:2262
+#: libs/advanced_search/searchfunctions.php:2519
+#: templates/submit_templates/property_location.php:92
+msgid "County / State"
+msgstr "郡/州"
+
+#: libs/advanced_search/searchfunctions.php:2294
+msgid "Has"
+msgstr "コンテンツの最適化：フィードバックがあります"
+
+#: libs/advanced_search/searchfunctions.php:2356
+#: libs/advanced_search/searchfunctions.php:2533
+msgid "types"
+msgstr "タイプ"
+
+#: libs/advanced_search/searchfunctions.php:2357
+#: libs/advanced_search/searchfunctions.php:2534
+msgid "categories"
+msgstr "カテゴリ"
+
+#: libs/advanced_search/searchfunctions.php:2358
+#: libs/advanced_search/searchfunctions.php:2535
+msgid "cities"
+msgstr "都市"
+
+#: libs/advanced_search/searchfunctions.php:2359
+#: libs/advanced_search/searchfunctions.php:2536
+msgid "areas"
+msgstr "エリア"
+
+#: libs/advanced_search/searchfunctions.php:2360
+#: libs/advanced_search/searchfunctions.php:2537
+msgid "property price"
+msgstr "不動産価格"
+
+#: libs/advanced_search/searchfunctions.php:2361
+#: libs/advanced_search/searchfunctions.php:2538
+msgid "property size"
+msgstr "プロパティサイズ"
+
+#: libs/advanced_search/searchfunctions.php:2362
+#: libs/advanced_search/searchfunctions.php:2539
+msgid "property lot size"
+msgstr "プロパティロットサイズ"
+
+#: libs/advanced_search/searchfunctions.php:2363
+#: libs/advanced_search/searchfunctions.php:2540
+msgid "property rooms"
+msgstr "プロパティルーム"
+
+#: libs/advanced_search/searchfunctions.php:2364
+#: libs/advanced_search/searchfunctions.php:2541
+msgid "property bedrooms"
+msgstr "プロパティベッドルーム"
+
+#: libs/advanced_search/searchfunctions.php:2365
+#: libs/advanced_search/searchfunctions.php:2542
+msgid "property bathrooms"
+msgstr "プロパティバスルーム"
+
+#: libs/advanced_search/searchfunctions.php:2366
+#: libs/advanced_search/searchfunctions.php:2543
+msgid "property address"
+msgstr "プロパティアドレス"
+
+#: libs/advanced_search/searchfunctions.php:2367
+#: libs/advanced_search/searchfunctions.php:2544
+msgid "property county"
+msgstr "プロパティ郡"
+
+#: libs/advanced_search/searchfunctions.php:2368
+#: libs/advanced_search/searchfunctions.php:2545
+msgid "property state"
+msgstr "プロパティ状態"
+
+#: libs/advanced_search/searchfunctions.php:2369
+#: libs/advanced_search/searchfunctions.php:2546
+msgid "property zip"
+msgstr "プロパティzip"
+
+#: libs/advanced_search/searchfunctions.php:2370
+#: libs/advanced_search/searchfunctions.php:2547
+msgid "property country"
+msgstr "財産国"
+
+#: libs/advanced_search/searchfunctions.php:2371
+#: libs/advanced_search/searchfunctions.php:2548 libs/help_functions.php:3749
+msgid "property status"
+msgstr "プロパティステータス"
+
+#: libs/advanced_search/searchfunctions.php:2391
+msgid "address"
+msgstr "住所"
+
+#: libs/advanced_search/searchfunctions.php:2411
+msgid "between "
+msgstr "の間に"
+
+#: libs/advanced_search/searchfunctions.php:2411
+#: libs/advanced_search/searchfunctions.php:2413
+#: libs/advanced_search/searchfunctions.php:2417
+msgid "and"
+msgstr "そして"
+
+#: libs/advanced_search/searchfunctions.php:2413
+#: libs/advanced_search/searchfunctions.php:2417
+msgid "between"
+msgstr "の間に"
+
+#: libs/advanced_search/searchfunctions.php:2421
+#: libs/advanced_search/searchfunctions.php:2574
+msgid " similar with "
+msgstr "と似ている"
+
+#: libs/advanced_search/searchfunctions.php:2423
+#: libs/advanced_search/searchfunctions.php:2578
+#: libs/advanced_search/searchfunctions.php:2612
+msgid " has"
+msgstr "持っている"
+
+#: libs/advanced_search/searchfunctions.php:2425
+#: libs/advanced_search/searchfunctions.php:2582
+msgid " equal with "
+msgstr "と等しい"
+
+#: libs/advanced_search/searchfunctions.php:2427
+#: libs/advanced_search/searchfunctions.php:2590
+#: libs/advanced_search/searchfunctions.php:2619
+msgid "smaller than "
+msgstr "より小さい"
+
+#: libs/advanced_search/searchfunctions.php:2429
+msgid "bigger than "
+msgstr "より大きい"
+
+#: libs/advanced_search/searchfunctions.php:2568
+#: libs/advanced_search/searchfunctions.php:2628
+msgid "price range from: "
+msgstr "価格帯："
+
+#: libs/advanced_search/searchfunctions.php:2568
+#: libs/advanced_search/searchfunctions.php:2596
+#: libs/advanced_search/searchfunctions.php:2628 libs/css_js_include.php:904
+#: templates/directory_page_templates/directory_filters.php:91
+#: templates/directory_page_templates/directory_filters.php:106
+#: templates/directory_page_templates/directory_filters.php:121
+#: templates/directory_page_templates/directory_filters.php:136
+#: templates/directory_page_templates/directory_filters.php:151
+msgid "to"
+msgstr "に"
+
+#: libs/advanced_search/searchfunctions.php:2570
+#: libs/advanced_search/searchfunctions.php:2598
+#: libs/advanced_search/searchfunctions.php:2630
+msgid "bigger than"
+msgstr "より大きい"
+
+#: libs/advanced_search/searchfunctions.php:2596
+msgid "price range from "
+msgstr "からの価格帯"
+
+#: libs/advanced_search/searchfunctions2.php:229
+#: libs/advanced_search/searchfunctions2.php:376
+#: templates/advanced_search/advanced_search_type_half.php:358
+#: templates/directory_page_templates/directory_filters.php:64
+msgid "Price range:"
+msgstr "価格帯："
+
+#: libs/advanced_search/searchfunctions2.php:517
+#: templates/advanced_search/advanced_search_type4.php:75
+#: templates/advanced_search/advanced_search_type5.php:83
+#: templates/advanced_search/advanced_search_type7.php:153
+#: templates/advanced_search/advanced_search_type8.php:149
+#: templates/advanced_search/advanced_search_type9.php:170
+#: templates/advanced_search/advanced_search_type_half.php:391
+#: templates/advanced_search/adv_search_mobile.php:182
+msgid "Search Properties"
+msgstr "検索プロパティ"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:207
+#: libs/property_page_functions/property_reviews_section_functions.php:78
+#: templates/realtor_templates/agent_reviews.php:70
+msgid "Posted by "
+msgstr "投稿者"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:211
+#: libs/property_page_functions/property_reviews_section_functions.php:82
+#: templates/realtor_templates/agent_reviews.php:78
+msgid "of"
+msgstr "の"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:214
+#: libs/property_page_functions/property_reviews_section_functions.php:85
+#: templates/realtor_templates/agent_reviews.php:81
+msgid "Posted on "
+msgstr "ポストする"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:253
+#: templates/listing_templates/property-page-templates/property_reviews.php:63
+#: templates/realtor_templates/agent_reviews.php:182
+#: templates/reviews/reviews-form.php:16
+msgid "You need to "
+msgstr "必要がある"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:254
+#: templates/listing_templates/property-page-templates/property_reviews.php:64
+#: templates/realtor_templates/agent_reviews.php:183
+#: templates/reviews/reviews-form.php:17
+msgid "login"
+msgstr "ログイン"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:255
+#: templates/listing_templates/property-page-templates/property_reviews.php:65
+#: templates/realtor_templates/agent_reviews.php:184
+#: templates/reviews/reviews-form.php:18
+msgid "in order to post a review "
+msgstr "レビューを投稿するために"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:274
+#, php-format
+msgid "Update %s Review "
+msgstr "更新%s レビュー"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:276
+#: libs/property_page_functions/property_reviews_section_functions.php:280
+#: templates/realtor_templates/agent_reviews.php:152
+msgid "pending approval"
+msgstr "承認待ちの"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:279
+msgid "Write a  Review"
+msgstr "レビューを書く"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:287
+#: libs/property_page_functions/property_reviews_section_functions.php:291
+#: templates/realtor_templates/agent_reviews.php:162
+msgid "Your Rating & Review"
+msgstr "あなたの評価とレビュー"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:296
+#: libs/property_page_functions/property_reviews_section_functions.php:294
+#: templates/realtor_templates/agent_reviews.php:170
+msgid "Review Title"
+msgstr "レビュータイトル"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:298
+#: libs/property_page_functions/property_reviews_section_functions.php:295
+#: templates/realtor_templates/agent_reviews.php:171
+msgid "Your Review"
+msgstr "あなたのレビュー"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:302
+#: libs/property_page_functions/property_reviews_section_functions.php:298
+#: templates/realtor_templates/agent_reviews.php:173
+msgid "Edit Review"
+msgstr "編集レビュー"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:304
+#: libs/property_page_functions/property_reviews_section_functions.php:300
+#: templates/realtor_templates/agent_reviews.php:175
+msgid "Submit Review"
+msgstr "レビュー送信"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:474
+#: libs/agency_developers_functions/agency_developers_functions.php:656
+#: libs/dashboard_functions/dashboard_functions.php:1462
+#: templates/agency_templates/agency_listings.php:84
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:17
+#: templates/developer_templates/developer_listings.php:85
+#: templates/realtor_templates/agent-term-bar.php:30
+msgid "All"
+msgstr "すべて"
+
+#: libs/agency_developers_functions/agency_developers_functions.php:518
+#: libs/agency_developers_functions/agency_developers_functions.php:701
+#: libs/agents/agent_functions.php:1263 libs/agents/agent_functions.php:1473
+#: templates/agency_templates/agency_listings.php:115
+#: templates/developer_templates/developer_listings.php:117
+#: templates/realtor_templates/agent_listings.php:124
+msgid "Load More Properties"
+msgstr "その他のプロパティをロードする"
+
+#: libs/agents/agent_functions.php:62
+msgid "There are no more agents."
+msgstr "エージェントはもういない。"
+
+#: libs/agents/agent_functions.php:65
+msgid "We don't have any agents yet!"
+msgstr "まだエージェントはありません！"
+
+#: libs/agents/agent_functions.php:68
+msgid "There are no agents listed on this page at this moment."
+msgstr "現在、このページに掲載されているエージェントはありません。"
+
+#: libs/agents/agent_functions.php:236
+msgid "default user image"
+msgstr "デフォルトユーザーイメージ"
+
+#: libs/agents/agent_functions.php:260
+msgid "Hello, I'm interested in one of your listings."
+msgstr "こんにちは、貴社の掲載物件の一つに興味があります。"
+
+#: libs/agents/agent_functions.php:262
+msgid "Hello, I'm interested in "
+msgstr "こんにちは、私は興味があります "
+
+#: libs/agents/agent_functions.php:1015
+#: templates/realtor_templates/agent_details_2.php:56
+msgid "Member of:"
+msgstr "メンバー："
+
+#: libs/agents/agent_functions.php:1076
+#: libs/property_page_functions/property_reviews_section_functions.php:113
+#: libs/property_page_functions/property_reviews_section_functions.php:190
+#: templates/realtor_templates/agent_reviews.php:106
+msgid "Reviews"
+msgstr "レビュー"
+
+#: libs/agents/agent_functions.php:1113 libs/agents/agent_functions.php:1309
+#: templates/agent_card_templates/agent_unit_featured.php:101
+#: templates/agent_card_templates/agent_unit_v3.php:76
+#: templates/featured_property_card_templates/featured_property_1.php:83
+#: templates/realtor_templates/agent_listings.php:105
+msgid "My Listings"
+msgstr "マイリスティング"
+
+#: libs/agents/agent_functions.php:1572 libs/agents/agent_functions.php:1616
+#: templates/agency_templates/agency_contact_form.php:46
+#: templates/agency_templates/header_agency.php:76
+#: templates/developer_templates/header_developer.php:71
+msgid "Address:"
+msgstr "住所："
+
+#: libs/agents/agent_functions.php:1573 libs/agents/agent_functions.php:1617
+#: templates/agency_templates/agency_contact_form.php:47
+#: templates/agency_templates/header_agency.php:77
+#: templates/developer_templates/header_developer.php:72
+msgid "Email:"
+msgstr "Eメール："
+
+#: libs/agents/agent_functions.php:1574 libs/agents/agent_functions.php:1618
+#: templates/agency_templates/agency_contact_form.php:48
+#: templates/agency_templates/header_agency.php:78
+#: templates/developer_templates/header_developer.php:73
+msgid "Mobile:"
+msgstr "モバイル："
+
+#: libs/agents/agent_functions.php:1575 libs/agents/agent_functions.php:1619
+#: templates/agency_templates/agency_contact_form.php:49
+#: templates/agency_templates/header_agency.php:79
+#: templates/developer_templates/header_developer.php:74
+msgid "Phone:"
+msgstr "電話："
+
+#: libs/agents/agent_functions.php:1576
+#: templates/agency_templates/agency_contact_form.php:50
+#: templates/agency_templates/header_agency.php:80
+#: templates/developer_templates/header_developer.php:142
+msgid "Skype:"
+msgstr "Skype："
+
+#: libs/ajax_functions.php:19 libs/headers/header_filter_functions.php:344
+#: libs/property_page_functions/property_page_functions.php:176
+#: libs/property_page_functions/property_page_functions.php:200
+#: libs/property_page_functions/property_page_functions_2.php:362
+msgid "Map"
+msgstr "地図"
+
+#: libs/ajax_functions.php:91 libs/ajax_functions.php:203
+#: libs/css_js_include.php:995 libs/design_functions.php:111
+#: templates/featured_property_card_templates/featured_property_3.php:56
+#: templates/listing_templates/property-page-templates/favorite_under_title.php:40
+#: templates/property_cards_templates/property_card_details_templates/property_card_actions_type_default.php:20
+#: templates/property_cards_templates/property_card_details_templates/property_card_favorite.php:21
+msgid "add to favorites"
+msgstr "お気に入りに追加"
+
+#: libs/ajax_functions.php:106 libs/ajax_functions.php:208
+#: libs/css_js_include.php:994
+msgid "favorite"
+msgstr "お気に入り"
+
+#: libs/ajax_functions.php:177
+msgid "Number of Page Views"
+msgstr "ページビュー数"
+
+#: libs/ajax_functions.php:241
+msgid "Payment Calculator"
+msgstr "支払い計算機"
+
+#: libs/ajax_functions.php:260 libs/headers/header_filter_functions.php:374
+#: templates/submit_templates/floor_plans.php:21
+#: templates/submit_templates/property_floor_plans.php:71
+msgid "Floor Plans"
+msgstr "間取り図"
+
+#: libs/ajax_functions.php:281 libs/headers/header_filter_functions.php:362
+msgid "What's Nearby"
+msgstr "近くのもの"
+
+#: libs/ajax_functions.php:308 libs/headers/header_filter_functions.php:356
+msgid "WalkScore"
+msgstr "ウォークスコア"
+
+#: libs/ajax_functions.php:336
+#: libs/property_page_functions/property_page_functions_2.php:384
+#: templates/submit_templates/video_tour.php:55
+msgid "Virtual Tour"
+msgstr "バーチャル・ツアー"
+
+#: libs/ajax_functions.php:367 libs/headers/header_filter_functions.php:338
+#: libs/property_page_functions/property_page_functions_2.php:377
+msgid "Video"
+msgstr "ビデオ"
+
+#: libs/ajax_functions.php:394 libs/headers/header_filter_functions.php:332
+#: templates/submit_templates/property_amenities.php:128
+msgid "Amenities and Features"
+msgstr "アメニティと特徴"
+
+#: libs/ajax_functions.php:424 libs/headers/header_filter_functions.php:326
+msgid "Property Details"
+msgstr "不動産の詳細"
+
+#: libs/ajax_functions.php:452
+#: libs/dashboard_functions/dashboard_actions_functions.php:159
+#: libs/headers/header_filter_functions.php:320 libs/help_functions.php:3731
+#: libs/help_functions.php:3856
+msgid "Property Address"
+msgstr "プロパティアドレス"
+
+#: libs/ajax_functions.php:483
+#: libs/dashboard_functions/dashboard_actions_functions.php:20
+#: libs/headers/header_filter_functions.php:290 libs/headers/megamenu.php:260
+#: libs/help_functions.php:3720
+#: templates/submit_templates/property_description.php:32
+msgid "Description"
+msgstr "説明"
+
+#: libs/ajax_functions.php:1207 libs/ajax_functions.php:3064
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:48
+#: templates/properties_list_templates/property_list_page_half_map_core.php:120
+#: templates/properties_list_templates/search_half_map_core.php:146
+#: templates/properties_list_templates/taxonomy_page_half_map_core.php:135
+msgid "Listings"
+msgstr "リスト"
+
+#: libs/ajax_functions.php:1700
+msgid "you don't have the right to delete this"
+msgstr "あなたはこれを削除する権利がありません"
+
+#: libs/ajax_functions.php:1758
+msgid ""
+"Search has been saved. You will receive an email notification when new "
+"properties matching your search have been published"
+msgstr "検索が保存されました。検索に一致する新しいプロパティが公開されたときに電子メール通知が届きます"
+
+#: libs/ajax_functions.php:1959 libs/ajax_functions.php:2172
+#: libs/ajax_functions.php:2379
+msgid "The email was not saved because it is used by another user."
+msgstr "電子メールは別のユーザーが使用しているため保存されませんでした。"
+
+#: libs/ajax_functions.php:1974 libs/ajax_functions.php:2187
+#: libs/ajax_functions.php:2394
+msgid "Profile updated"
+msgstr "プロフィール更新"
+
+#: libs/ajax_functions.php:2573
+msgid "The new password is blank"
+msgstr "新しいパスワードは空白です"
+
+#: libs/ajax_functions.php:2578 libs/classes/WpEstate_Custom_Auth.php:381
+#: libs/dashboard_functions/dashboard_actions_functions.php:1005
+msgid "Passwords do not match"
+msgstr "パスワードが一致していません"
+
+#: libs/ajax_functions.php:2586
+msgid "Password Updated"
+msgstr "パスワードの更新"
+
+#: libs/ajax_functions.php:2588
+msgid "Old Password is not correct"
+msgstr "古いパスワードが正しくありません"
+
+#: libs/ajax_functions.php:2629 libs/ajax_functions.php:2635
+msgid "addded"
+msgstr "追加された"
+
+#: libs/ajax_functions.php:2642
+msgid "removed"
+msgstr "除去された"
+
+#: libs/ajax_functions.php:3203
+msgid "Listing payment on "
+msgstr "支払いの上場"
+
+#: libs/ajax_functions.php:3215
+msgid "Upgrade to featured listing on "
+msgstr "特集リストへのアップグレード"
+
+#: libs/ajax_functions.php:3302
+msgid "Upgrade to Featured Listing"
+msgstr "注目リストへのアップグレード"
+
+#: libs/ajax_functions.php:3311
+msgid "Listing Payment"
+msgstr "お支払いの表示"
+
+#: libs/ajax_functions.php:3321
+msgid "Listing Payment with Featured option"
+msgstr "特典オプションによるお支払いの照会"
+
+#: libs/ajax_functions.php:3434
+msgid "Sent for approval"
+msgstr "承認のために送信されました"
+
+#: libs/ajax_functions.php:3447
+msgid "no listings available"
+msgstr "利用可能なリストはありません"
+
+#: libs/ajax_functions.php:3476
+msgid "The date & time is already booked. Please choose a new one"
+msgstr "日時はすでに予約されています。新しいものをお選びください"
+
+#: libs/ajax_functions.php:3565
+msgid "membership payment on "
+msgstr "のメンバーシップ支払い"
+
+#: libs/ajax_functions.php:3572 libs/ajax_functions.php:3575
+msgid "Membership Payment"
+msgstr "会員支払い"
+
+#: libs/ajax_functions.php:3650
+msgid "Unable to login. Please, check login/password and try again"
+msgstr "ログインできません。ログイン/パスワードを確認してもう一度お試しください"
+
+#: libs/ajax_functions.php:3675 libs/classes/WpEstate_Custom_Auth.php:293
+msgid "Wrong captcha"
+msgstr "間違ったキャプチャです"
+
+#: libs/ajax_functions.php:3692 libs/classes/WpEstate_Custom_Auth.php:306
+msgid "Captcha Invalidated - Refresh and try again."
+msgstr "Captcha Invalidated - Refresh and try again."
+
+#: libs/ajax_functions.php:3701
+msgid "Please, enter correct email"
+msgstr "正しいメールアドレスを入力してください"
+
+#: libs/ajax_functions.php:3717
+msgid "Can\\t create user with this credentials"
+msgstr "この資格情報でユーザーを作成することはできません"
+
+#: libs/ajax_functions.php:3722
+msgid "Sorry, user already exists. Try different username/email"
+msgstr "申し訳ありませんが、ユーザーは既に存在しています。別のユーザー名/電子メールを試して"
+
+#: libs/blog_post/blog_post_functions.php:39
+msgid "No posts found"
+msgstr "投稿が見つかりませんでした"
+
+#: libs/classes/WpEstate_Custom_Auth.php:96
+#: libs/classes/WpEstate_Custom_Auth.php:253
+#: libs/classes/WpEstate_Custom_Auth.php:684
+msgid "Security check failed."
+msgstr "セキュリティチェックに失敗しました."
+
+#: libs/classes/WpEstate_Custom_Auth.php:107
+msgid "You are already logged in! Redirecting..."
+msgstr "すでにログインしています！リダイレクト..."
+
+#: libs/classes/WpEstate_Custom_Auth.php:122
+msgid "Username and/or Password field is empty!"
+msgstr "ユーザー名またはパスワードのフィールドが空です！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:151
+msgid "Wrong username or password!"
+msgstr "間違ったユーザー名またはパスワード！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:179
+msgid "Login successful, redirecting..."
+msgstr "ログインに成功し、リダイレクトしています..."
+
+#: libs/classes/WpEstate_Custom_Auth.php:273
+msgid "Admin: Select the roles that can register."
+msgstr "管理者: 登録可能な役割を選択してください。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:284
+msgid "Invalid user type."
+msgstr "無効なユーザータイプです。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:322
+#: libs/dashboard_functions/dashboard_actions_functions.php:985
+msgid "Invalid username (do not use special characters or spaces)!"
+msgstr "無効なユーザー名（特殊文字やスペースは使用しないでください）！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:331
+#: libs/dashboard_functions/dashboard_actions_functions.php:989
+#: libs/dashboard_functions/dashboard_actions_functions.php:1015
+msgid "Username and/or Email field is empty!"
+msgstr "ユーザー名や電子メールのフィールドが空です！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:340
+msgid "The email doesn't look right!"
+msgstr "メールがおかしい！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:350
+#: libs/dashboard_functions/dashboard_actions_functions.php:1035
+msgid "The email's domain doesn't look right."
+msgstr "電子メールのドメインが正しく表示されません。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:360
+msgid "Username already exists. Please choose a new one."
+msgstr "ユーザー名はすでに存在します。新しいユーザー名を選択してください。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:373
+msgid "One of the password fields is empty!"
+msgstr "パスワード・フィールドの1つが空です！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:401
+msgid "Error creating the user"
+msgstr "ユーザー作成中にエラーが発生しました"
+
+#: libs/classes/WpEstate_Custom_Auth.php:413
+msgid "Role Assignment Failed."
+msgstr "ロール割り当てに失敗しました。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:423
+msgid "Your account was created and you can login now!"
+msgstr "あなたのアカウントが作成され、今すぐログインすることができます！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:428
+msgid "An email with the generated password was sent!"
+msgstr "生成されたパスワードのメールが送信されました！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:441
+msgid "Email already exists. Please choose a new one."
+msgstr "Eメールはすでに存在します。新しいものを選択してください。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:549
+#: libs/dashboard_functions/dashboard_actions_functions.php:699
+#: libs/headers/header_filter_functions.php:392
+msgid "Agent"
+msgstr "エージェント"
+
+#: libs/classes/WpEstate_Custom_Auth.php:555
+msgid "Agency"
+msgstr "代理店"
+
+#: libs/classes/WpEstate_Custom_Auth.php:561
+msgid "Developer"
+msgstr "開発者"
+
+#: libs/classes/WpEstate_Custom_Auth.php:658
+#: templates/login_register_forms/register-modal.php:44
+msgid "Select User Type"
+msgstr "ユーザータイプの選択"
+
+#: libs/classes/WpEstate_Custom_Auth.php:695
+msgid "Email field is empty!"
+msgstr "メールアドレスが空です！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:704
+msgid "Invalid email address or username!"
+msgstr "メールアドレスまたはユーザー名が無効です！"
+
+#: libs/classes/WpEstate_Custom_Auth.php:717
+msgid "We have just sent you an email with Password reset instructions."
+msgstr "パスワードリセットの手順が記載されたメールをお送りしました。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:824
+#, php-format
+msgid "Your new password for the account at: %s"
+msgstr "アカウントの新しいパスワード%s"
+
+#: libs/classes/WpEstate_Custom_Auth.php:827
+#, php-format
+msgid "Username: %s"
+msgstr "ユーザー名: %s"
+
+#: libs/classes/WpEstate_Custom_Auth.php:828
+#, php-format
+msgid "Password: %s"
+msgstr "パスワード: %s"
+
+#: libs/classes/WpEstate_Custom_Auth.php:830
+#, php-format
+msgid "You can now login with your new password at: %s"
+msgstr "新しいパスワードでログインできるようになりました：%s"
+
+#: libs/classes/WpEstate_Custom_Auth.php:846
+msgid "A new password was sent via email!"
+msgstr "新しいパスワードが電子メールで送信されました。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:849
+msgid "Not a Valid Key."
+msgstr "有効なキーではありません。"
+
+#: libs/classes/WpEstate_Custom_Auth.php:849
+msgid "Password Reset Error"
+msgstr "パスワードリセットエラー"
+
+#: libs/classes/WpEstate_Custom_Auth.php:853
+msgid "We have just sent you a new password. Please check your email!"
+msgstr "新しいパスワードをお送りしました。メールを確認してください！"
+
+#: libs/contact_functions.php:26
+#: templates/email_templates/schedule_tour_email_template.php:39
+msgid "Day"
+msgstr "日"
+
+#: libs/contact_functions.php:30
+msgid "Time"
+msgstr "時間"
+
+#: libs/contact_functions.php:77 libs/contact_functions.php:89
+#: templates/agency_templates/header_agency.php:125
+#: templates/developer_templates/header_developer.php:94
+#: templates/footers/footer_buttons.php:21
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: libs/contact_functions.php:78
+#: templates/realtor_templates/agent_details_2.php:93
+msgid "Contact Me"
+msgstr "私に連絡して"
+
+#: libs/contact_functions.php:84
+msgid "Schedule a showing?"
+msgstr "表示をスケジュールする？"
+
+#: libs/contact_functions.php:128
+msgid "I consent to the "
+msgstr "私はこれに同意します。 "
+
+#. Template Name of the theme
+#: libs/contact_functions.php:133
+msgid "GDPR Terms"
+msgstr "GDPR Terms"
+
+#: libs/css_js_include.php:328
+msgid "payment failed"
+msgstr "未完了の支払い"
+
+#: libs/css_js_include.php:651
+msgid " in "
+msgstr "に"
+
+#: libs/css_js_include.php:658
+msgid "The browser couldn't detect your position!"
+msgstr "ブラウザがあなたの位置を検出できませんでした。"
+
+#: libs/css_js_include.php:659
+msgid "Geolocation is not supported by this browser."
+msgstr "Geolocationはこのブラウザではサポートされていません。"
+
+#: libs/css_js_include.php:660
+msgid "m radius"
+msgstr "半径"
+
+#: libs/css_js_include.php:667 libs/css_js_include.php:890
+msgid "close map"
+msgstr "地図を閉じる"
+
+#: libs/css_js_include.php:678
+msgid "No results found!"
+msgstr "結果が見つかりません！"
+
+#: libs/css_js_include.php:684
+msgid "loading results..."
+msgstr "結果を読み込んでいます..."
+
+#: libs/css_js_include.php:691
+#: templates/featured_property_card_templates/featured_property_5.php:52
+#: templates/header_media/header_media_slider_template_3.php:66
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type5.php:27
+#: templates/property_cards_templates/property_unit_saved_search.php:70
+msgid "BA"
+msgstr "BA"
+
+#: libs/css_js_include.php:692
+#: templates/featured_property_card_templates/featured_property_5.php:49
+#: templates/header_media/header_media_slider_template_3.php:63
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type5.php:22
+#: templates/property_cards_templates/property_unit_saved_search.php:60
+msgid "BD"
+msgstr "BD"
+
+#: libs/css_js_include.php:761 libs/css_js_include.php:1374
+msgid "Geolocation was not successful"
+msgstr "ジオロケーションに失敗しました"
+
+#: libs/css_js_include.php:819
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:149
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:157
+msgid "Principal and Interest"
+msgstr "元金と利息"
+
+#: libs/css_js_include.php:820
+msgid "HOO fees"
+msgstr "フー料金"
+
+#: libs/css_js_include.php:821
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:150
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:161
+msgid "Property Tax"
+msgstr "固定資産税"
+
+#: libs/css_js_include.php:822
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:152
+msgid "Private Mortgage Insurance"
+msgstr "民間住宅ローン保険"
+
+#: libs/css_js_include.php:823 libs/css_js_include.php:1015
+msgid "Property Views"
+msgstr "物件ビュー"
+
+#: libs/css_js_include.php:847 libs/help_functions.php:1138
+msgid "miles"
+msgstr "マイル"
+
+#: libs/css_js_include.php:848 libs/help_functions.php:1141
+msgid "km"
+msgstr "km"
+
+#: libs/css_js_include.php:864
+msgid "Amount Financed:"
+msgstr "金額："
+
+#: libs/css_js_include.php:865
+msgid "Mortgage Payments:"
+msgstr "住宅ローンの支払い："
+
+#: libs/css_js_include.php:866
+msgid "Annual cost of Loan:"
+msgstr "ローンの年間費用："
+
+#: libs/css_js_include.php:867
+msgid "SEARCH"
+msgstr "サーチ"
+
+#: libs/css_js_include.php:868
+msgid "Search here..."
+msgstr "検索..."
+
+#: libs/css_js_include.php:870
+#: templates/advanced_search/advanced_search_type_half.php:326
+msgid "Type Bedrooms No."
+msgstr "タイプ寝室番号"
+
+#: libs/css_js_include.php:871
+#: templates/advanced_search/advanced_search_type_half.php:331
+msgid "Type Bathrooms No."
+msgstr "タイプバスルーム番号"
+
+#: libs/css_js_include.php:872
+#: templates/advanced_search/advanced_search_type_half.php:369
+msgid "Type Min. Price"
+msgstr "Minを入力します。価格"
+
+#: libs/css_js_include.php:873
+#: templates/advanced_search/advanced_search_type_half.php:373
+msgid "Type Max. Price"
+msgstr "タイプMax。価格"
+
+#: libs/css_js_include.php:877 libs/css_js_include.php:881
+#: libs/css_js_include.php:979 libs/css_js_include.php:983
+#: templates/email_templates/contact_email_template.php:41
+#: templates/email_templates/contact_email_template_elementor.php:37
+#: templates/email_templates/schedule_tour_email_template.php:42
+msgid "Message"
+msgstr "メッセージ"
+
+#: libs/css_js_include.php:882 libs/css_js_include.php:984
+#: templates/footers/footer_buttons.php:36
+#: templates/listing_templates/contact_form/contact_form_simple.php:43
+#: templates/realtor_templates/agent_contact_bar.php:44
+msgid "Send"
+msgstr "送信"
+
+#: libs/css_js_include.php:886
+#: libs/property_page_functions/property_page_functions.php:181
+#: libs/property_page_functions/property_page_functions.php:204
+#: libs/property_page_functions/property_page_functions_2.php:369
+#: templates/google_maps_base.php:127
+msgid "Street View"
+msgstr "ストリートビュー"
+
+#: libs/css_js_include.php:887
+msgid "Close Street View"
+msgstr "ストリートビューを閉じる"
+
+#: libs/css_js_include.php:891 templates/google_maps_base.php:84
+#: templates/google_maps_base.php:88
+msgid "open map"
+msgstr "オープンマップ"
+
+#: libs/css_js_include.php:892 templates/google_maps_base.php:101
+#: templates/google_maps_base_map_list.php:15
+msgid "Fullscreen"
+msgstr "全画面表示"
+
+#: libs/css_js_include.php:893
+#: libs/property_cards_functions/help_functions_cards.php:25
+msgid "Default"
+msgstr "デフォルト"
+
+#: libs/css_js_include.php:894
+msgid "Please wait while we are processing your submission!"
+msgstr "提出を処理している間お待ちください！"
+
+#: libs/css_js_include.php:895
+msgid "Are you sure you wish to delete?"
+msgstr "削除してもよろしいですか？"
+
+#: libs/css_js_include.php:896
+msgid "You need to agree with terms and conditions !"
+msgstr "あなたは利用規約に同意する必要があります！"
+
+#: libs/css_js_include.php:897
+msgid "Please select the user type !"
+msgstr "ユーザータイプを選択してください！"
+
+#: libs/css_js_include.php:898 libs/css_js_include.php:1027
+msgid "Processing..."
+msgstr "処理..."
+
+#: libs/css_js_include.php:906
+msgid "Send me the invoice"
+msgstr "請求書を送ってください"
+
+#: libs/css_js_include.php:907
+msgid "Direct payment instructions"
+msgstr "直接支払い方法"
+
+#: libs/css_js_include.php:908
+msgid "To be paid"
+msgstr "支払う"
+
+#: libs/css_js_include.php:910 libs/css_js_include.php:1231
+#: libs/dashboard_functions/dashboard_functions.php:1305
+#: templates/submit_templates/floor_plans.php:30
+#: templates/submit_templates/floor_plans.php:103
+#: templates/submit_templates/property_floor_plans.php:139
+msgid "Plan Title"
+msgstr "計画のタイトル"
+
+#: libs/css_js_include.php:911 libs/css_js_include.php:1232
+#: templates/submit_templates/floor_plans.php:60
+#: templates/submit_templates/floor_plans.php:113
+msgid "Plan Image"
+msgstr "計画イメージ"
+
+#: libs/css_js_include.php:912 libs/css_js_include.php:1233
+#: libs/dashboard_functions/dashboard_functions.php:1308
+#: templates/submit_templates/floor_plans.php:35
+#: templates/submit_templates/floor_plans.php:108
+#: templates/submit_templates/property_floor_plans.php:145
+msgid "Plan Description"
+msgstr "計画の説明"
+
+#: libs/css_js_include.php:913
+#: libs/dashboard_functions/dashboard_functions.php:1309
+#: templates/submit_templates/floor_plans.php:40
+#: templates/submit_templates/floor_plans.php:119
+#: templates/submit_templates/property_floor_plans.php:150
+msgid "Plan Size"
+msgstr "計画サイズ"
+
+#: libs/css_js_include.php:914 libs/css_js_include.php:1235
+#: libs/dashboard_functions/dashboard_functions.php:1310
+#: templates/submit_templates/floor_plans.php:45
+#: templates/submit_templates/floor_plans.php:124
+#: templates/submit_templates/property_floor_plans.php:155
+msgid "Plan Rooms"
+msgstr "プランルーム"
+
+#: libs/css_js_include.php:915 libs/css_js_include.php:1236
+#: libs/dashboard_functions/dashboard_functions.php:1311
+#: templates/submit_templates/floor_plans.php:50
+#: templates/submit_templates/floor_plans.php:129
+#: templates/submit_templates/property_floor_plans.php:160
+msgid "Plan Bathrooms"
+msgstr "バスルームの計画"
+
+#: libs/css_js_include.php:916 libs/css_js_include.php:1237
+#: templates/submit_templates/floor_plans.php:55
+#: templates/submit_templates/floor_plans.php:134
+msgid "Plan Price"
+msgstr "計画価格"
+
+#: libs/css_js_include.php:919
+msgid "deleting..."
+msgstr "削除中..."
+
+#: libs/css_js_include.php:920
+msgid "saving..."
+msgstr "保存しています..."
+
+#: libs/css_js_include.php:932
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:122
+msgid "Pay"
+msgstr "支払う"
+
+#: libs/css_js_include.php:933
+msgid "Payment for package"
+msgstr "パッケージの支払い"
+
+#: libs/css_js_include.php:941
+msgid "there are no results"
+msgstr "結果がない"
+
+#: libs/css_js_include.php:946
+msgid "Please wait while we gather data!"
+msgstr "データ収集のため、しばらくお待ちください！"
+
+#: libs/css_js_include.php:947
+msgid "Please complete the form!"
+msgstr "フォームにご記入ください！"
+
+#: libs/css_js_include.php:948 libs/elementor_help_files2.php:806
+msgid "bd"
+msgstr "bd"
+
+#: libs/css_js_include.php:949 libs/elementor_help_files2.php:806
+msgid "ba"
+msgstr "ば"
+
+#: libs/css_js_include.php:952
+#: templates/dashboard-templates/add_new_agent_template.php:366
+#: templates/dashboard-templates/add_new_agent_template.php:386
+#: templates/dashboard-templates/user_profile_agent.php:199
+msgid "Agent Field Name"
+msgstr "エージェント・フィールド名"
+
+#: libs/css_js_include.php:953
+#: templates/dashboard-templates/add_new_agent_template.php:370
+#: templates/dashboard-templates/add_new_agent_template.php:391
+#: templates/dashboard-templates/user_profile_agent.php:203
+msgid "Agent Field Value"
+msgstr "エージェント・フィールド値"
+
+#: libs/css_js_include.php:954 libs/headers/megamenu.php:362
+#: templates/dashboard-templates/add_new_agent_template.php:375
+#: templates/dashboard-templates/add_new_agent_template.php:398
+#: templates/dashboard-templates/user_profile_agent.php:207
+msgid "Remove"
+msgstr "削除する"
+
+#: libs/css_js_include.php:955 libs/elementor_help_files2.php:32
+#: libs/elementor_help_files2.php:372 libs/elementor_help_files2.php:522
+#: libs/help_functions.php:1871 libs/help_functions.php:2284
+#: libs/help_functions.php:3044 page-templates/property_list_directory.php:108
+#: templates/advanced_property_list_filters.php:54
+#: templates/advanced_property_list_filters.php:134
+#: templates/advanced_search/advanced_search_type_half.php:254
+#: templates/advanced_search/advanced_search_type_half.php:264
+#: templates/directory_page_templates/directory_filters.php:38
+#: templates/properties_list_templates/filters_templates/property_list_ajax_tax_hidden_filters.php:22
+#: templates/properties_list_templates/filters_templates/property_list_filters_taxonomy_normal_map_core.php:44
+#: templates/properties_list_templates/filters_templates/search_ajax_tax_hidden_filters.php:39
+#: templates/properties_list_templates/filters_templates/taxomomy_ajax_tax_hidden_filters.php:23
+#: templates/properties_list_templates/filters_templates/taxonomy_agent_hidden_filters.php:42
+#: templates/properties_list_templates/property_list_filters.php:75
+#: templates/properties_list_templates/property_list_filters.php:134
+msgid "Cities"
+msgstr "都市"
+
+#: libs/css_js_include.php:956 libs/elementor_help_files2.php:42
+#: libs/elementor_help_files2.php:376 libs/elementor_help_files2.php:527
+#: libs/help_functions.php:1873 libs/help_functions.php:2298
+#: libs/help_functions.php:3205 page-templates/property_list_directory.php:129
+#: templates/advanced_property_list_filters.php:55
+#: templates/advanced_property_list_filters.php:124
+#: templates/advanced_search/advanced_search_type_half.php:292
+#: templates/advanced_search/advanced_search_type_half.php:302
+#: templates/directory_page_templates/directory_filters.php:39
+#: templates/properties_list_templates/filters_templates/property_list_ajax_tax_hidden_filters.php:24
+#: templates/properties_list_templates/filters_templates/property_list_filters_taxonomy_normal_map_core.php:45
+#: templates/properties_list_templates/filters_templates/search_ajax_tax_hidden_filters.php:40
+#: templates/properties_list_templates/filters_templates/taxomomy_ajax_tax_hidden_filters.php:24
+#: templates/properties_list_templates/filters_templates/taxonomy_agent_hidden_filters.php:43
+#: templates/properties_list_templates/property_list_filters.php:76
+#: templates/properties_list_templates/property_list_filters.php:131
+msgid "Areas"
+msgstr "エリア"
+
+#: libs/css_js_include.php:985
+#: libs/dashboard_functions/dashboard_functions.php:1298
+#: libs/dashboard_functions/dashboard_functions.php:1470
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:19
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:26
+#: templates/dashboard-templates/dashboard_agent_unit.php:53
+msgid "Disabled"
+msgstr "無効"
+
+#: libs/css_js_include.php:986
+#: libs/dashboard_functions/dashboard_functions.php:1299
+#: libs/dashboard_functions/dashboard_functions.php:1466
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:18
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:24
+#: templates/dashboard-templates/dashboard_agent_unit.php:52
+msgid "Published"
+msgstr "発行済み"
+
+#: libs/css_js_include.php:987 libs/css_js_include.php:1001
+msgid "Please, enter property title"
+msgstr "不動産のタイトルを入力してください"
+
+#: libs/css_js_include.php:990 libs/css_js_include.php:1028
+msgid "Sending user info, please wait..."
+msgstr "ユーザー情報を送信しています。しばらくお待ちください..."
+
+#: libs/css_js_include.php:992
+#: templates/dashboard-templates/dashboard-unit-templates/per_listing_pay.php:69
+msgid "Property is featured"
+msgstr "プロパティが紹介されています"
+
+#: libs/css_js_include.php:993
+msgid "You have used all the \"Featured\" listings in your package."
+msgstr "パッケージ内のすべての「特集」リストを使用しました。"
+
+#: libs/css_js_include.php:996 libs/design_functions.php:117
+#: templates/featured_property_card_templates/featured_property_3.php:59
+#: templates/listing_templates/property-page-templates/favorite_under_title.php:48
+#: templates/property_cards_templates/property_card_details_templates/property_card_actions_type_default.php:20
+#: templates/property_cards_templates/property_card_details_templates/property_card_favorite.php:26
+msgid "remove from favorites"
+msgstr "お気に入りから削除"
+
+#: libs/css_js_include.php:997
+msgid "saving.."
+msgstr "貯蓄.."
+
+#: libs/css_js_include.php:998
+msgid "sending message.."
+msgstr "メッセージを送る.."
+
+#: libs/css_js_include.php:999
+msgid "Please, enter field:"
+msgstr "フィールドに入力してください："
+
+#: libs/css_js_include.php:1000
+msgid "You need to upload at last one image"
+msgstr "最後に1枚の画像をアップロードする必要があります"
+
+#: libs/css_js_include.php:1002
+msgid "Connecting to Paypal! Please wait..."
+msgstr "ペイパルに接続！お待ちください..."
+
+#: libs/css_js_include.php:1003
+#: templates/dashboard-templates/user_memebership_profile.php:60
+msgid "subscription will be cancelled at the end of current period"
+msgstr "サブスクリプションは現在の期間の終わりにキャンセルされます"
+
+#: libs/css_js_include.php:1005
+#: libs/dashboard_functions/dashboard_functions.php:1300
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:133
+msgid "Disable Listing"
+msgstr "リストを無効にする"
+
+#: libs/css_js_include.php:1006
+#: libs/dashboard_functions/dashboard_functions.php:1301
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:140
+msgid "Enable Listing"
+msgstr "リストを有効にする"
+
+#: libs/css_js_include.php:1007
+#: libs/dashboard_functions/dashboard_functions.php:1302
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-agent-unit-actions.php:34
+msgid "Disable Agent"
+msgstr "エージェントを無効にする"
+
+#: libs/css_js_include.php:1008
+#: libs/dashboard_functions/dashboard_functions.php:1303
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-agent-unit-actions.php:38
+msgid "Enable Agent"
+msgstr "エージェントを有効にする"
+
+#: libs/css_js_include.php:1011
+msgid "You must agree with GDPR terms"
+msgstr "GDPR条項に同意する必要があります"
+
+#: libs/css_js_include.php:1012
+msgid ""
+"Confirm your ACCOUNT DELETION request! Clicking the button below will delete "
+"your account and data. This means you will no longer be able to login to "
+"your account and access your account information: My Profile, My Properties, "
+"Inbox, Saved Searches and Messages. This operation CAN NOT BE REVERSED!"
+msgstr ""
+"アカウントの削除リクエストを確認してください。下のボタンをクリックすると、アカウントとデータが削除されます。つまり、自分のアカウントにログインして、自分のプロフィール、マイプロパティ、受信トレイ、保存された検索とメッセージなどのアカウント情報にアクセスすることができなくなります。この操作は元に戻すことはできません！"
+
+#: libs/css_js_include.php:1016
+#: libs/header_media/header-media-theme-sliders.php:342
+#: templates/property_details_modal.php:28
+msgid "Contact Agent"
+msgstr "エージェントに問い合わせる"
+
+#: libs/css_js_include.php:1031
+msgid "Registration failed. Please try again."
+msgstr "登録に失敗しました。もう一度お試しください。"
+
+#: libs/css_js_include.php:1043
+msgid "Thank you. Please check your email for payment instructions."
+msgstr "ありがとうございました。支払い方法については、メールでご確認ください。"
+
+#: libs/css_js_include.php:1044
+msgid "Sending"
+msgstr "送信"
+
+#: libs/css_js_include.php:1045
+#: templates/dashboard-templates/message-listing-unit.php:148
+msgid "Send Reply"
+msgstr "返信を送る"
+
+#: libs/css_js_include.php:1069
+msgid "No More Listings"
+msgstr "その他のリスティング"
+
+#: libs/css_js_include.php:1138
+msgid "Allowed Files"
+msgstr "許可されたファイル"
+
+#: libs/css_js_include.php:1154
+msgid "Image needs to be at least 500px height  x 500px wide!"
+msgstr "画像の高さは500px以上500px以上にする必要があります。"
+
+#: libs/css_js_include.php:1158
+msgid "You cannot upload more than"
+msgstr "アップロードすることはできません"
+
+#: libs/css_js_include.php:1158
+msgid "images"
+msgstr "イメージ"
+
+#: libs/css_js_include.php:1159
+msgid "Are you sure you want to delete this?"
+msgstr "これを削除してもよろしいですか？"
+
+#: libs/css_js_include.php:1191
+msgid "posting"
+msgstr "転記"
+
+#: libs/css_js_include.php:1192
+msgid "Review Sent "
+msgstr "レビューが送信されました"
+
+#: libs/css_js_include.php:1193
+msgid "Review Edit Saved"
+msgstr "編集済みのレビューを確認する"
+
+#: libs/css_js_include.php:1234
+msgid "Plan Size(*only numbers)"
+msgstr "プランサイズ（※数字のみ）"
+
+#: libs/css_js_include.php:1390
+msgid "Warning !"
+msgstr "警告！"
+
+#: libs/css_js_include.php:1393
+msgid " Are you sure you want to remove this image?"
+msgstr "本当にこの画像を削除しますか？"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:11
+#: templates/submit_templates/property_description.php:26
+msgid "*Title (mandatory)"
+msgstr "*タイトル（必須）"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:29
+#: templates/submit_templates/property_description.php:90
+#: templates/submit_templates/property_floor_plans.php:165
+msgid "Price in "
+msgstr "の価格"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:29
+#: templates/submit_templates/property_description.php:90
+#: templates/submit_templates/property_description.php:99
+msgid "(only numbers)"
+msgstr "（数字のみ）"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:38
+#: libs/help_functions.php:3849
+#: templates/submit_templates/property_description.php:108
+msgid "Yearly Tax Rate"
+msgstr "年間の税収"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:46
+msgid "Homeowners Association Fee(monthly)"
+msgstr "ホームオーナーズ・アソシエーション・フィー(月)"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:54
+#: templates/submit_templates/property_description.php:93
+msgid "After Price Label (ex: \"/month\")"
+msgstr "価格ラベルの後（例：「/月」）"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:62
+#: templates/submit_templates/property_description.php:96
+msgid "Before Price Label (ex: \"from \")"
+msgstr "価格ラベルの前（例：「from」）"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:70
+#: libs/help_functions.php:3725
+msgid "Additional Price Info"
+msgstr "追加価格情報"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:78
+#: libs/help_functions.php:3859
+#: libs/property_page_functions/property_overview_functions.php:104
+#: templates/submit_templates/property_details.php:146
+msgid "Listing ID"
+msgstr "リスティングID"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:86
+#: templates/submit_templates/property_description.php:122
+msgid "Hide/Show Price?"
+msgstr "価格を表示する？"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:94
+msgid " After Label for Additional Price info "
+msgstr "追加価格情報はラベルの後に"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:102
+#: libs/help_functions.php:3727
+msgid "Before Label for Additional Price Info"
+msgstr "追加価格情報のラベルの前に"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:111
+msgid "Select Categorie"
+msgstr "カテゴリーの選択"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:120
+#: templates/submit_templates/property_categories.php:72
+msgid "Listed In"
+msgstr "掲載済み"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:168
+#: libs/help_functions.php:3734 libs/help_functions.php:3857
+msgid "Property Zip"
+msgstr "プロパティZip"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:176
+#: libs/property_page_functions/property_address_section_functions.php:129
+#: templates/submit_templates/property_location.php:176
+msgid "Country"
+msgstr "国"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:185
+#: libs/help_functions.php:3754 libs/help_functions.php:3861
+#: libs/property_page_functions/property_energy_savings_functions.php:160
+#: page-templates/compare_listings.php:131
+#: templates/submit_templates/property_energy_effective.php:51
+msgid "Energy Class"
+msgstr "エネルギークラス"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:193
+#: libs/help_functions.php:3755 page-templates/compare_listings.php:130
+msgid "Energy Index"
+msgstr "エネルギーインデックス"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:201
+#: libs/help_functions.php:3862
+msgid "Greenhouse gas emissions kgCO2/m2a"
+msgstr "温室効果ガス排出量 kgCO2/m2a"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:209
+#: templates/submit_templates/property_energy_effective.php:71
+msgid "Greenhouse gas emissions index class"
+msgstr "温室効果ガス排出指数クラス"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:217
+#: libs/help_functions.php:3758
+#: libs/property_page_functions/property_energy_savings_functions.php:61
+#: templates/submit_templates/property_energy_effective.php:92
+msgid "Renewable energy performance index"
+msgstr "再生可能エネルギー性能指数"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:225
+#: libs/help_functions.php:3759 libs/help_functions.php:3865
+#: libs/property_page_functions/property_energy_savings_functions.php:62
+#: templates/submit_templates/property_energy_effective.php:93
+msgid "Energy performance of the building"
+msgstr "建物のエネルギー性能"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:233
+#: libs/help_functions.php:3760 libs/help_functions.php:3867
+#: libs/property_page_functions/property_energy_savings_functions.php:63
+#: templates/submit_templates/property_energy_effective.php:94
+msgid "EPC current rating"
+msgstr "EPC現行格付け"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:241
+#: libs/help_functions.php:3761
+#: libs/property_page_functions/property_energy_savings_functions.php:64
+#: templates/submit_templates/property_energy_effective.php:95
+msgid "EPC Potential Rating"
+msgstr "EPC潜在能力評価"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:250
+#: libs/help_functions.php:3851
+#: libs/property_page_functions/property_details_section_functions.php:135
+#: libs/property_page_functions/property_overview_functions.php:77
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type3.php:55
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type7.php:49
+msgid "Property Size"
+msgstr "プロパティのサイズ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:258
+#: libs/help_functions.php:3748
+msgid "Owner Notes"
+msgstr "オーナーノート"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:266
+#: libs/help_functions.php:3744 libs/help_functions.php:3852
+#: libs/property_page_functions/property_details_section_functions.php:140
+#: libs/property_page_functions/property_overview_functions.php:82
+msgid "Property Lot Size"
+msgstr "プロパティロットサイズ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:274
+#: libs/help_functions.php:3745 libs/help_functions.php:3853
+msgid "Property Rooms"
+msgstr "プロパティルーム"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:282
+#: libs/help_functions.php:3746 libs/help_functions.php:3854
+msgid "Property Bedrooms"
+msgstr "プロパティベッドルーム"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:290
+#: libs/help_functions.php:3747 libs/help_functions.php:3855
+msgid "Property Bathrooms"
+msgstr "プロパティバスルーム"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:298
+#: libs/dashboard_functions/dashboard_actions_functions.php:306
+msgid "Video Type"
+msgstr "ビデオタイプ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:314
+msgid "Virtual Tour / Meta Reels"
+msgstr "バーチャルツアー / メタリール"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:322
+#: libs/help_functions.php:3738
+msgid "Property Latitude"
+msgstr "プロパティ緯度"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:330
+msgid "Property Longitudine"
+msgstr "プロパティー縦断"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:338
+msgid "Google View"
+msgstr "グーグルビュー"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:346
+#: libs/help_functions.php:3742
+#: templates/submit_templates/property_location.php:226
+msgid "Hide Map Marker"
+msgstr "地図マーカーを隠す"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:355
+#: libs/help_functions.php:3740
+msgid "Google Camera Angle"
+msgstr "Googleカメラの角度"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:364
+msgid "Property subunits list"
+msgstr "プロパティサブユニット一覧"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:372
+msgid "Property has subunits"
+msgstr "プロパティは、サブユニット"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:583
+msgid "from date"
+msgstr "日付から"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:590
+msgid "to date"
+msgstr "現在まで"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:594
+#: libs/dashboard_functions/dashboard_actions_functions.php:602
+msgid "Any"
+msgstr "どれか"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:595
+#: libs/help_functions.php:3507 libs/help_functions.php:3933
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:115
+#: templates/dashboard-templates/invoice_listing_unit.php:36
+msgid "Upgrade to Featured"
+msgstr "注目にアップグレード"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:596
+#: templates/dashboard-templates/invoice_listing_unit.php:38
+msgid "Package"
+msgstr "パッケージ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:597
+#: templates/dashboard-templates/invoice_listing_unit.php:35
+msgid "Listing"
+msgstr "リスト"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:603
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-paystatus.php:24
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:38
+#: templates/dashboard-templates/invoice_listing_unit.php:27
+msgid "Paid"
+msgstr "有料"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:604
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-paystatus.php:25
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:40
+#: templates/dashboard-templates/invoice_listing_unit.php:26
+msgid "Not Paid"
+msgstr "未払い"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:609
+msgid "Total Invoices: "
+msgstr "総請求書："
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:618
+msgid "Title"
+msgstr "タイトル"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:620
+msgid "Invoice Type"
+msgstr "請求書タイプ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:621
+msgid "Billing Type"
+msgstr "請求タイプ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:623
+#: libs/dashboard_functions/dashboard_actions_functions.php:843
+#: libs/dashboard_functions/dashboard_actions_functions.php:848
+#: libs/elementor_help_files2.php:912 libs/elementor_help_files2.php:1004
+#: libs/elementor_help_files2.php:1070
+#: libs/property_page_functions/property_details_section_functions.php:125
+#: page-templates/user_dashboard_favorite.php:63
+#: page-templates/user_dashboard_favorite.php:68
+msgid "Price"
+msgstr "価格"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:688
+msgid "Search for an Agent"
+msgstr "エージェントを検索する"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:692
+#: libs/dashboard_functions/dashboard_actions_functions.php:827
+#: page-templates/auser_dashboard_search_result.php:106 searchform.php:23
+#: templates/advanced_search/advanced_search_type3.php:50
+#: templates/advanced_search/advanced_search_type10.php:81
+#: templates/advanced_search/advanced_search_type11.php:83
+msgid "Search"
+msgstr "サーチ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:700
+msgid "Phone/Mobile"
+msgstr "自宅電話/携帯電話"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:711
+msgid "You don't have any agents added!"
+msgstr "エージェントを追加していない！"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:826
+#: page-templates/auser_dashboard_search_result.php:105
+msgid "Search a listing"
+msgstr "リストを検索する"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:839
+#: libs/dashboard_functions/dashboard_actions_functions.php:845
+#: page-templates/user_dashboard_favorite.php:59
+#: page-templates/user_dashboard_favorite.php:65
+msgid "Property"
+msgstr "プロパティ"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:842
+#: page-templates/user_dashboard_favorite.php:62
+msgid "Pay Status"
+msgstr "給与状況"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:856
+msgid "You don't have any properties!"
+msgstr "物件登録がありません！"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:964
+msgid "You don't have the required permissions"
+msgstr "必要な権限がありません"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:994
+msgid "Username already exists.  Please choose a new one."
+msgstr "ユーザー名は既に存在します。新しいものをお選びください。"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1001
+msgid "One of the password field is empty!"
+msgstr "パスワードフィールドの1つが空です！"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1009
+#: libs/dashboard_functions/dashboard_actions_functions.php:1019
+msgid "Email already exists.  Please choose a new one."
+msgstr "メールは既に存在します。新しいものをお選びください。"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1025
+msgid "Agent need a first & last name"
+msgstr "エージェントには姓名が必要です"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1030
+msgid "The email doesn't look right !"
+msgstr "電子メールが正しく表示されません！"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1251
+msgid "Agent was added... You will be redirected to your agent list..."
+msgstr "エージェントが追加されました...エージェントリストにリダイレクトされます..."
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1257
+msgid "Agent profile edited"
+msgstr "エージェントのプロフィールが編集されました"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1349
+msgid "Started by"
+msgstr "開始時間"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1350
+#: templates/dashboard-templates/message-listing-unit.php:55
+#: templates/email_templates/contact_email_template.php:40
+msgid "Subject"
+msgstr "件名"
+
+#: libs/dashboard_functions/dashboard_actions_functions.php:1352
+msgid "Action"
+msgstr "アクション"
+
+#: libs/dashboard_functions/dashboard_functions.php:13
+#: libs/dashboard_functions/dashboard_functions.php:14
+msgid "days"
+msgstr "日々"
+
+#: libs/dashboard_functions/dashboard_functions.php:15
+#: libs/dashboard_functions/dashboard_functions.php:16
+msgid "weeks"
+msgstr "週"
+
+#: libs/dashboard_functions/dashboard_functions.php:17
+#: libs/dashboard_functions/dashboard_functions.php:18
+msgid "months"
+msgstr "数ヶ月"
+
+#: libs/dashboard_functions/dashboard_functions.php:19
+msgid "year"
+msgstr "年"
+
+#: libs/dashboard_functions/dashboard_functions.php:20
+msgid "years"
+msgstr "年"
+
+#: libs/dashboard_functions/dashboard_functions.php:225
+msgid "Account History (last 7 days)"
+msgstr "アカウント履歴（過去7日間）"
+
+#: libs/dashboard_functions/dashboard_functions.php:246
+msgid "Edited"
+msgstr "編集済み"
+
+#: libs/dashboard_functions/dashboard_functions.php:248
+msgid "Added"
+msgstr "追加"
+
+#: libs/dashboard_functions/dashboard_functions.php:250
+msgid "Deleted"
+msgstr "削除済み"
+
+#: libs/dashboard_functions/dashboard_functions.php:255
+#, php-format
+msgid "%s property %s"
+msgstr "%s 物件 %s"
+
+#: libs/dashboard_functions/dashboard_functions.php:258
+#, php-format
+msgid "%s agent %s"
+msgstr "%sエージェント%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:261
+#, php-format
+msgid "%s agency %s"
+msgstr "%s代理店%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:264
+#, php-format
+msgid "%s developer %s"
+msgstr "%s開発者%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:267
+#, php-format
+msgid "Generated Invoice %s"
+msgstr "生成されたインボイス%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:269
+#, php-format
+msgid "Deleted Invoice %s"
+msgstr "削除されたインボイス%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:273
+#, php-format
+msgid "Write Message  %s"
+msgstr "メッセージを書く%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:275
+#, php-format
+msgid "Deleted Message  %s"
+msgstr "メッセージを削除 %s"
+
+#: libs/dashboard_functions/dashboard_functions.php:279
+#, php-format
+msgid "Saved Search  %s"
+msgstr "保存された検索%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:281
+#, php-format
+msgid "Deleted Search  %s"
+msgstr "削除された検索%s"
+
+#: libs/dashboard_functions/dashboard_functions.php:322
+msgid "Inquiries"
+msgstr "お問い合わせ"
+
+#: libs/dashboard_functions/dashboard_functions.php:326
+#: libs/dashboard_functions/dashboard_functions.php:598
+msgid "You don't have any listings or enough data!"
+msgstr "リスティングもデータも足りない！"
+
+#: libs/dashboard_functions/dashboard_functions.php:336
+msgid "Your most Popular Listings"
+msgstr "最も人気のあるリスティング"
+
+#: libs/dashboard_functions/dashboard_functions.php:368
+msgid "Total Properties"
+msgstr "物件数"
+
+#: libs/dashboard_functions/dashboard_functions.php:369
+msgid "Published Properties"
+msgstr "掲載物件"
+
+#: libs/dashboard_functions/dashboard_functions.php:374
+msgid "Total Agents"
+msgstr "スタッフの合計"
+
+#: libs/dashboard_functions/dashboard_functions.php:377
+#: libs/dashboard_functions/dashboard_functions.php:1524
+msgid "Saved Searches"
+msgstr "保存された検索"
+
+#: libs/dashboard_functions/dashboard_functions.php:389
+msgid "Favorite Properties"
+msgstr "お気に入りの物件"
+
+#: libs/dashboard_functions/dashboard_functions.php:393
+msgid "Account Summary"
+msgstr "ƒAƒJƒEƒ“ƒgŠT—v"
+
+#: libs/dashboard_functions/dashboard_functions.php:448
+msgid "Listings Views"
+msgstr "リスティングビュー"
+
+#: libs/dashboard_functions/dashboard_functions.php:456
+msgid "Total views for your listings"
+msgstr "あなたのリスティングのトータルビュー"
+
+#: libs/dashboard_functions/dashboard_functions.php:594
+msgid "Views"
+msgstr "閲覧数"
+
+#: libs/dashboard_functions/dashboard_functions.php:610
+msgid "Your most visited Listings"
+msgstr "最も閲覧されたリスト"
+
+#: libs/dashboard_functions/dashboard_functions.php:733
+msgid "Clone: "
+msgstr "クローン"
+
+#: libs/dashboard_functions/dashboard_functions.php:1304
+msgid "Valid file formats"
+msgstr "有効なファイルフォーマット"
+
+#: libs/dashboard_functions/dashboard_functions.php:1306
+#: templates/submit_templates/property_floor_plans.php:140
+msgid "Are you sure you wish to delete ?"
+msgstr "本当に削除しますか？"
+
+#: libs/dashboard_functions/dashboard_functions.php:1307
+#: templates/submit_templates/property_floor_plans.php:140
+msgid "Delete Plan"
+msgstr "プラン 削除"
+
+#: libs/dashboard_functions/dashboard_functions.php:1312
+msgid "Plan Price in"
+msgstr "プランの価格"
+
+#: libs/dashboard_functions/dashboard_functions.php:1313
+#: templates/submit_templates/property_floor_plans.php:182
+msgid "Upload Plan Image"
+msgstr "プラン画像のアップロード"
+
+#: libs/dashboard_functions/dashboard_functions.php:1314
+msgid "processing..."
+msgstr "処理..."
+
+#: libs/dashboard_functions/dashboard_functions.php:1332
+#: page-templates/aag_search_results.php:15
+#: page-templates/advanced_search_results.php:16
+#: page-templates/compare_listings.php:15 page-templates/contact_page.php:15
+#: page-templates/developers_list.php:15
+#: page-templates/front_property_submit.php:15 processor.php:5
+msgid ""
+"This page will not work without WpResidence Core Plugin, Please activate it "
+"from the plugins menu!"
+msgstr "このページはWpResidence Core Pluginなしでは動作しません。プラグインメニューから起動してください！"
+
+#: libs/dashboard_functions/dashboard_functions.php:1402
+msgid "Welcome"
+msgstr "ようこそ"
+
+#: libs/dashboard_functions/dashboard_functions.php:1474
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:20
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:21
+#: templates/dashboard-templates/dashboard_agent_unit.php:51
+msgid "Expired"
+msgstr "期限切れ"
+
+#: libs/dashboard_functions/dashboard_functions.php:1478
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:21
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:28
+#: templates/dashboard-templates/dashboard_agent_unit.php:54
+msgid "Draft"
+msgstr "下書き"
+
+#: libs/dashboard_functions/dashboard_functions.php:1482
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:22
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-status.php:30
+#: templates/dashboard-templates/dashboard_agent_unit.php:55
+msgid "Waiting for approval"
+msgstr "承認待ち"
+
+#: libs/dashboard_functions/dashboard_functions.php:1490
+msgid "Leads"
+msgstr "リード"
+
+#: libs/dashboard_functions/dashboard_functions.php:1495
+msgid "Contacts"
+msgstr "連絡先"
+
+#: libs/dashboard_functions/dashboard_functions.php:1504
+#: libs/dashboard_functions/dashboard_functions.php:1544
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: libs/dashboard_functions/dashboard_functions.php:1508
+msgid "My Profile"
+msgstr "私のプロフィール"
+
+#: libs/dashboard_functions/dashboard_functions.php:1512
+msgid "My Properties List"
+msgstr "私のプロパティリスト"
+
+#: libs/dashboard_functions/dashboard_functions.php:1516
+msgid "Add New Property"
+msgstr "新しいプロパティを追加"
+
+#: libs/dashboard_functions/dashboard_functions.php:1520
+msgid "Favorites"
+msgstr "お気に入り"
+
+#: libs/dashboard_functions/dashboard_functions.php:1528
+msgid "My Invoices"
+msgstr "私の請求書"
+
+#: libs/dashboard_functions/dashboard_functions.php:1532
+#: templates/dashboard-templates/add_new_agent_template.php:433
+#: templates/dashboard-templates/add_new_agent_template.php:491
+msgid "Add New Agent"
+msgstr "新しいエージェントを追加する"
+
+#: libs/dashboard_functions/dashboard_functions.php:1536
+msgid "Agent List"
+msgstr "エージェントリスト"
+
+#: libs/dashboard_functions/dashboard_functions.php:1540
+msgid "Inbox"
+msgstr "受信トレイ"
+
+#: libs/dashboard_functions/dashboard_functions.php:1548
+msgid "CRM"
+msgstr "CRM"
+
+#: libs/dashboard_functions/dashboard_functions.php:1594
+#: libs/dashboard_functions/dashboard_functions.php:1676
+msgid "Logout"
+msgstr "ログアウト"
+
+#: libs/dashboard_functions/dashboard_functions.php:1729
+msgid "Your account is not approved"
+msgstr "アカウントは承認されていません"
+
+#: libs/dashboard_functions/dashboard_functions.php:1914
+#: templates/dashboard-templates/add_new_agent_template.php:316
+#: templates/dashboard-templates/add_new_agent_template.php:342
+#: templates/dashboard-templates/user_profile_agent.php:136
+#: templates/dashboard-templates/user_profile_agent.php:167
+#: templates/submit_templates/property_categories.php:62
+#: templates/submit_templates/property_categories.php:82
+#: templates/submit_templates/property_location.php:103
+#: templates/submit_templates/property_location.php:124
+#: templates/submit_templates/property_location.php:151
+msgid "None"
+msgstr "なし"
+
+#: libs/design_functions.php:75 libs/design_functions.php:77
+#: libs/design_functions.php:80 libs/design_functions.php:84
+#: templates/featured_property_card_templates/featured_property_3.php:130
+#: templates/property_cards_templates/property_card_details_templates/property_card_actions_type2.php:17
+#: templates/property_cards_templates/property_card_details_templates/property_card_actions_type_default.php:34
+msgid "share"
+msgstr "シェア"
+
+#: libs/design_functions.php:97
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_default.php:59
+#: templates/property_cards_templates/property_unit_type3.php:76
+#: templates/property_shortcode_slider_templates/property_slider_shortcode_v3_test.php:112
+msgid "details"
+msgstr "詳細"
+
+#: libs/design_functions.php:133 libs/design_functions.php:138
+#: libs/design_functions.php:143 libs/design_functions.php:149
+#: templates/property_cards_templates/property_card_details_templates/property_card_actions_type2.php:28
+#: templates/property_cards_templates/property_card_details_templates/property_card_actions_type_default.php:48
+msgid "compare"
+msgstr "比較する"
+
+#: libs/design_functions.php:140 libs/design_functions.php:177
+#: libs/design_functions.php:192
+msgid "featured icon"
+msgstr "フィーチャーアイコン"
+
+#: libs/design_functions.php:304
+msgid "icon"
+msgstr "アイコン"
+
+#: libs/design_functions.php:386 libs/design_functions.php:439
+msgid "Facebook"
+msgstr "Facebook"
+
+#: libs/design_functions.php:387 libs/design_functions.php:440
+msgid "X - Twitter"
+msgstr "X - ツイッター"
+
+#: libs/design_functions.php:388 libs/design_functions.php:441
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: libs/design_functions.php:389 libs/design_functions.php:442
+#: templates/realtor_templates/agent_contact_bar.php:58
+msgid "WhatsApp"
+msgstr "Whatsapp"
+
+#: libs/elementor_help_files2.php:52 libs/elementor_help_files2.php:380
+#: libs/elementor_help_files2.php:532 libs/help_functions.php:1877
+#: libs/help_functions.php:2312 libs/help_functions.php:3129
+#: templates/advanced_property_list_filters.php:56
+#: templates/advanced_property_list_filters.php:113
+#: templates/directory_page_templates/directory_filters.php:40
+#: templates/properties_list_templates/filters_templates/property_list_ajax_tax_hidden_filters.php:25
+#: templates/properties_list_templates/filters_templates/property_list_filters_taxonomy_normal_map_core.php:46
+#: templates/properties_list_templates/filters_templates/search_ajax_tax_hidden_filters.php:41
+#: templates/properties_list_templates/filters_templates/taxomomy_ajax_tax_hidden_filters.php:27
+#: templates/properties_list_templates/filters_templates/taxonomy_agent_hidden_filters.php:44
+#: templates/properties_list_templates/property_list_filters.php:77
+msgid "States"
+msgstr "州・都道府県"
+
+#: libs/elementor_help_files2.php:314
+msgid "items selected"
+msgstr "選択項目"
+
+#: libs/elementor_help_files2.php:315
+msgid "Select All"
+msgstr "すべて選択"
+
+#: libs/elementor_help_files2.php:316
+msgid "Select None"
+msgstr "選択しない"
+
+#: libs/elementor_help_files2.php:772
+msgid "Beds/Baths"
+msgstr "ベッド／バス"
+
+#: libs/elementor_help_files2.php:827
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type6.php:44
+msgid "Beds"
+msgstr "ベッド"
+
+#: libs/elementor_help_files2.php:829
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type4.php:34
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type6.php:55
+#: templates/shortcode_templates/content_grid_small_estate_property_type_1.php:42
+msgid "Baths"
+msgstr "浴室"
+
+#: libs/elementor_help_files2.php:832 libs/elementor_help_files2.php:967
+#: libs/elementor_help_files2.php:1038 libs/elementor_help_files2.php:1139
+msgid "Reset"
+msgstr "リセット"
+
+#: libs/elementor_help_files2.php:833 libs/elementor_help_files2.php:968
+#: libs/elementor_help_files2.php:1039 libs/elementor_help_files2.php:1140
+msgid "Done"
+msgstr "完了"
+
+#: libs/elementor_help_files2.php:956 libs/elementor_help_files2.php:1027
+#: libs/elementor_help_files2.php:1129
+msgid "Price selector"
+msgstr "価格セレクター"
+
+#: libs/elementor_help_files2.php:1231 libs/elementor_help_files2.php:1250
+msgid "No Value"
+msgstr "価値なし"
+
+#: libs/elementor_help_files2.php:1291
+msgid "M"
+msgstr "M"
+
+#: libs/elementor_help_files2.php:1293
+msgid "K"
+msgstr "K"
+
+#: libs/general-settings.php:262 libs/general-settings.php:302
+#: libs/general-settings.php:335
+msgid " ..."
+msgstr " ..."
+
+#: libs/general-settings.php:512
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: libs/general-settings.php:513
+msgid "Mobile Menu"
+msgstr "モバイルメニュー"
+
+#: libs/general-settings.php:514
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: libs/general-settings.php:515
+msgid "Header 5 Second Menu"
+msgstr "ヘッダー5 セカンドメニュー"
+
+#: libs/general-settings.php:519
+msgid "Primary Widget Area"
+msgstr "プライマリウィジェットエリア"
+
+#: libs/general-settings.php:521
+msgid "The primary widget area"
+msgstr "主要ウィジェット領域"
+
+#: libs/general-settings.php:531
+msgid "Secondary Widget Area"
+msgstr "セカンダリウィジェットエリア"
+
+#: libs/general-settings.php:533
+msgid "The secondary widget area"
+msgstr "2次ウィジェット領域"
+
+#: libs/general-settings.php:543
+msgid "First Footer Widget Area"
+msgstr "最初のフッターウィジェットエリア"
+
+#: libs/general-settings.php:545
+msgid "The first footer widget area"
+msgstr "最初のフッターウィジェット領域"
+
+#: libs/general-settings.php:555
+msgid "Second Footer Widget Area"
+msgstr "2番目のフッターウィジェットエリア"
+
+#: libs/general-settings.php:557
+msgid "The second footer widget area"
+msgstr "第2フッターウィジェット領域"
+
+#: libs/general-settings.php:567
+msgid "Third Footer Widget Area"
+msgstr "3番目のフッターウィジェットエリア"
+
+#: libs/general-settings.php:569
+msgid "The third footer widget area"
+msgstr "3番目のフッターウィジェット領域"
+
+#: libs/general-settings.php:579
+msgid "Fourth Footer Widget Area"
+msgstr "第4のフッターウィジェットエリア"
+
+#: libs/general-settings.php:581
+msgid "The fourth footer widget area"
+msgstr "4番目のフッターウィジェット領域"
+
+#: libs/general-settings.php:591
+msgid "Top Bar Left Widget Area"
+msgstr "トップバー左ウィジェットエリア"
+
+#: libs/general-settings.php:593
+msgid "The top bar left widget area"
+msgstr "上のバー左ウィジェット領域"
+
+#: libs/general-settings.php:602
+msgid "Top Bar Right Widget Area"
+msgstr "トップバー右ウィジェットエリア"
+
+#: libs/general-settings.php:604
+msgid "The top bar right widget area"
+msgstr "上部バーの右ウィジェット領域"
+
+#: libs/general-settings.php:614
+msgid "Header 3 Widget Area"
+msgstr "ヘッダー3 ウィジェット・エリア"
+
+#: libs/general-settings.php:616
+msgid "Header 3 widget area"
+msgstr "ヘッダー3 ウィジェット・エリア"
+
+#: libs/general-settings.php:626
+msgid "Dashboard Top Bar Left Widget Area"
+msgstr "ダッシュボードトップバー左ウィジェットエリア"
+
+#: libs/general-settings.php:628
+msgid "User Dashboard - The top bar left widget area"
+msgstr "ユーザーダッシュボード - 上部バーの左ウィジェットエリア"
+
+#: libs/general-settings.php:637
+msgid "Dashboard Top Bar Right Widget Area"
+msgstr "ダッシュボードトップバー右ウィジェットエリア"
+
+#: libs/general-settings.php:639
+msgid "User Dashboard - The top bar right widget area"
+msgstr "ユーザーダッシュボード - 上部バーの右ウィジェット領域"
+
+#: libs/general-settings.php:648
+msgid "Splash Page Bottom Right Widget Area"
+msgstr "スプラッシュページ下部右ウィジェットエリア"
+
+#: libs/general-settings.php:650
+msgid "Splash Page - Bottom right area"
+msgstr "スプラッシュページ - 右下領域"
+
+#: libs/general-settings.php:659
+msgid "Splash Page Bottom Left Widget Area"
+msgstr "スプラッシュページ下部左ウィジェットエリア"
+
+#: libs/general-settings.php:661
+msgid "Splash Page - Bottom left area"
+msgstr "スプラッシュページ - 左下領域"
+
+#: libs/headers/header_filter_functions.php:87
+#: libs/headers/header_filter_functions.php:90
+#: page-templates/contact_page.php:100
+msgid "company logo"
+msgstr "会社のロゴ"
+
+#: libs/headers/header_filter_functions.php:284
+msgid "Overview"
+msgstr "概要"
+
+#: libs/headers/header_filter_functions.php:296
+msgid "Booking"
+msgstr "予約"
+
+#: libs/headers/header_filter_functions.php:302
+#: libs/property_page_functions/property_page_functions.php:577
+msgid "Documents"
+msgstr "ドキュメント"
+
+#: libs/headers/header_filter_functions.php:308
+#: libs/property_page_functions/property_multi_units_functions.php:23
+msgid "Available Units"
+msgstr "利用可能なユニット"
+
+#: libs/headers/header_filter_functions.php:314
+msgid "Energy Savings"
+msgstr "エネルギー節約"
+
+#: libs/headers/header_filter_functions.php:350
+msgid "Virtual Tour/Meta Reels"
+msgstr "バーチャルツアー／メタリールズ"
+
+#: libs/headers/header_filter_functions.php:368
+msgid "Mortgage Calculator"
+msgstr "ローン計算"
+
+#: libs/headers/header_filter_functions.php:380
+msgid "Page Views Statistics"
+msgstr "ページビュー統計"
+
+#: libs/headers/header_filter_functions.php:386
+#: templates/email_templates/schedule_tour_email_template.php:19
+msgid "Schedule a Tour"
+msgstr "ツアーを予約する"
+
+#: libs/headers/header_filter_functions.php:398
+#: templates/listing_templates/other_agents.php:27
+msgid "Other Agents"
+msgstr "他のエージェント"
+
+#: libs/headers/header_filter_functions.php:404
+#: templates/listing_templates/property-page-templates/property_reviews.php:31
+#: templates/reviews/reviews.php:17
+msgid "Property Reviews"
+msgstr "物件レビュー"
+
+#: libs/headers/header_filter_functions.php:410
+#: templates/listing_templates/property-page-templates/similar_listings.php:93
+#: templates/listing_templates/property-page-templates/similar_listings.php:123
+msgid "Similar Listings"
+msgstr "類似の物件"
+
+#: libs/headers/megamenu.php:170
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (無効)"
+
+#: libs/headers/megamenu.php:173
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (保留)"
+
+#: libs/headers/megamenu.php:197
+msgid "Move up"
+msgstr "上へ移動"
+
+#: libs/headers/megamenu.php:210
+msgid "Move down"
+msgstr "下に移動"
+
+#: libs/headers/megamenu.php:212
+msgid "Edit Menu Item"
+msgstr "メニュー項目の編集"
+
+#: libs/headers/megamenu.php:223
+msgid "URL"
+msgstr "URL"
+
+#: libs/headers/megamenu.php:230
+msgid "Navigation Label"
+msgstr "ナビゲーションラベル"
+
+#: libs/headers/megamenu.php:236
+msgid "Title Attribute"
+msgstr "タイトル属性"
+
+#: libs/headers/megamenu.php:243
+msgid "Open link in a new window/tab"
+msgstr "新しいウィンドウ/タブでリンクを開く"
+
+#: libs/headers/megamenu.php:248
+msgid "CSS Classes (optional)"
+msgstr "CSSクラス（オプション）"
+
+#: libs/headers/megamenu.php:254
+msgid "Link Relationship (XFN)"
+msgstr "リンク関係（XFN）"
+
+#: libs/headers/megamenu.php:262
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "現在のテーマでサポートされている場合、説明がメニューに表示されます。"
+
+#: libs/headers/megamenu.php:269
+msgid "Menu Item Icon(ex: fa fa-comment)"
+msgstr "メニュー項目アイコン（例：fa fa-comment）"
+
+#: libs/headers/megamenu.php:278
+msgid "Menu Item Label(ex: \"new\")"
+msgstr "メニュー項目ラベル（例：「new」）"
+
+#: libs/headers/megamenu.php:293
+msgid "Set as Mega Menu?"
+msgstr "メガメニューに設定しますか？"
+
+#: libs/headers/megamenu.php:299
+msgid "Mega Menu Widget Area"
+msgstr "メガメニューウィジェットエリア"
+
+#: libs/headers/megamenu.php:301
+msgid "Select Widget Area"
+msgstr "ウィジェット領域を選択"
+
+#: libs/headers/megamenu.php:312
+msgid "Upload Background Image | "
+msgstr "アップロード背景画像|"
+
+#: libs/headers/megamenu.php:314
+msgid "Remove Image"
+msgstr "イメージを削除"
+
+#: libs/headers/megamenu.php:325
+msgid ""
+"Container Styles( *set custom styles for mega menu container only:.  Ex: "
+"background position, background repeat )"
+msgstr "コンテナスタイル（*メガメニューコンテナのみのカスタムスタイルを設定：Ex：バックグラウンド位置、バックグラウンドリピート）"
+
+#: libs/headers/megamenu.php:341
+msgid "Draw border right on mega menu column?"
+msgstr "メガメニューの欄に境界線を描画しますか？"
+
+#: libs/headers/megamenu.php:349
+#, php-format
+msgid "Original: %s"
+msgstr "オリジナル: %s"
+
+#: libs/headers/megamenu.php:363
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: libs/help_functions.php:702 libs/help_functions.php:705
+msgid "all"
+msgstr "すべて"
+
+#: libs/help_functions.php:709
+#: libs/property_page_functions/property_details_section_functions.php:215
+#: libs/property_page_functions/property_overview_functions.php:52
+msgid "Not Available"
+msgstr "使用不可"
+
+#: libs/help_functions.php:726
+msgid "Please submit the"
+msgstr "あなたは"
+
+#: libs/help_functions.php:726
+msgid "field"
+msgstr "フィールド"
+
+#: libs/help_functions.php:1046
+msgid "Transport"
+msgstr "輸送"
+
+#: libs/help_functions.php:1047
+msgid "Supermarkets"
+msgstr "スーパーマーケット"
+
+#: libs/help_functions.php:1048
+msgid "Schools"
+msgstr "学校"
+
+#: libs/help_functions.php:1049
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:290
+msgid "Restaurants"
+msgstr "レストラン"
+
+#: libs/help_functions.php:1050
+msgid "Pharmacies"
+msgstr "薬局"
+
+#: libs/help_functions.php:1051
+msgid "Hospitals"
+msgstr "病院"
+
+#: libs/help_functions.php:1703
+msgid "All Countries"
+msgstr "全ての国々"
+
+#: libs/help_functions.php:1879 libs/help_functions.php:2239
+#: libs/help_functions.php:3848
+#: templates/directory_page_templates/directory_filters.php:169
+#: templates/submit_templates/property_status.php:58
+msgid "Property Status"
+msgstr "プロパティステータス"
+
+#: libs/help_functions.php:2494
+msgid "More Search Options"
+msgstr "その他の検索オプション"
+
+#: libs/help_functions.php:2604
+#: templates/properties_list_templates/property_list_filters.php:30
+#: templates/properties_list_templates/property_list_filters.php:78
+msgid "Statuses"
+msgstr "ステータス"
+
+#: libs/help_functions.php:2660
+#: templates/properties_list_templates/property_list_filters.php:31
+#: templates/properties_list_templates/property_list_filters.php:79
+msgid "Features"
+msgstr "特徴"
+
+#: libs/help_functions.php:3341 libs/help_functions.php:3946
+msgid "Pay Submission Fee"
+msgstr "公開費用を支払いする"
+
+#: libs/help_functions.php:3448
+msgid "Pay with Credit Card"
+msgstr "クレジットカードで支払う"
+
+#: libs/help_functions.php:3449
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:36
+msgid "Package Payment"
+msgstr "パッケージ支払い"
+
+#: libs/help_functions.php:3469
+msgid "Hi there,"
+msgstr "こんにちは、"
+
+#: libs/help_functions.php:3721
+#: templates/submit_templates/property_description.php:69
+msgid "Property Price"
+msgstr "不動産価格"
+
+#: libs/help_functions.php:3722
+msgid "Property Price Label"
+msgstr "不動産価格ラベル"
+
+#: libs/help_functions.php:3723
+msgid "Property Price Label Before"
+msgstr "前の不動産価格ラベル"
+
+#: libs/help_functions.php:3726
+msgid "After Label for Additional Price info"
+msgstr "追加価格情報はラベルの後に"
+
+#: libs/help_functions.php:3728
+msgid "Property Category Submit"
+msgstr "プロパティカテゴリ送信"
+
+#: libs/help_functions.php:3729
+msgid "Property Action Category"
+msgstr "プロパティアクションカテゴリ"
+
+#: libs/help_functions.php:3730
+msgid "Property Media"
+msgstr "プロパティメディア"
+
+#: libs/help_functions.php:3732 libs/help_functions.php:3844
+msgid "Property City"
+msgstr "プロパティシティ"
+
+#: libs/help_functions.php:3733 libs/help_functions.php:3845
+msgid "Property Area"
+msgstr "プロパティエリア"
+
+#: libs/help_functions.php:3735
+msgid "Property County"
+msgstr "プロパティ郡"
+
+#: libs/help_functions.php:3736 libs/help_functions.php:3858
+msgid "Property Country"
+msgstr "プロパティの国"
+
+#: libs/help_functions.php:3737
+msgid "Property Map"
+msgstr "プロパティマップ"
+
+#: libs/help_functions.php:3739
+msgid "Property Longitude"
+msgstr "プロパティ経度"
+
+#: libs/help_functions.php:3741
+msgid "Property Google View"
+msgstr "プロパティGoogleビュー"
+
+#: libs/help_functions.php:3743
+msgid "property Size"
+msgstr "プロパティサイズ"
+
+#: libs/help_functions.php:3750
+msgid "Embed Video Id"
+msgstr "動画IDを埋め込む"
+
+#: libs/help_functions.php:3751
+msgid "Embed Video Type"
+msgstr "埋め込みビデオタイプ"
+
+#: libs/help_functions.php:3752
+msgid "Embed Virtual Tour/Meta Reels"
+msgstr "バーチャルツアー/Meta Reelsを埋め込む"
+
+#: libs/help_functions.php:3753
+msgid "Property Subunits"
+msgstr "プロパティサブユニット"
+
+#: libs/help_functions.php:3756
+msgid "Greenhouse gas emissions Class"
+msgstr "温室効果ガス排出クラス"
+
+#: libs/help_functions.php:3757
+msgid "Greenhouse gas emissions Index"
+msgstr "温室効果ガス排出指数"
+
+#: libs/help_functions.php:3841
+msgid "Leave Blank"
+msgstr "空白のまま"
+
+#: libs/help_functions.php:3843
+#: templates/dashboard-templates/add_new_agent_template.php:329
+#: templates/dashboard-templates/user_profile_agency.php:70
+#: templates/dashboard-templates/user_profile_agent.php:151
+#: templates/dashboard-templates/user_profile_developer.php:70
+msgid "Action Category"
+msgstr "アクションカテゴリ"
+
+#: libs/help_functions.php:3846
+msgid "Property County/State"
+msgstr "物件の都道府県"
+
+#: libs/help_functions.php:3847 libs/help_functions.php:3866
+msgid "Additional Price"
+msgstr "追加料金"
+
+#: libs/help_functions.php:3850
+msgid "Homeowners Association Fee(Monthly)"
+msgstr "自治会費（月額）"
+
+#: libs/help_functions.php:3860
+#: libs/property_page_functions/property_energy_savings_functions.php:159
+#: templates/submit_templates/property_energy_effective.php:63
+msgid "Energy Index in kWh/m2a"
+msgstr "エネルギーインデックス（kWh / m2a）"
+
+#: libs/help_functions.php:3863
+msgid "Greenhouse gas emissions index class "
+msgstr "温室効果ガス排出指数クラス"
+
+#: libs/help_functions.php:3864
+msgid "Renewable energy performance index "
+msgstr "再生可能エネルギー性能指数"
+
+#: libs/help_functions.php:3868
+msgid "EPC potential rating"
+msgstr "EPC潜在能力評価"
+
+#: libs/plugins.php:179
+msgid "Install Required Plugins"
+msgstr "必要なプラグインをインストールする"
+
+#: libs/plugins.php:180
+msgid "Install Plugins"
+msgstr "プラグインをインストールする"
+
+#: libs/plugins.php:181
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "プラグインインストール中: %s"
+
+#: libs/plugins.php:182
+msgid "Something went wrong with the plugin API."
+msgstr "プラグインAPIで問題が発生しました。"
+
+#: libs/plugins.php:183
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは、次のプラグインを必要とします: %1$s。"
+
+#: libs/plugins.php:184
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "利用中のテーマは以下のプラグインを推奨しています： %1$s。"
+
+#: libs/plugins.php:185
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+"申し訳ありませんが、あなたは%sのプラグインをインストールするための適切な権限がありません。インストール済みのプラグインを取得するのヘルプは、このサイトの管理者に連絡してください。"
+
+#: libs/plugins.php:186
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "次の推奨プラグインは現在有効になっていません:  %1$s。"
+
+#: libs/plugins.php:187
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ推奨プラグインは、現在有効化されていません：%1$s。"
+
+#: libs/plugins.php:188
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"申し訳ありませんが、あなたは%sのプラグインを有効化するための適切な権限がありません。活性化されたプラグインを取得するのヘルプは、このサイトの管理者に連絡してください。"
+
+#: libs/plugins.php:189
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "以下のプラグインを最新バージョンに更新する：%1$s。"
+
+#: libs/plugins.php:190
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"申し訳ありませんが、あなたは %s "
+"のプラグインを更新するために、適切な権限がありません。更新されたプラグインを取得するのヘルプは、このサイトの管理者に連絡してください。"
+
+#: libs/plugins.php:191
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: libs/plugins.php:192
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "インストール済みのプラグインを有効化"
+
+#: libs/plugins.php:193
+msgid "Return to Required Plugins Installer"
+msgstr "必要なプラグインインストーラに戻る"
+
+#: libs/plugins.php:194
+msgid "Plugin activated successfully."
+msgstr "プラグインが正常に起動しました。"
+
+#: libs/plugins.php:195
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "すべてのプラグインがインストールされ、正常に有効化されました。 %s"
+
+#: libs/property_cards_functions/help_functions_cards.php:15
+msgid "Price High to Low"
+msgstr "価格の高い順"
+
+#: libs/property_cards_functions/help_functions_cards.php:16
+msgid "Price Low to High"
+msgstr "価格が低いから高い"
+
+#: libs/property_cards_functions/help_functions_cards.php:17
+msgid "Newest first"
+msgstr "最新のものから"
+
+#: libs/property_cards_functions/help_functions_cards.php:18
+msgid "Oldest first"
+msgstr "最も古いもの"
+
+#: libs/property_cards_functions/help_functions_cards.php:19
+msgid "Newest Edited"
+msgstr "最新編集"
+
+#: libs/property_cards_functions/help_functions_cards.php:20
+msgid "Oldest Edited "
+msgstr "最古の編集"
+
+#: libs/property_cards_functions/help_functions_cards.php:21
+msgid "Bedrooms High to Low"
+msgstr "高さの低い寝室"
+
+#: libs/property_cards_functions/help_functions_cards.php:22
+msgid "Bedrooms Low to high"
+msgstr "ベッドルームは低から高"
+
+#: libs/property_cards_functions/help_functions_cards.php:23
+msgid "Bathrooms High to Low"
+msgstr "バスルーム"
+
+#: libs/property_cards_functions/help_functions_cards.php:24
+msgid "Bathrooms Low to high"
+msgstr "バスルーム"
+
+#: libs/property_cards_functions/property_cards_functions.php:139
+#: libs/property_cards_functions/property_cards_functions.php:141
+msgid ""
+"There are no properties listed on this page at this moment. Please try again "
+"later."
+msgstr "現在、このページに掲載されている物件はありません。後でもう一度お試しください。"
+
+#: libs/property_cards_functions/property_cards_functions.php:140
+msgid ""
+"We didn't find any results. Please try again with different search "
+"parameters."
+msgstr "結果は見つかりませんでした。別の検索パラメータでもう一度お試しください。"
+
+#: libs/property_cards_functions/property_cards_functions.php:142
+msgid "There are no more listings."
+msgstr "もう出品はない。"
+
+#: libs/property_cards_functions/property_cards_functions.php:143
+#: libs/property_cards_functions/property_cards_functions.php:144
+#: libs/property_cards_functions/property_cards_functions.php:145
+msgid "We didn't find any result"
+msgstr "結果は出なかった"
+
+#: libs/property_cards_functions/property_cards_functions.php:999
+#: templates/agent_card_templates/agent_unit_featured.php:48
+#: templates/agent_unit_widget.php:61 templates/agent_unit_widget.php:71
+#: templates/dashboard-templates/add_new_agent_template.php:461
+#: templates/dashboard-templates/dashboard_agent_unit.php:44
+#: templates/dashboard-templates/user_profile.php:98
+#: templates/dashboard-templates/user_profile_agency.php:178
+#: templates/dashboard-templates/user_profile_agent.php:253
+#: templates/dashboard-templates/user_profile_developer.php:171
+#: templates/property_animation_slider.php:67
+#: templates/submit_templates/property_images.php:83
+#: templates/submit_templates/property_images.php:97
+msgid "user image"
+msgstr "ユーザーイメージ"
+
+#: libs/property_cards_functions/property_cards_functions.php:1046
+#: libs/property_cards_functions/property_cards_functions.php:1205
+msgid "Property Image"
+msgstr "物件イメージ"
+
+#: libs/property_cards_functions/property_cards_functions.php:1172
+#: templates/property_cards_templates/property_card_details_templates/property_card_slider_type5.php:78
+msgid "Previous"
+msgstr "前へ"
+
+#: libs/property_cards_functions/property_cards_functions.php:1176
+#: templates/google_maps_base.php:105
+#: templates/property_cards_templates/property_card_details_templates/property_card_slider_type5.php:82
+msgid "Next"
+msgstr "次"
+
+#: libs/property_page_functions/gallery_functions.php:804
+#: libs/property_page_functions/gallery_functions.php:903
+#, php-format
+msgid "See all %d photos"
+msgstr "すべての写真を見る %d"
+
+#: libs/property_page_functions/property_address_section_functions.php:124
+#: templates/dashboard-templates/add_new_agent_template.php:80
+#: templates/dashboard-templates/user_profile_agency.php:32
+#: templates/dashboard-templates/user_profile_agency.php:64
+#: templates/dashboard-templates/user_profile_agent.php:33
+#: templates/dashboard-templates/user_profile_developer.php:29
+#: templates/dashboard-templates/user_profile_developer.php:64
+msgid "Address"
+msgstr "住所"
+
+#: libs/property_page_functions/property_address_section_functions.php:127
+#: templates/dashboard-templates/add_new_agent_template.php:147
+#: templates/dashboard-templates/user_profile_agency.php:62
+#: templates/dashboard-templates/user_profile_agent.php:62
+#: templates/dashboard-templates/user_profile_developer.php:62
+msgid "State/County"
+msgstr "州/郡"
+
+#: libs/property_page_functions/property_address_section_functions.php:128
+#: page-templates/compare_listings.php:124
+#: templates/submit_templates/property_location.php:169
+msgid "Zip"
+msgstr "郵便番号"
+
+#: libs/property_page_functions/property_address_section_functions.php:186
+msgid "Open In Google Maps"
+msgstr "Googleマップで開く"
+
+#: libs/property_page_functions/property_details_section_functions.php:98
+msgid "Property Id"
+msgstr "物件ID"
+
+#: libs/property_page_functions/property_details_section_functions.php:100
+msgid "Listing Id"
+msgstr "リストID"
+
+#: libs/property_page_functions/property_details_section_functions.php:130
+msgid "Price Info"
+msgstr "価格情報"
+
+#: libs/property_page_functions/property_details_section_functions.php:145
+#: libs/property_page_functions/property_overview_functions.php:68
+#: page-templates/compare_listings.php:127
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type6.php:33
+#: templates/property_shortcode_slider_templates/property_slider_shortcode.php:79
+#: templates/shortcode_templates/content_grid_small_estate_property_type_1.php:41
+msgid "Rooms"
+msgstr "部屋"
+
+#: libs/property_page_functions/property_details_section_functions.php:150
+#: libs/property_page_functions/property_overview_functions.php:60
+#: page-templates/compare_listings.php:128
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type3.php:35
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type4.php:23
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type7.php:39
+msgid "Bedrooms"
+msgstr "ベッドルーム"
+
+#: libs/property_page_functions/property_details_section_functions.php:155
+#: libs/property_page_functions/property_overview_functions.php:64
+#: page-templates/compare_listings.php:129
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type3.php:45
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type7.php:44
+#: templates/property_shortcode_slider_templates/property_slider_shortcode.php:84
+msgid "Bathrooms"
+msgstr "バスルーム"
+
+#: libs/property_page_functions/property_energy_savings_functions.php:155
+msgid "Greenhouse Gas Emissions kgCO2/m2a"
+msgstr "温室効果ガス排出量 kgCO2/m2a"
+
+#: libs/property_page_functions/property_energy_savings_functions.php:156
+msgid "Greenhouse Gas Emissions index class"
+msgstr "温室効果ガス排出指数クラス"
+
+#: libs/property_page_functions/property_energy_savings_functions.php:157
+msgid "Greenhouse gas emissions class"
+msgstr "温室効果ガス排出クラス"
+
+#: libs/property_page_functions/property_energy_savings_functions.php:161
+msgid "Energy class"
+msgstr "エネルギークラス"
+
+#: libs/property_page_functions/property_features_ammenities_section_functions.php:86
+#: templates/submit_templates/property_amenities.php:65
+msgid "Other Features"
+msgstr "その他の機能"
+
+#: libs/property_page_functions/property_floor_plan_section_functions.php:189
+msgid "size:"
+msgstr "サイズ："
+
+#: libs/property_page_functions/property_floor_plan_section_functions.php:193
+msgid "rooms: "
+msgstr "部屋："
+
+#: libs/property_page_functions/property_floor_plan_section_functions.php:197
+msgid "baths:"
+msgstr "お風呂："
+
+#: libs/property_page_functions/property_floor_plan_section_functions.php:201
+msgid "price: "
+msgstr "価格："
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:145
+msgid "per month"
+msgstr "１ヶ月あたり"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:151
+msgid "HOA fee"
+msgstr "HOA料金"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:166
+msgid "Private Mortgage Insurance (PMI)"
+msgstr "民間住宅ローン保険（PMI）"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:178
+msgid "Monthly HOA Fees"
+msgstr "月次管理費"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:185
+msgid "Total Amount"
+msgstr "総額"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:190
+msgid "Down Payment"
+msgstr "頭金"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:200
+msgid " Loan Terms (Years)"
+msgstr " 融資期間（年）"
+
+#: libs/property_page_functions/property_mortgage_calculator_functions.php:203
+msgid "Interest"
+msgstr "利子"
+
+#: libs/property_page_functions/property_multi_units_functions.php:24
+msgid "Other units in"
+msgstr "その他のユニット"
+
+#: libs/property_page_functions/property_multi_units_functions.php:195
+msgid "Category: "
+msgstr "カテゴリー："
+
+#: libs/property_page_functions/property_multi_units_functions.php:196
+msgid "Rooms: "
+msgstr "部屋："
+
+#: libs/property_page_functions/property_multi_units_functions.php:197
+msgid "Bedrooms: "
+msgstr "ベッドルーム: "
+
+#: libs/property_page_functions/property_multi_units_functions.php:198
+msgid "Baths: "
+msgstr "バス："
+
+#: libs/property_page_functions/property_multi_units_functions.php:199
+msgid "Size: "
+msgstr "サイズ："
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:61
+msgid "yelp logo"
+msgstr "イェルプのロゴ"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:121
+msgid "There are no results found for this property address."
+msgstr "この物件住所での検索結果は見つかりませんでした。"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:210
+msgid "Active Life"
+msgstr "アクティブライフ"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:214
+msgid "Arts & Entertainment"
+msgstr "アート＆エンターテインメント"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:218
+msgid "Automotive"
+msgstr "自動車"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:222
+msgid "Beauty & Spas"
+msgstr "美容＆スパ"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:226
+msgid "Education"
+msgstr "教育"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:230
+msgid "Event Planning & Services"
+msgstr "イベントプランニングとサービス"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:234
+msgid "Financial Services"
+msgstr "金融業務"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:238
+msgid "Food"
+msgstr "フード"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:242
+msgid "Health & Medical"
+msgstr "健康と医療"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:246
+msgid "Home Services "
+msgstr "ホームサービス"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:250
+msgid "Hotels & Travel"
+msgstr "ホテル＆旅行"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:254
+msgid "Local Flavor"
+msgstr "ローカルフレーバー"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:258
+msgid "Local Services"
+msgstr "ローカルサービス"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:262
+msgid "Mass Media"
+msgstr "マスメディア"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:266
+msgid "Nightlife"
+msgstr "ナイトライフ"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:270
+msgid "Pets"
+msgstr "ペット"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:274
+msgid "Professional Services"
+msgstr "プロフェッショナルサービス"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:278
+msgid "Public Services & Government"
+msgstr "公共サービスと政府"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:282
+msgid "Real Estate"
+msgstr "不動産"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:286
+msgid "Religious Organizations"
+msgstr "宗教団体"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:294
+msgid "Shopping"
+msgstr "ショッピング"
+
+#: libs/property_page_functions/property_neary_by_yelp_functions.php:298
+msgid "Transportation"
+msgstr "交通"
+
+#: libs/property_page_functions/property_overview_functions.php:72
+msgid "Garages"
+msgstr "駐車場"
+
+#: libs/property_page_functions/property_overview_functions.php:86
+msgid "Year Built:"
+msgstr "造られる年:"
+
+#: libs/property_page_functions/property_overview_functions.php:98
+#: page-templates/compare_listings.php:132
+msgid "Property ID"
+msgstr "プロパティID"
+
+#: libs/property_page_functions/property_page_functions.php:186
+#: libs/property_page_functions/property_page_functions.php:207
+#: libs/property_page_functions/property_page_functions_2.php:355
+msgid "Image Gallery"
+msgstr "イメージギャラリー"
+
+#: libs/property_page_functions/property_page_functions_2.php:102
+#: templates/listing_templates/property-page-templates/image_gallery.php:72
+msgid "image"
+msgstr "画像"
+
+#: libs/property_page_functions/property_reviews_section_functions.php:248
+msgid "No reviews found."
+msgstr "レビューはありません。"
+
+#: libs/property_page_functions/property_reviews_section_functions.php:272
+msgid "Your review is pending approval."
+msgstr "あなたのレビューは承認待ちです。"
+
+#: libs/property_page_functions/property_reviews_section_functions.php:278
+#: templates/realtor_templates/agent_reviews.php:150
+msgid "Update Review "
+msgstr "アップデートレビュー"
+
+#: libs/property_page_functions/property_reviews_section_functions.php:284
+#: templates/realtor_templates/agent_reviews.php:155
+msgid "Write a Review "
+msgstr "レビューを書く"
+
+#: libs/property_page_functions/property_video_functions.php:178
+msgid "video image"
+msgstr "動画像"
+
+#: libs/theme-cache.php:5
+msgid "Cache was cleared"
+msgstr "キャッシュがクリアされました"
+
+#: libs/widget_functions.php:177
+#: templates/dashboard-templates/user_profile_agency.php:29
+#: templates/dashboard-templates/user_profile_developer.php:32
+msgid "Languages"
+msgstr "言語"
+
+#: libs/wp_admin_functions/wellcome_screen.php:155
+msgid "Powered by"
+msgstr "Powered by"
+
+#: libs/wp_admin_functions/wp_admin_functions.php:35
+msgid "Import Demo"
+msgstr "デモデータのインポート"
+
+#: libs/wp_admin_functions/wp_admin_functions.php:40
+msgid "Import Demo - Activate Plugin"
+msgstr "インポートデモ - プラグインを有効化"
+
+#. Template Name of the theme
+msgid "Agents Agencies Developers Search Results"
+msgstr "エージェント エージェンシー デベロッパー 検索結果"
+
+#. Template Name of the theme
+msgid "Advanced Search Results"
+msgstr "高度な検索結果"
+
+#. Template Name of the theme
+msgid "Agency list"
+msgstr "代理店リスト"
+
+#: page-templates/agency_list.php:16 page-templates/agents_list.php:16
+msgid ""
+"This page requires the WpResidence Core Plugin. Please activate it from the "
+"plugins menu."
+msgstr "このページはWpResidence Core Pluginが必要です。プラグインメニューから有効化してください。"
+
+#: page-templates/agency_list.php:17 page-templates/agents_list.php:17
+msgid "Plugin Activation Required"
+msgstr "プラグインのアクティベーションが必須です"
+
+#. Template Name of the theme
+msgid "Agents list"
+msgstr "代理店リスト"
+
+#. Template Name of the theme
+msgid "User Dashboard Search Results"
+msgstr "ユーザー・ダッシュボードの検索結果"
+
+#: page-templates/auser_dashboard_search_result.php:22
+#: page-templates/user_dashboard_add.php:82
+#: page-templates/user_dashboard_add.php:217
+#: page-templates/user_dashboard_agent_list.php:27
+msgid "Sorry, your nonce did not verify."
+msgstr "申し訳ありませんが、nonceは確認できませんでした。"
+
+#: page-templates/auser_dashboard_search_result.php:100
+msgid "You don't have any properties yet!"
+msgstr "まだプロパティはありません！"
+
+#. Template Name of the theme
+msgid "Blog list page"
+msgstr "ブログ一覧ページ"
+
+#. Template Name of the theme
+#: page-templates/compare_listings.php:98 templates/compare_list.php:15
+msgid "Compare Listings"
+msgstr "比較リスト"
+
+#: page-templates/compare_listings.php:24
+msgid "Page should be accessible only via the compare button"
+msgstr "ページは比較ボタンからのみアクセスできるようにする"
+
+#: page-templates/compare_listings.php:33
+msgid "No valid properties selected for comparison"
+msgstr "比較対象として有効なプロパティが選択されていません"
+
+#: page-templates/compare_listings.php:112
+msgid "Type: "
+msgstr "タイプ："
+
+#: page-templates/compare_listings.php:125
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type1.php:63
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type4.php:44
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type8.php:67
+#: templates/property_shortcode_slider_templates/property_slider_shortcode.php:89
+msgid "Size"
+msgstr "サイズ"
+
+#: page-templates/compare_listings.php:126
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type7.php:59
+msgid "Lot Size"
+msgstr "敷地面積"
+
+#. Template Name of the theme
+msgid "Contact Page"
+msgstr "お問い合わせページ"
+
+#. Template Name of the theme
+msgid "Developer list"
+msgstr "開発者リスト"
+
+#. Template Name of the theme
+msgid "Front Property Submit"
+msgstr "フロント Property Submit"
+
+#: page-templates/front_property_submit.php:173
+#: templates/front_end_submission.php:31
+msgid ""
+"Your current package doesn't let you publish more properties! You need to "
+"upgrade your membership."
+msgstr "現在のパッケージでは、より多くのプロパティを公開することはできません！メンバーシップをアップグレードする必要があります。"
+
+#: page-templates/front_property_submit.php:516
+#: page-templates/user_dashboard_add.php:102
+#: page-templates/user_dashboard_add.php:241
+msgid "Please submit a title for your property"
+msgstr "あなたの財産のタイトルを提出してください"
+
+#: page-templates/front_property_submit.php:775
+msgid "1. Description"
+msgstr "1.説明"
+
+#: page-templates/front_property_submit.php:776
+msgid "2. Media"
+msgstr "2.メディア"
+
+#: page-templates/front_property_submit.php:777
+msgid "3. Location"
+msgstr "3.場所"
+
+#: page-templates/front_property_submit.php:778
+msgid "4. Details"
+msgstr "4.詳細"
+
+#: page-templates/front_property_submit.php:779
+msgid "5. Amenities"
+msgstr "5.アメニティ"
+
+#: page-templates/front_property_submit.php:792
+#: templates/front_end_submission.php:65
+msgid "These fields are mandatory: Title"
+msgstr "これらのフィールドは必須です：タイトル"
+
+#: page-templates/front_property_submit.php:801
+#: templates/front_end_submission.php:47
+msgid ""
+"This is a paid submission. The listing will be live after payment is "
+"received."
+msgstr "これは有料投稿です。お支払いが確認された後、掲載が開始されます。"
+
+#: page-templates/front_property_submit.php:849
+msgid "Prev Step"
+msgstr "前のステップ"
+
+#: page-templates/front_property_submit.php:850
+msgid "Next Step"
+msgstr "次のステップ"
+
+#: page-templates/front_property_submit.php:851
+msgid "Submit Property"
+msgstr "プロパティを送信"
+
+#. Template Name of the theme
+msgid "Custom Property Page Template"
+msgstr "カスタム物件ページテンプレート"
+
+#: page-templates/page_property_design.php:15
+#: page-templates/property_list_directory.php:17
+#: page-templates/splash_page.php:15
+msgid ""
+"This page will not work without WpResidence Core Plugin. Please activate it "
+"from the plugins menu!"
+msgstr "このページはWpResidence Core Pluginがないと動作しません。プラグインメニューから有効化してください！"
+
+#. Template Name of the theme
+msgid "Properties list"
+msgstr "プロパティリスト"
+
+#: page-templates/property_list.php:14 page-templates/property_list_half.php:14
+msgid ""
+"This page requires the WpResidence Core Plugin. Please activate it from the "
+"plugins menu!"
+msgstr "このページはWpResidence Core Pluginが必要です。プラグインメニューから有効化してください！"
+
+#. Template Name of the theme
+msgid "Properties List Directory"
+msgstr "物件一覧ディレクトリ"
+
+#. Template Name of the theme
+msgid "Properties list half"
+msgstr "プロパティリスト（半分）"
+
+#. Template Name of the theme
+msgid "Splash Page"
+msgstr "スプラッシュページ"
+
+#. Template Name of the theme
+msgid "Terms and Conditions"
+msgstr "利用規約"
+
+#. Template Name of the theme
+msgid "User Dashboard"
+msgstr "ユーザーダッシュボード"
+
+#. Template Name of the theme
+msgid "User Dashboard Submit"
+msgstr "ユーザーダッシュボードの送信"
+
+#: page-templates/user_dashboard_add.php:125
+#: page-templates/user_dashboard_add.php:276
+#: templates/front_end_submission.php:90 templates/front_end_submission.php:93
+#: templates/front_end_submission.php:130
+#: templates/front_end_submission.php:133
+msgid "Save as Draft"
+msgstr "下書きとして保存"
+
+#. Template Name of the theme
+msgid "User Dashboard Add Agent"
+msgstr "ユーザーダッシュボード エージェントの追加"
+
+#. Template Name of the theme
+msgid "User Dashboard Agent List"
+msgstr "ユーザーダッシュボード エージェントリスト"
+
+#. Template Name of the theme
+msgid "User Dashboard Stats"
+msgstr "ユーザーダッシュボードの統計"
+
+#: page-templates/user_dashboard_analytics.php:64
+msgid "Analytics"
+msgstr "アナリティクス"
+
+#: page-templates/user_dashboard_analytics.php:81
+msgid "Back to properties list"
+msgstr "物件一覧に戻る"
+
+#: page-templates/user_dashboard_analytics.php:89
+msgid "Total number of views:"
+msgstr "総ビュー数："
+
+#. Template Name of the theme
+msgid "User Dashboard Favorite"
+msgstr "ユーザーダッシュボードのお気に入り"
+
+#: page-templates/user_dashboard_favorite.php:89
+msgid "You don't have any favorite properties yet!"
+msgstr "あなたはまだお気に入りのプロパティを持っていません！"
+
+#. Template Name of the theme
+msgid "User Dashboard Inbox"
+msgstr "ユーザーダッシュボードの受信箱"
+
+#: page-templates/user_dashboard_inbox.php:59
+msgid "You have"
+msgstr "あなたが持っている"
+
+#: page-templates/user_dashboard_inbox.php:61
+msgid "unread messages"
+msgstr "未読メッセージ"
+
+#. Template Name of the theme
+msgid "User Dashboard Invoices"
+msgstr "ユーザーダッシュボード 請求書"
+
+#. Template Name of the theme
+msgid "User Dashboard Main"
+msgstr "ユーザーダッシュボード メイン"
+
+#. Template Name of the theme
+msgid "User Dashboard Profile Page"
+msgstr "ユーザー ダッシュボード プロファイル ページ"
+
+#. Template Name of the theme
+msgid "User Dashboard Saved Searches"
+msgstr "ユーザー・ダッシュボード 保存された検索"
+
+#: page-templates/user_dashboard_searches.php:77
+msgid "You don't have any saved searches yet!"
+msgstr "保存済み検索はまだありません。"
+
+#. Template Name of the theme
+msgid "Paypal Processor"
+msgstr "PayPalプロセッサ"
+
+#: search.php:30
+msgid "Search Results for : "
+msgstr "の検索結果 ："
+
+#: search.php:46
+msgid "No results found"
+msgstr "一致するものが見つかりませんでした"
+
+#: searchform.php:14
+msgid "Search for:"
+msgstr "検索:"
+
+#: single-estate_agency.php:59
+msgid "About Us"
+msgstr "私たちに関しては"
+
+#: single-estate_agency.php:119
+msgid "No agency found."
+msgstr "代理店は見つからなかった。"
+
+#: single-estate_agent.php:63
+msgid "Error: Agent template file not found."
+msgstr "エラーが発生しました：エージェントテンプレートファイルが見つかりません。"
+
+#: single-estate_developer.php:82
+msgid "No developer found."
+msgstr "開発者が見つからない。"
+
+#: single.php:73
+msgid "Pages:"
+msgstr "ページ："
+
+#: single.php:76
+msgid "Next page"
+msgstr "次のページ"
+
+#: single.php:77
+msgid "Previous page"
+msgstr "前のページ"
+
+#. Template Name of the theme
+msgid "Stripe Charge Page"
+msgstr "ストライプチャージページ"
+
+#: templates/advanced_property_list_filters.php:20
+#: templates/advanced_search/property_list_filter_half.php:9
+#: templates/directory_page_templates/normal_directory.php:17
+#: templates/properties_list_templates/filters_templates/property_list_filters_normal_map_core.php:20
+#: templates/properties_list_templates/filters_templates/property_list_filters_search.php:23
+#: templates/properties_list_templates/filters_templates/property_list_filters_taxonomy_normal_map_core.php:36
+#: templates/properties_list_templates/property_list_filters.php:33
+msgid "Sort by"
+msgstr "並び替え"
+
+#: templates/advanced_search/advanced_search_type1.php:36
+#: templates/advanced_search/advanced_search_type3.php:35
+#: templates/advanced_search/advanced_search_type5.php:31
+#: templates/advanced_search/adv_search_mobile.php:36
+msgid "Advanced Search"
+msgstr "高度な検索"
+
+#: templates/advanced_search/advanced_search_type1.php:53
+msgid "SEARCH PROPERTIES"
+msgstr "検索プロパティ"
+
+#: templates/advanced_search/advanced_search_type4.php:24
+msgid "Advanced Search "
+msgstr "高度な検索"
+
+#: templates/advanced_search/advanced_search_type8.php:127
+#: templates/advanced_search/advanced_search_type9.php:98
+#: templates/advanced_search/adv_search_mobile.php:132
+msgid "Search State, City or Area"
+msgstr "州、市または区域の検索"
+
+#: templates/advanced_search/advanced_search_type_half.php:86
+msgid "Radius:"
+msgstr "半径："
+
+#: templates/advanced_search/advanced_search_type_half.php:419
+#: templates/preview_template.php:8
+msgid "We found "
+msgstr "私たちが見つかりました"
+
+#: templates/advanced_search/advanced_search_type_half.php:419
+#: templates/preview_template.php:8
+msgid "results."
+msgstr "結果。"
+
+#: templates/advanced_search/property_list_filter_half.php:46
+msgid "List View"
+msgstr "リスト表示"
+
+#: templates/advanced_search/property_list_filter_half.php:47
+#: templates/properties_list_templates/property_list_page_half_map_core.php:121
+#: templates/properties_list_templates/search_half_map_core.php:147
+#: templates/properties_list_templates/taxonomy_page_half_map_core.php:136
+msgid "Map View"
+msgstr "地図を表示"
+
+#: templates/agency_templates/agency_developer_agents.php:35
+msgid "Our Agents"
+msgstr "代理店"
+
+#: templates/agency_templates/agency_developer_reviews.php:49
+#, php-format
+msgid "%s Reviews"
+msgstr "%s件のレビュー"
+
+#: templates/agency_templates/agency_developer_reviews.php:63
+#, php-format
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] "%d件のレビュー"
+
+#: templates/agency_templates/header_agency.php:66
+msgid "Agency Image"
+msgstr "代理店イメージ"
+
+#: templates/agency_templates/header_agency.php:104
+#: templates/developer_templates/header_developer.php:141
+msgid "Website:"
+msgstr "ウェブサイト："
+
+#: templates/agency_templates/header_agency.php:105
+msgid "We Speak:"
+msgstr "私たちは話す："
+
+#: templates/agency_templates/header_agency.php:106
+msgid "Opening Hours:"
+msgstr "営業時間："
+
+#: templates/agency_templates/header_agency.php:107
+#: templates/developer_templates/header_developer.php:143
+msgid "License:"
+msgstr "ライセンス："
+
+#: templates/agency_templates/header_agency.php:108
+#: templates/developer_templates/header_developer.php:144
+msgid "Our Taxes:"
+msgstr "私たちの税金："
+
+#: templates/agency__developers_cards_templates/agency_developer_unit.php:127
+#: templates/agent_card_templates/agent_unit.php:37
+#: templates/agent_card_templates/agent_unit_v4.php:29
+#: templates/agent_unit_widget.php:109
+msgid "listings"
+msgstr "リスト"
+
+#: templates/agency__developers_cards_templates/agency_developer_unit.php:127
+#: templates/agent_card_templates/agent_unit.php:37
+#: templates/agent_card_templates/agent_unit_v4.php:29
+#: templates/agent_unit_widget.php:111
+msgid "listing"
+msgstr "リスト"
+
+#: templates/ajax_container.php:2
+msgid "Your search results"
+msgstr "あなたの検索結果"
+
+#: templates/blog_card_templates/blog_unit.php:49
+#: templates/blog_card_templates/blog_unit2.php:54
+#: templates/blog_card_templates/blog_unit4.php:52
+msgid "default image"
+msgstr "デフォルト画像"
+
+#: templates/blog_card_templates/blog_unit.php:83
+msgid "Continue Reading"
+msgstr "続きを読む"
+
+#: templates/blog_card_templates/blog_unit2.php:92
+#: templates/blog_card_templates/blog_unit3.php:56
+msgid "Continue reading"
+msgstr "続きを読む"
+
+#: templates/blog_card_templates/blog_unit4.php:88
+msgid "published on"
+msgstr "公開日"
+
+#: templates/blog_post/blog_post_social_share.php:36
+msgid "Share on Facebook"
+msgstr "Facebookでシェア"
+
+#: templates/blog_post/blog_post_social_share.php:45
+msgid "Share on Twitter"
+msgstr "Twitterでシェア"
+
+#: templates/blog_post/blog_post_social_share.php:55
+msgid "Share on Pinterest"
+msgstr "Pinterestでシェア"
+
+#: templates/blog_post/blog_post_social_share.php:64
+msgid "Share on WhatsApp"
+msgstr "WhatsAppでシェアする。"
+
+#: templates/blog_post/blog_post_social_share.php:71
+msgid "Share by Email"
+msgstr "メールで共有"
+
+#: templates/blog_post/post_meta.php:26
+msgid "Posted by"
+msgstr "投稿者"
+
+#: templates/blog_post/post_meta.php:41
+msgid "0 Comments"
+msgstr "コメント 0件"
+
+#: templates/blog_post/post_meta.php:42
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: templates/blog_post/post_meta.php:43
+msgid "% Comments"
+msgstr "% 件のコメント"
+
+#: templates/blog_post/related_posts.php:86
+msgid "Similar Posts"
+msgstr "類似の記事"
+
+#: templates/breadcrumbs.php:70
+msgid "Breadcrumb"
+msgstr "パンくずリスト"
+
+#: templates/breadcrumbs.php:80
+#: templates/listing_templates/property-page-templates/property-page-breadcrumbs.php:57
+msgid "Back to Search"
+msgstr "検索に戻る"
+
+#: templates/breadcrumbs.php:88
+#: templates/listing_templates/property-page-templates/property-page-breadcrumbs.php:81
+msgid "Home"
+msgstr "ホーム"
+
+#: templates/breadcrumbs.php:101
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: templates/compare_list.php:16
+msgid "Compare"
+msgstr "比較"
+
+#: templates/dashboard-templates/add_new_agent_template.php:35
+msgid "Agent Password"
+msgstr "エージェントのパスワード"
+
+#: templates/dashboard-templates/add_new_agent_template.php:40
+msgid "Re-type Password"
+msgstr "パスワードを再入力してください"
+
+#: templates/dashboard-templates/add_new_agent_template.php:45
+#: templates/dashboard-templates/user_profile.php:32
+#: templates/dashboard-templates/user_profile_agent.php:26
+msgid "First Name"
+msgstr "ファーストネーム"
+
+#: templates/dashboard-templates/add_new_agent_template.php:50
+#: templates/dashboard-templates/user_profile.php:33
+#: templates/dashboard-templates/user_profile_agent.php:27
+msgid "Last Name"
+msgstr "苗字"
+
+#: templates/dashboard-templates/add_new_agent_template.php:60
+#: templates/dashboard-templates/user_profile.php:36
+#: templates/dashboard-templates/user_profile_agency.php:27
+#: templates/dashboard-templates/user_profile_agent.php:30
+#: templates/dashboard-templates/user_profile_developer.php:27
+msgid "Mobile"
+msgstr "モバイル"
+
+#: templates/dashboard-templates/add_new_agent_template.php:70
+#: templates/dashboard-templates/user_profile.php:37
+#: templates/dashboard-templates/user_profile_agency.php:28
+#: templates/dashboard-templates/user_profile_agent.php:31
+#: templates/dashboard-templates/user_profile_developer.php:28
+msgid "Skype"
+msgstr "Skype"
+
+#: templates/dashboard-templates/add_new_agent_template.php:75
+#: templates/dashboard-templates/user_profile_agent.php:32
+msgid "Member of"
+msgstr "メンバー: "
+
+#: templates/dashboard-templates/add_new_agent_template.php:88
+#: templates/dashboard-templates/user_profile.php:42
+#: templates/dashboard-templates/user_profile_agency.php:47
+#: templates/dashboard-templates/user_profile_agent.php:47
+#: templates/dashboard-templates/user_profile_developer.php:47
+msgid "Facebook Url"
+msgstr "FacebookのURL"
+
+#: templates/dashboard-templates/add_new_agent_template.php:93
+#: templates/dashboard-templates/user_profile.php:45
+#: templates/dashboard-templates/user_profile_agency.php:48
+#: templates/dashboard-templates/user_profile_agent.php:48
+#: templates/dashboard-templates/user_profile_developer.php:48
+msgid "Instagram Url"
+msgstr "Instagram Url"
+
+#: templates/dashboard-templates/add_new_agent_template.php:98
+#: templates/dashboard-templates/user_profile.php:43
+#: templates/dashboard-templates/user_profile_agency.php:49
+#: templates/dashboard-templates/user_profile_agent.php:49
+#: templates/dashboard-templates/user_profile_developer.php:49
+msgid "X - Twitter Url"
+msgstr "X - ツイッターのURL"
+
+#: templates/dashboard-templates/add_new_agent_template.php:103
+#: templates/dashboard-templates/user_profile.php:46
+#: templates/dashboard-templates/user_profile_agency.php:50
+#: templates/dashboard-templates/user_profile_agent.php:50
+#: templates/dashboard-templates/user_profile_developer.php:50
+msgid "Pinterest Url"
+msgstr "Pinterest Url"
+
+#: templates/dashboard-templates/add_new_agent_template.php:108
+#: templates/dashboard-templates/user_profile.php:44
+#: templates/dashboard-templates/user_profile_agency.php:51
+#: templates/dashboard-templates/user_profile_agent.php:51
+#: templates/dashboard-templates/user_profile_developer.php:51
+msgid "Linkedin Url"
+msgstr "Linkedin Url"
+
+#: templates/dashboard-templates/add_new_agent_template.php:113
+#: templates/dashboard-templates/user_profile_agency.php:52
+#: templates/dashboard-templates/user_profile_agent.php:52
+#: templates/dashboard-templates/user_profile_developer.php:52
+msgid "Youtube Url"
+msgstr "YouTube URL"
+
+#: templates/dashboard-templates/add_new_agent_template.php:118
+#: templates/dashboard-templates/user_profile_agency.php:53
+#: templates/dashboard-templates/user_profile_agent.php:53
+#: templates/dashboard-templates/user_profile_developer.php:53
+msgid "TikTok Url"
+msgstr "TikTokのURL"
+
+#: templates/dashboard-templates/add_new_agent_template.php:123
+#: templates/dashboard-templates/user_profile_agency.php:54
+#: templates/dashboard-templates/user_profile_agent.php:54
+#: templates/dashboard-templates/user_profile_developer.php:54
+msgid "Telegram Url"
+msgstr "テレグラム・ウル"
+
+#: templates/dashboard-templates/add_new_agent_template.php:128
+#: templates/dashboard-templates/user_profile_agency.php:55
+#: templates/dashboard-templates/user_profile_agent.php:55
+#: templates/dashboard-templates/user_profile_developer.php:55
+msgid "Vimeo Url"
+msgstr "Vimeo　URL"
+
+#: templates/dashboard-templates/add_new_agent_template.php:133
+#: templates/dashboard-templates/user_profile.php:47
+#: templates/dashboard-templates/user_profile_agency.php:56
+#: templates/dashboard-templates/user_profile_agent.php:56
+#: templates/dashboard-templates/user_profile_developer.php:56
+msgid "Website Url (without http)"
+msgstr "ウェブサイトURL（httpなし）"
+
+#: templates/dashboard-templates/add_new_agent_template.php:162
+#: templates/dashboard-templates/user_profile.php:52
+#: templates/dashboard-templates/user_profile_agent.php:68
+msgid "Title/Position"
+msgstr "タイトル/位置"
+
+#: templates/dashboard-templates/add_new_agent_template.php:168
+#: templates/dashboard-templates/user_profile_agent.php:69
+#: templates/realtor_templates/agent_about_me.php:17
+#: templates/realtor_templates/agent_details_2.php:75
+msgid "About Me"
+msgstr "私について"
+
+#: templates/dashboard-templates/add_new_agent_template.php:175
+#: templates/dashboard-templates/user_profile_agency.php:76
+#: templates/dashboard-templates/user_profile_agent.php:70
+#: templates/dashboard-templates/user_profile_developer.php:76
+msgid "Private Notes"
+msgstr "プライベートノート"
+
+#: templates/dashboard-templates/add_new_agent_template.php:269
+#: templates/dashboard-templates/add_new_agent_template.php:421
+#: templates/dashboard-templates/user_profile_agent.php:224
+msgid "Agent Details"
+msgstr "エージェントの詳細"
+
+#: templates/dashboard-templates/add_new_agent_template.php:273
+msgid "Agent Username"
+msgstr "エージェントユーザー名"
+
+#: templates/dashboard-templates/add_new_agent_template.php:278
+#, php-format
+msgid "Username: %s is not editable"
+msgstr "ユーザー名: %s は編集できません。"
+
+#: templates/dashboard-templates/add_new_agent_template.php:289
+msgid "Agent Social Details"
+msgstr "エージェントの社会的詳細"
+
+#: templates/dashboard-templates/add_new_agent_template.php:297
+#: templates/dashboard-templates/user_profile_agent.php:116
+msgid "Agent Area/Categories"
+msgstr "エージェントエリア/カテゴリ"
+
+#: templates/dashboard-templates/add_new_agent_template.php:356
+#: templates/dashboard-templates/user_profile_agent.php:189
+msgid "Agent Custom Data"
+msgstr "エージェントのカスタムデータ"
+
+#: templates/dashboard-templates/add_new_agent_template.php:407
+#: templates/dashboard-templates/user_profile_agent.php:214
+msgid "Add Custom Field"
+msgstr "カスタムフィールドの追加"
+
+#: templates/dashboard-templates/add_new_agent_template.php:414
+#: templates/dashboard-templates/user_profile_agent.php:219
+msgid "Agent Location"
+msgstr "エージェントの位置"
+
+#: templates/dashboard-templates/add_new_agent_template.php:435
+#: templates/dashboard-templates/add_new_agent_template.php:493
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-agent-unit-actions.php:59
+msgid "Edit Agent"
+msgstr "エージェントの編集"
+
+#: templates/dashboard-templates/add_new_agent_template.php:456
+#: templates/dashboard-templates/user_profile.php:95
+#: templates/dashboard-templates/user_profile_agency.php:176
+#: templates/dashboard-templates/user_profile_agent.php:251
+#: templates/dashboard-templates/user_profile_developer.php:169
+msgid "Photo"
+msgstr "写真"
+
+#: templates/dashboard-templates/add_new_agent_template.php:468
+msgid "Upload profile image."
+msgstr "プロフィール画像をアップロードする。"
+
+#: templates/dashboard-templates/add_new_agent_template.php:476
+#: templates/dashboard-templates/user_profile.php:110
+#: templates/dashboard-templates/user_profile_agency.php:188
+#: templates/dashboard-templates/user_profile_agent.php:264
+#: templates/dashboard-templates/user_profile_developer.php:181
+msgid "*minimum 500px x 500px"
+msgstr "*最小500px x 500px"
+
+#: templates/dashboard-templates/change_pass_template.php:14
+msgid "Change Password"
+msgstr "パスワードを変更する"
+
+#: templates/dashboard-templates/change_pass_template.php:18
+msgid "Old Password"
+msgstr "以前のパスワード"
+
+#: templates/dashboard-templates/change_pass_template.php:23
+msgid "New Password "
+msgstr "新しいパスワード"
+
+#: templates/dashboard-templates/change_pass_template.php:27
+msgid "Confirm New Password"
+msgstr "新しいパスワードを確認"
+
+#: templates/dashboard-templates/change_pass_template.php:33
+#: templates/login_register_forms/forgot-modal.php:2
+#: templates/login_register_forms/forgot-modal.php:15
+msgid "Reset Password"
+msgstr "パスワードを再設定する"
+
+#. translators: %s: user login name
+#: templates/dashboard-templates/dashboard-left-col.php:43
+#, php-format
+msgid "Welcome back, %s!"
+msgstr "%sさん　おかえりなさい！"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:16
+msgid "Order By"
+msgstr "並び順"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:20
+msgid "Default Order"
+msgstr "規定の並び順"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:21
+msgid "Price - High to Low"
+msgstr "価格 - 高い順"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:22
+msgid "Price - Low to High"
+msgstr "価格 - 安い順"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:23
+msgid "Bathrooms - High to Low"
+msgstr "バスルーム - 高から低へ"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:24
+msgid "Bathrooms - Low to High"
+msgstr "バスルーム - 低～高"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:25
+msgid "Date - Old to New"
+msgstr "日付 - 古い順"
+
+#: templates/dashboard-templates/dashboard-list-filter-actions.php:26
+msgid "Date - New to Old"
+msgstr "日付 - 新しい順"
+
+#: templates/dashboard-templates/dashboard-list-filter-categories.php:31
+msgid "Filter By Status"
+msgstr "ステータスで絞り込む"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-agent-unit-actions.php:70
+msgid "Are you sure you wish to delete"
+msgstr "本当に削除しますか？"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-agent-unit-actions.php:74
+msgid "Delete Agent"
+msgstr "エージェントの削除"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:62
+msgid "Edit property"
+msgstr "プロパティの編集"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:69
+#, php-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "本当に%sを削除しますか？"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:71
+msgid "Delete property"
+msgstr "プロパティの削除"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:80
+msgid "Duplicate Property"
+msgstr "重複したプロパティ"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:86
+msgid "Not enough listings to duplicate"
+msgstr "重複するリストが少ない"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:94
+msgid "Views Stats"
+msgstr "ビューの統計"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:102
+msgid "Resend for approval"
+msgstr "承認のために再送信"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:111
+msgid "Paid & Featured"
+msgstr "有料・特集"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:152
+msgid ""
+"Set as featured, *Listings set as featured are subtracted from your package"
+msgstr "特集として設定, *特集として設定されたリストはパッケージから差し引かれます。"
+
+#: templates/dashboard-templates/dashboard-unit-templates/dashboard-unit-actions.php:153
+msgid "Set as featured"
+msgstr "特集として設定"
+
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:29
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:46
+msgid "Unlimited"
+msgstr "無制限"
+
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:46
+msgid "listings "
+msgstr "リスト"
+
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:52
+#: templates/dashboard-templates/dashboard_listing_unit.php:70
+#: templates/featured_property_card_templates/featured_property_1.php:60
+#: templates/featured_property_card_templates/featured_property_2.php:51
+#: templates/featured_property_card_templates/featured_property_3.php:107
+#: templates/property_cards_templates/property_card_details_templates/property_card_featured_label.php:13
+#: templates/property_cards_templates/property_card_details_templates/property_card_tags.php:27
+#: templates/property_shortcode_slider_templates/property_slider_shortcode_v3.php:65
+#: templates/property_shortcode_slider_templates/property_slider_shortcode_v3_test.php:47
+msgid "Featured"
+msgstr "注目"
+
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:53
+msgid "Images / per listing"
+msgstr "画像/リストごと"
+
+#: templates/dashboard-templates/dashboard-unit-templates/pack-unit.php:56
+msgid "Select package"
+msgstr "パッケージを選択"
+
+#: templates/dashboard-templates/dashboard-unit-templates/per_listing_pay.php:40
+msgid "Submission Fee"
+msgstr "提出料"
+
+#: templates/dashboard-templates/dashboard-unit-templates/per_listing_pay.php:64
+#: templates/dashboard-templates/user_memebership_profile.php:177
+msgid "Wire Transfer"
+msgstr "電信送金"
+
+#: templates/dashboard-templates/dashboard-unit-templates/per_listing_pay.php:73
+msgid "Featured  Fee"
+msgstr "特典料金"
+
+#: templates/dashboard-templates/dashboard-unit-templates/per_listing_pay.php:89
+msgid "Upgrade to featured"
+msgstr "フィーチャーにアップグレードする"
+
+#: templates/dashboard-templates/dashboard_agent_unit.php:79
+msgid "user id:"
+msgstr "ユーザーID："
+
+#: templates/dashboard-templates/dashboard_listing_unit.php:96
+msgid "Expires on "
+msgstr "有効期限"
+
+#: templates/dashboard-templates/dashboard_listing_unit.php:144
+msgid "Remove From Favorites"
+msgstr "お気に入りから削除"
+
+#: templates/dashboard-templates/invoice_listing_unit.php:37
+msgid "Publish Listing with Feature"
+msgstr "フィーチャを使用したリスティングの公開"
+
+#: templates/dashboard-templates/invoice_listing_unit.php:43
+msgid "One Time"
+msgstr "一度"
+
+#: templates/dashboard-templates/invoice_listing_unit.php:44
+msgid "Recurring"
+msgstr "繰り返し"
+
+#: templates/dashboard-templates/invoice_listing_unit.php:103
+#: templates/listing_templates/property-page-templates/property_header_social_fav_and_print.php:46
+msgid "Print"
+msgstr "印刷"
+
+#: templates/dashboard-templates/message-listing-unit.php:34
+msgid "new message"
+msgstr "新しいメッセージ"
+
+#: templates/dashboard-templates/message-listing-unit.php:41
+msgid "Conversation started by you "
+msgstr "あなたによって開始された会話"
+
+#: templates/dashboard-templates/message-listing-unit.php:46
+msgid "From"
+msgstr "から"
+
+#: templates/dashboard-templates/message-listing-unit.php:66
+msgid "reply to message"
+msgstr "メッセージに返信する"
+
+#: templates/dashboard-templates/message-listing-unit.php:71
+msgid "delete message"
+msgstr "メッセージを削除する"
+
+#: templates/dashboard-templates/message-listing-unit.php:118
+msgid "From: "
+msgstr "から："
+
+#: templates/dashboard-templates/search_unit.php:38
+#: templates/properties_list_templates/saved_search_template.php:22
+msgid "Search Parameters: "
+msgstr "検索パラメータ："
+
+#: templates/dashboard-templates/search_unit.php:56
+msgid "delete search"
+msgstr "検索を削除する"
+
+#: templates/dashboard-templates/user_memebership_profile.php:60
+msgid "cancel stripe subscription"
+msgstr "ストライプ加入をキャンセルする"
+
+#: templates/dashboard-templates/user_memebership_profile.php:71
+msgid "See Available Packages and Payment Methods"
+msgstr "「利用可能なパッケージと支払い方法」を参照してください。"
+
+#: templates/dashboard-templates/user_memebership_profile.php:80
+msgid "Packages Available"
+msgstr "利用可能なパッケージ"
+
+#: templates/dashboard-templates/user_memebership_profile.php:150
+msgid "Payment Method"
+msgstr "支払方法"
+
+#: templates/dashboard-templates/user_memebership_profile.php:162
+msgid "make payment recurring "
+msgstr "支払いを定期的に行う"
+
+#: templates/dashboard-templates/user_menu.php:28
+msgid "Your account is pending approval. Please wait for admin to approve it."
+msgstr "あなたのアカウントは承認待ちです。管理者が承認するまでお待ちください。"
+
+#: templates/dashboard-templates/user_menu.php:32
+#: templates/dashboard-templates/user_profile_agency.php:99
+#: templates/dashboard-templates/user_profile_agent.php:92
+#: templates/dashboard-templates/user_profile_developer.php:98
+msgid "Your account is disabled."
+msgstr "あなたのアカウントは無効になりました。"
+
+#: templates/dashboard-templates/user_profile.php:68
+msgid "Social Media"
+msgstr "ソーシャルメディア"
+
+#: templates/dashboard-templates/user_profile.php:73
+msgid "User Details"
+msgstr "ユーザーの詳細"
+
+#: templates/dashboard-templates/user_profile.php:78
+#: templates/dashboard-templates/user_profile.php:120
+#: templates/dashboard-templates/user_profile_agency.php:156
+#: templates/dashboard-templates/user_profile_agency.php:196
+#: templates/dashboard-templates/user_profile_agent.php:230
+#: templates/dashboard-templates/user_profile_agent.php:273
+#: templates/dashboard-templates/user_profile_developer.php:152
+#: templates/dashboard-templates/user_profile_developer.php:189
+msgid "Update profile"
+msgstr "プロフィールを更新"
+
+#: templates/dashboard-templates/user_profile.php:79
+#: templates/dashboard-templates/user_profile.php:121
+#: templates/dashboard-templates/user_profile_agency.php:165
+#: templates/dashboard-templates/user_profile_agency.php:205
+#: templates/dashboard-templates/user_profile_agent.php:241
+#: templates/dashboard-templates/user_profile_agent.php:284
+#: templates/dashboard-templates/user_profile_developer.php:161
+#: templates/dashboard-templates/user_profile_developer.php:198
+msgid "Delete profile"
+msgstr "プロファイルを削除"
+
+#: templates/dashboard-templates/user_profile.php:102
+#: templates/dashboard-templates/user_profile_agency.php:181
+#: templates/dashboard-templates/user_profile_agent.php:257
+#: templates/dashboard-templates/user_profile_developer.php:174
+msgid "Upload profile image"
+msgstr "プロフィール画像のアップロード"
+
+#: templates/dashboard-templates/user_profile_agency.php:24
+msgid "Agency Name"
+msgstr "代理店の名前"
+
+#: templates/dashboard-templates/user_profile_agency.php:30
+#: templates/dashboard-templates/user_profile_developer.php:30
+msgid "Taxes"
+msgstr "税金"
+
+#: templates/dashboard-templates/user_profile_agency.php:31
+#: templates/dashboard-templates/user_profile_developer.php:31
+msgid "License"
+msgstr "ライセンス"
+
+#: templates/dashboard-templates/user_profile_agency.php:33
+#: templates/dashboard-templates/user_profile_developer.php:33
+#: templates/google-map-contact-details.php:51
+msgid "Opening Hours"
+msgstr "営業時間"
+
+#: templates/dashboard-templates/user_profile_agency.php:39
+#: templates/dashboard-templates/user_profile_agent.php:39
+#: templates/dashboard-templates/user_profile_developer.php:39
+msgid "HubSpot Private Application Token"
+msgstr "HubSpotプライベート・アプリケーション・トークン"
+
+#: templates/dashboard-templates/user_profile_agency.php:75
+#: templates/dashboard-templates/user_profile_agency.php:142
+msgid "About Agency"
+msgstr "代理店について"
+
+#: templates/dashboard-templates/user_profile_agency.php:96
+#: templates/dashboard-templates/user_profile_agent.php:89
+#: templates/dashboard-templates/user_profile_developer.php:95
+msgid "Your account is pending approval. Please wait for admin to approve it. "
+msgstr "あなたのアカウントは承認待ちです。管理者が承認するまでお待ちください。"
+
+#: templates/dashboard-templates/user_profile_agency.php:119
+#: templates/dashboard-templates/user_profile_agent.php:111
+#: templates/dashboard-templates/user_profile_developer.php:117
+msgid "Social Information"
+msgstr "ソーシャル情報"
+
+#: templates/dashboard-templates/user_profile_agency.php:134
+#: templates/dashboard-templates/user_profile_developer.php:132
+msgid "Place Pin with Agency Address"
+msgstr "代理店住所と住所ピン"
+
+#: templates/dashboard-templates/user_profile_agency.php:148
+#: templates/dashboard-templates/user_profile_agent.php:183
+#: templates/dashboard-templates/user_profile_developer.php:146
+msgid "Custom Fields"
+msgstr "カスタムフィールド"
+
+#: templates/dashboard-templates/user_profile_agency.php:162
+#: templates/dashboard-templates/user_profile_agency.php:202
+#: templates/dashboard-templates/user_profile_agent.php:237
+#: templates/dashboard-templates/user_profile_agent.php:280
+#: templates/dashboard-templates/user_profile_developer.php:158
+#: templates/dashboard-templates/user_profile_developer.php:195
+msgid "View public profile"
+msgstr "公開プロフィールを表示"
+
+#: templates/dashboard-templates/user_profile_developer.php:24
+msgid "Developer Name"
+msgstr "開発者名"
+
+#: templates/dashboard-templates/user_profile_developer.php:75
+#: templates/dashboard-templates/user_profile_developer.php:140
+msgid "About Developer"
+msgstr "開発者について"
+
+#: templates/developer_templates/header_developer.php:58
+msgid "Developer Image"
+msgstr "開発者イメージ"
+
+#: templates/directory_page_templates/directory_filters.php:90
+msgid "Size:"
+msgstr "サイズ："
+
+#: templates/directory_page_templates/directory_filters.php:105
+msgid "Lot Size:"
+msgstr "ロットサイズ："
+
+#: templates/directory_page_templates/directory_filters.php:120
+msgid "Property Rooms:"
+msgstr "お部屋："
+
+#: templates/directory_page_templates/directory_filters.php:135
+msgid "Property Bedrooms:"
+msgstr "プロパティ寝室："
+
+#: templates/directory_page_templates/directory_filters.php:150
+msgid "Property Bathrooms:"
+msgstr "プロパティバスルーム："
+
+#: templates/directory_page_templates/directory_filters.php:167
+msgid "Property Status:"
+msgstr "プロパティステータス："
+
+#: templates/directory_page_templates/directory_filters.php:175
+msgid "Property Keyword:"
+msgstr "プロパティキーワード："
+
+#: templates/directory_page_templates/directory_filters.php:179
+msgid "keyword"
+msgstr "キーワード"
+
+#: templates/directory_page_templates/normal_directory.php:108
+msgid "Load More Listings"
+msgstr "他のリストを読み込む"
+
+#: templates/email_templates/contact_email_template.php:19
+#: templates/email_templates/contact_email_template_elementor.php:18
+#: templates/email_templates/schedule_tour_email_template.php:17
+msgid "Hello there,"
+msgstr "こんにちは,"
+
+#: templates/email_templates/contact_email_template.php:21
+#: templates/email_templates/contact_email_template_elementor.php:20
+msgid "New Message"
+msgstr "新しいメッセージ"
+
+#: templates/email_templates/contact_email_template.php:25
+#: templates/email_templates/contact_email_template_elementor.php:24
+msgid "You have received a new contact message from "
+msgstr "からの新しいコンタクトメッセージを受信しました。"
+
+#: templates/email_templates/contact_email_template.php:31
+#: templates/email_templates/contact_email_template_elementor.php:30
+#: templates/email_templates/schedule_tour_email_template.php:28
+msgid "These are the details:"
+msgstr "これが詳細だ："
+
+#: templates/email_templates/contact_email_template.php:47
+#: templates/email_templates/contact_email_template_elementor.php:43
+#: templates/email_templates/schedule_tour_email_template.php:48
+msgid "Sent From"
+msgstr "送信元"
+
+#: templates/email_templates/schedule_tour_email_template.php:22
+msgid "You have received a request for a property tour on "
+msgstr "に物件見学のお申し込みをいただきました。"
+
+#: templates/email_templates/schedule_tour_email_template.php:38
+msgid "Hour"
+msgstr "時"
+
+#: templates/email_templates/schedule_tour_email_template.php:40
+msgid "Mode"
+msgstr "モード"
+
+#: templates/featured_property_card_templates/featured_property_1.php:77
+#: templates/featured_property_card_templates/featured_property_1.php:79
+msgid "Agent Image"
+msgstr "代理店イメージ"
+
+#: templates/featured_property_card_templates/featured_property_4b.php:32
+msgid "Featured Property"
+msgstr "注目のプロパティ"
+
+#: templates/featured_property_card_templates/featured_property_4b.php:38
+#: templates/featured_property_card_templates/featured_property_5.php:66
+msgid "discover more"
+msgstr "もっと発見する"
+
+#: templates/footers/footer_buttons.php:22
+msgid "Use the form below to contact us!"
+msgstr "お問い合わせには、以下のフォームを使用してください！"
+
+#: templates/footers/footer_buttons.php:31
+msgid "Type your message..."
+msgstr "メッセージを入力してください..."
+
+#: templates/front_end_submission.php:92 templates/front_end_submission.php:132
+msgid "Add Property"
+msgstr "プロパティを追加"
+
+#: templates/google-map-contact-details.php:33
+msgid "How To Find Us"
+msgstr "お問い合わせ先"
+
+#: templates/google_maps_base.php:67
+msgid "click to enable zoom"
+msgstr "クリックしてズームを有効にする"
+
+#: templates/google_maps_base.php:69 templates/google_maps_base_map_list.php:19
+msgid "loading..."
+msgstr "しばらくお待ちください......"
+
+#: templates/google_maps_base.php:75
+msgid "We didn't find any results"
+msgstr "結果は見つかりませんでした"
+
+#: templates/google_maps_base.php:93 templates/google_maps_base_map_list.php:5
+msgid "View"
+msgstr "ビュー"
+
+#: templates/google_maps_base.php:95 templates/google_maps_base_map_list.php:8
+msgid "Roadmap"
+msgstr "ロードマップ"
+
+#: templates/google_maps_base.php:96 templates/google_maps_base_map_list.php:9
+msgid "Satellite"
+msgstr "衛星"
+
+#: templates/google_maps_base.php:97 templates/google_maps_base_map_list.php:10
+msgid "Hybrid"
+msgstr "ハイブリッド"
+
+#: templates/google_maps_base.php:98 templates/google_maps_base_map_list.php:11
+msgid "Terrain"
+msgstr "地形"
+
+#: templates/google_maps_base.php:100
+#: templates/google_maps_base_map_list.php:14
+msgid "My Location"
+msgstr "私の場所"
+
+#: templates/google_maps_base.php:104
+msgid "Prev"
+msgstr "前の"
+
+#: templates/google_maps_base.php:115
+msgid "Google Maps Search"
+msgstr "Googleマップ検索"
+
+#: templates/headers/mobile_menu_header.php:15
+#: templates/headers/mobile_menu_header.php:18
+msgid "mobile logo"
+msgstr "モバイルロゴ"
+
+#: templates/headers/top_user_menu.php:80 templates/menus/mobile_menu.php:37
+msgid "Add Listing"
+msgstr "リストを追加"
+
+#: templates/listing_templates/contact_form/contact_form_simple.php:20
+#, php-format
+msgid ""
+"Hello,\n"
+"I'm interested in [ %s ]"
+msgstr "こんにちは、[ %s ]に興味があります"
+
+#: templates/listing_templates/contact_form/contact_form_simple.php:26
+#, php-format
+msgid "I would like to schedule a tour for [ %s ]."
+msgstr "[ %s ] の見学ツアーを予約したいです。"
+
+#: templates/listing_templates/contact_form/contact_form_simple.php:56
+msgid "Send Private Message"
+msgstr "プライベートメッセージを送信する"
+
+#: templates/listing_templates/contact_form/contact_form_simple.php:57
+msgid ""
+"You can reply to private messages from \"Inbox\" page in your user account."
+msgstr "自分のユーザーアカウントの「受信トレイ」ページからプライベートメッセージに返信することができます。"
+
+#: templates/listing_templates/property-page-templates/favorite_under_title.php:60
+msgid "Favorite"
+msgstr "お気に入り"
+
+#: templates/listing_templates/property-page-templates/image_gallery.php:88
+msgid "Want to find out more?"
+msgstr "もっと知りたいですか？"
+
+#: templates/listing_templates/property-page-templates/property_header_social_fav_and_print.php:29
+msgid "share this page"
+msgstr "このページを共有する"
+
+#: templates/listing_templates/property-page-templates/property_header_social_fav_and_print.php:30
+msgid "Share"
+msgstr "シェア"
+
+#: templates/listing_templates/property-page-templates/property_header_social_fav_and_print.php:45
+msgid "print page"
+msgstr "印刷ページ"
+
+#: templates/listing_templates/property-page-templates/single-overview-section.php:50
+msgid "Updated On:"
+msgstr "更新日: "
+
+#: templates/listing_templates/schedule_tour/property_page_schedule_tour.php:29
+#: templates/property_list_agent.php:77
+msgid "Schedule a tour"
+msgstr "ツアーを予約する"
+
+#: templates/listing_templates/schedule_tour/property_page_schedule_tour.php:58
+#: templates/listing_templates/schedule_tour/property_page_schedule_tour_layout_v2.php:49
+msgid "Your information"
+msgstr "あなたの情報"
+
+#: templates/listing_templates/schedule_tour/schedule_tour_options.php:28
+msgid "Please select the time"
+msgstr "時間を選択してください"
+
+#: templates/listing_templates/schedule_tour/schedule_tour_options.php:43
+msgid "In Person"
+msgstr "直接"
+
+#: templates/listing_templates/schedule_tour/schedule_tour_options.php:48
+msgid "Video Chat"
+msgstr "ビデオチャット"
+
+#: templates/login_register_forms/forgot-modal.php:5
+msgid "Enter Your Email Address"
+msgstr "メールアドレスを入力してください"
+
+#: templates/login_register_forms/login-modal.php:2
+msgid "Sign into your account"
+msgstr "アカウントにサインインする"
+
+#: templates/login_register_forms/login-modal.php:4
+#: templates/login_register_forms/register-modal.php:18
+msgid "Username"
+msgstr "ユーザー名"
+
+#: templates/login_register_forms/login-modal.php:7
+#: templates/login_register_forms/register-modal.php:26
+msgid "Password"
+msgstr "パスワード"
+
+#: templates/login_register_forms/login-modal.php:13
+#: templates/properties_list_templates/saved_search_template.php:53
+msgid "Login"
+msgstr "ログイン"
+
+#: templates/login_register_forms/login-modal.php:25
+msgid "Need an account? Register here!"
+msgstr "アカウントが必要です？ここに登録！"
+
+#: templates/login_register_forms/login-modal.php:26
+msgid "Forgot Password?"
+msgstr "パスワードをお忘れですか？"
+
+#: templates/login_register_forms/modal-control-modal.php:2
+msgid "Back to login"
+msgstr "ログインに戻る"
+
+#: templates/login_register_forms/modal-control-modal.php:3
+msgid "Register here!"
+msgstr "ここに登録！"
+
+#: templates/login_register_forms/modal-control-modal.php:4
+msgid "Forgot password?"
+msgstr "パスワードをお忘れですか?"
+
+#: templates/login_register_forms/register-modal.php:9
+msgid "Registration is disabled by Administrator"
+msgstr "登録は管理者によって無効化されています"
+
+#: templates/login_register_forms/register-modal.php:15
+msgid "Create an account"
+msgstr "アカウントを作成する"
+
+#: templates/login_register_forms/register-modal.php:30
+msgid "Retype Password"
+msgstr "パスワードを再入力してください"
+
+#: templates/login_register_forms/register-modal.php:61
+msgid "I agree with "
+msgstr "同意する"
+
+#: templates/login_register_forms/register-modal.php:63
+msgid "terms & conditions"
+msgstr "利用規約"
+
+#: templates/login_register_forms/register-modal.php:77
+msgid "A password will be e-mailed to you"
+msgstr "パスワードはメールでお送りします"
+
+#: templates/login_register_forms/register-modal.php:83
+msgid "Register"
+msgstr "登録"
+
+#: templates/places_card_templates/places_unit.php:69
+#: templates/places_card_templates/places_unit_elementor.php:64
+#: templates/places_card_templates/places_unit_type3.php:67
+#: templates/places_card_templates/places_unit_type3_elementor.php:67
+#: templates/places_card_templates/places_unit_type4.php:67
+#, php-format
+msgid "%d listing"
+msgid_plural "%d listings"
+msgstr[0] "%d リスト"
+
+#: templates/places_card_templates/places_unit_type2.php:73
+#: templates/places_card_templates/places_unit_type2_elementor.php:65
+#, php-format
+msgid "%d Listing"
+msgid_plural "%d Listings"
+msgstr[0] "%d リスティング"
+
+#: templates/preview_template.php:9
+msgid "View results"
+msgstr "結果を見る"
+
+#: templates/properties_list_templates/saved_search_template.php:36
+msgid "Save this Search?"
+msgstr "この検索を保存しますか？"
+
+#: templates/properties_list_templates/saved_search_template.php:37
+msgid "Search name"
+msgstr "検索名"
+
+#: templates/properties_list_templates/saved_search_template.php:38
+msgid "Save Search"
+msgstr "保存検索"
+
+#: templates/properties_list_templates/saved_search_template.php:54
+msgid ""
+"to save search and you will receive an email notification when new "
+"properties matching your search will be published."
+msgstr "をクリックして検索を保存すると、あなたの検索条件に合った新しい物件が公開されたときに、メールで通知されます。"
+
+#: templates/properties_list_templates/taxonomy_page_half_map_core.php:103
+#: templates/properties_list_templates/taxonomy_page_normal_map_core.php:52
+msgid "Properties listed in "
+msgstr "リストされたプロパティ"
+
+#: templates/properties_list_templates/taxonomy_page_normal_map_core.php:46
+msgid "Agents in "
+msgstr "エージェント"
+
+#: templates/properties_list_templates/taxonomy_page_normal_map_core.php:48
+msgid "Agencies in "
+msgstr "代理店"
+
+#: templates/properties_list_templates/taxonomy_page_normal_map_core.php:50
+msgid "Developers in "
+msgstr "の開発者"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_category_type1.php:40
+#: templates/property_shortcode_slider_templates/property_slider_shortcode.php:68
+msgid "in"
+msgstr "に"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_contact.php:67
+#: templates/realtor_templates/agent_contact_bar.php:51
+msgid "Call"
+msgstr "電話する"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_contact.php:90
+#: templates/property_cards_templates/property_card_details_templates/property_card_contact.php:106
+msgid "Close"
+msgstr "閉じる"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_contact.php:130
+msgid ""
+"Looks like the property is assigned to an administrator. Please assign it to "
+"an agent or user with complete contact details."
+msgstr "この物件は管理者に割り当てられているようです。完全な連絡先情報を持つエージェントまたはユーザーに割り当ててください。"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type1.php:21
+#, php-format
+msgid "<span class=\"property_details_type1_value\">%d</span> Room"
+msgid_plural "<span class=\"property_details_type1_value\">%d</span> Rooms"
+msgstr[0] "<span class=\"property_details_type1_value\">%d</span>ルーム"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type1.php:37
+#, php-format
+msgid "<span class=\"property_details_type1_value\">%d</span> Bath"
+msgid_plural "<span class=\"property_details_type1_value\">%d</span> Baths"
+msgstr[0] "<span class=\"property_details_type1_value\">%d</span>バス"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type1.php:51
+msgid "ID"
+msgstr "ID"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type3.php:65
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type7.php:54
+msgid "Garage Size"
+msgstr "車庫サイズ"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type8.php:29
+#, php-format
+msgid "<span class=\"property_details_type1_value\">%d</span> Bedroom"
+msgid_plural "<span class=\"property_details_type1_value\">%d</span> Bedrooms"
+msgstr[0] "<span class=\"property_details_type1_value\">%d</span>ベッドルーム"
+
+#: templates/property_cards_templates/property_card_details_templates/property_card_details_type8.php:48
+#, php-format
+msgid "<span class=\"property_details_type1_value\">%d</span> Bathroom"
+msgid_plural "<span class=\"property_details_type1_value\">%d</span> Bathrooms"
+msgstr[0] "<span class=\"property_details_type1_value\">%d</span>バスルーム"
+
+#: templates/property_list_agent.php:72
+msgid "Request Info"
+msgstr "資料請求"
+
+#: templates/realtor_templates/agent_reviews.php:96
+msgid "Agent Reviews"
+msgstr "代理店レビュー"
+
+#: templates/realtor_templates/agent_taxonomies.php:47
+msgid "Specialties & Service Areas"
+msgstr "得意分野・サービス分野"
+
+#: templates/submit_templates/floor_plans.php:62
+#: templates/submit_templates/floor_plans.php:115
+msgid "Upload Image"
+msgstr "画像をアップロード"
+
+#: templates/submit_templates/floor_plans.php:82
+msgid "Select Images"
+msgstr "画像を選択"
+
+#: templates/submit_templates/property_categories.php:48
+msgid "Select Categories"
+msgstr "カテゴリを選択"
+
+#: templates/submit_templates/property_description.php:22
+msgid "Property Description"
+msgstr "プロパティの説明"
+
+#: templates/submit_templates/property_description.php:99
+msgid "Second Price in "
+msgstr "セカンドプライス"
+
+#: templates/submit_templates/property_description.php:102
+msgid "After Second Price Label (ex: \"/month\")"
+msgstr "2つ目以降の価格表示（例：「/月）"
+
+#: templates/submit_templates/property_description.php:105
+msgid "Before Second Price Label (ex: \"from \")"
+msgstr "2つ目の価格表示の前（例：\"～\"から）"
+
+#: templates/submit_templates/property_description.php:111
+msgid "Homeowners Association Fee (monthly)"
+msgstr "自治会費（毎月）"
+
+#: templates/submit_templates/property_details.php:87
+msgid "Listing Details"
+msgstr "リスティングの詳細"
+
+#: templates/submit_templates/property_details.php:93
+msgid "Size in"
+msgstr "サイズ"
+
+#: templates/submit_templates/property_details.php:93
+#: templates/submit_templates/property_details.php:103
+msgid " (*only numbers)"
+msgstr "（*数字のみ）"
+
+#: templates/submit_templates/property_details.php:103
+msgid "Lot Size in"
+msgstr "ロットサイズin"
+
+#: templates/submit_templates/property_details.php:113
+msgid "Rooms (*only numbers)"
+msgstr "客室（*数字のみ）"
+
+#: templates/submit_templates/property_details.php:123
+msgid "Bedrooms (*only numbers)"
+msgstr "ベッドルーム（*数字のみ）"
+
+#: templates/submit_templates/property_details.php:133
+msgid "Bathrooms (*only numbers)"
+msgstr "バスルーム（*番号のみ）"
+
+#: templates/submit_templates/property_details.php:156
+msgid "Owner/Agent notes (*not visible on front end)"
+msgstr "オーナー/エージェントのメモ（*フロントエンドには表示されません）"
+
+#: templates/submit_templates/property_energy_effective.php:47
+msgid "Select Energy Class"
+msgstr "エネルギークラスの選択"
+
+#: templates/submit_templates/property_energy_effective.php:53
+msgid "Select Energy Class (EU regulation)"
+msgstr "エネルギークラスの選択（EU規制）"
+
+#: templates/submit_templates/property_energy_effective.php:73
+msgid "Select greenhouse gas emissions index class"
+msgstr "温室効果ガス排出指数クラスを選択"
+
+#: templates/submit_templates/property_energy_effective.php:83
+msgid "Greenhouse Gas Emissions KgCO2/M2a"
+msgstr "温室効果ガス排出量 KgCO2/M2a"
+
+#: templates/submit_templates/property_featured.php:28
+msgid "Featured Submission"
+msgstr "おすすめの投稿"
+
+#: templates/submit_templates/property_featured.php:31
+msgid "Make this listing featured from property list."
+msgstr "このリストをプロパティリストから選んでください。"
+
+#: templates/submit_templates/property_floor_plans.php:73
+msgid "Use Floor Plans"
+msgstr "フロアプランを使用する"
+
+#: templates/submit_templates/property_floor_plans.php:197
+msgid "Add another plan"
+msgstr "他のプランの追加"
+
+#: templates/submit_templates/property_images.php:57
+msgid "Listing Media"
+msgstr "メディアの一覧表示"
+
+#: templates/submit_templates/property_images.php:109
+msgid "Drag and Drop Images or "
+msgstr "ドラッグ&ドロップ画像または "
+
+#: templates/submit_templates/property_images.php:111
+msgid "Select Media"
+msgstr "メディアの選択"
+
+#: templates/submit_templates/property_images.php:117
+msgid ""
+"* At least 1 image is required for a valid submission. Minimum size is "
+"500/500px."
+msgstr "* 投稿には最低1枚の画像が必要です。最小サイズは500/500pxです。"
+
+#: templates/submit_templates/property_images.php:137
+#, php-format
+msgid "You can upload maximum %s images"
+msgstr "アップロードできる画像は最大%s枚"
+
+#: templates/submit_templates/property_images.php:140
+msgid "** Double click on the image to select featured."
+msgstr "**画像をダブルクリックしてフィーチャーを選択してください。"
+
+#: templates/submit_templates/property_images.php:142
+msgid "*** Change images order with Drag & Drop."
+msgstr "***ドラッグアンドドロップで画像の順序を変更します。"
+
+#: templates/submit_templates/property_images.php:144
+msgid "**** PDF files upload supported as well."
+msgstr "**** PDFファイルのアップロードもサポートされています。"
+
+#: templates/submit_templates/property_images.php:146
+msgid "***** Images might take longer to be processed."
+msgstr "*****画像の処理に時間がかかることがあります。"
+
+#: templates/submit_templates/property_location.php:81
+msgid "Listing Location"
+msgstr "リスティングの場所"
+
+#: templates/submit_templates/property_location.php:85
+msgid "*Address"
+msgstr "*住所"
+
+#: templates/submit_templates/property_location.php:86
+msgid "Enter address"
+msgstr "アドレスを入力"
+
+#: templates/submit_templates/property_location.php:135
+msgid "Enter city"
+msgstr "都市を入力"
+
+#: templates/submit_templates/property_location.php:142
+msgid "Neighborhood"
+msgstr "ご近所"
+
+#: templates/submit_templates/property_location.php:184
+msgid "Place Pin with Property Address"
+msgstr "プロパティ住所付きピン配置"
+
+#: templates/submit_templates/property_location.php:194
+msgid "Latitude (for Maps Coordinates)"
+msgstr "緯度（地図座標用）"
+
+#: templates/submit_templates/property_location.php:201
+msgid "Longitude (for Maps Coordinates)"
+msgstr "経度（地図座標用）"
+
+#: templates/submit_templates/property_location.php:208
+msgid "Google Street View - Camera Angle (value from 0 to 360)"
+msgstr "Googleストリートビュー - カメラの角度（0〜360の値）"
+
+#: templates/submit_templates/property_location.php:218
+msgid "Enable Google Street View"
+msgstr "Googleストリートビューを有効にする"
+
+#: templates/submit_templates/property_slider.php:31
+msgid "Slider Option"
+msgstr "スライダオプション"
+
+#: templates/submit_templates/property_slider.php:33
+msgid "Slider type"
+msgstr "スライダータイプ"
+
+#: templates/submit_templates/property_status.php:56
+msgid "Select Property Status"
+msgstr "プロパティステータスの選択"
+
+#: templates/submit_templates/property_status.php:60
+msgid "No status"
+msgstr "ステータスなし"
+
+#: templates/submit_templates/property_subunits.php:41
+msgid "Subunits"
+msgstr "サブユニット"
+
+#: templates/submit_templates/property_subunits.php:45
+msgid "Enable"
+msgstr "有効"
+
+#: templates/submit_templates/property_subunits.php:48
+msgid "Select Subunits From the list:"
+msgstr "リストからサブユニットを選択する："
+
+#: templates/submit_templates/property_video.php:57
+msgid "Video Option"
+msgstr "ビデオオプション"
+
+#: templates/submit_templates/property_video.php:61
+msgid "Video from"
+msgstr "からのビデオ"
+
+#: templates/submit_templates/property_video.php:70
+msgid "Embed Video ID:"
+msgstr "ビデオIDを埋め込む："
+
+#: templates/submit_templates/user_memebership_form.php:45
+msgid "Membership"
+msgstr "会員"
+
+#: templates/submit_templates/user_memebership_form.php:58
+msgid "Paid submission"
+msgstr "有料提出"
+
+#: templates/submit_templates/user_memebership_form.php:60
+msgid "This is a paid submission."
+msgstr "これは有料の提出です。"
+
+#: templates/submit_templates/user_memebership_form.php:63
+msgid "Price: "
+msgstr "価格："
+
+#: templates/submit_templates/user_memebership_form.php:69
+msgid "Featured (extra): "
+msgstr "おすすめ（追加）："
+
+#: templates/submit_templates/video_tour.php:57
+msgid "Virtual Tour / Meta Reels:"
+msgstr "バーチャルツアー / メタリールズ："

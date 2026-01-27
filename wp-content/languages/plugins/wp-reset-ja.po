@@ -1,0 +1,506 @@
+# Translation of Plugins - WP Reset - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Reset - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-27 01:58:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Reset - Stable (latest release)\n"
+
+#. translators: %s is replaced with the link to the documentation page
+#: wp-reset.php:2105
+msgid "All tools and features are explained in detail in <a href=\"%s\" target=\"_blank\">the documentation</a>. We did our best to describe how things work on both the code level and an \"average user\" level."
+msgstr "すべてのツールと機能は、<a href=\"%s\" target=\"_blank\">ドキュメント</a>で詳細に説明されています。私たちは、コードレベルと「一般的なユーザー」の視点の両方で、機能の動作をできるだけ分かりやすく説明するよう努めました。"
+
+#. translators: %s is replaced with the .htaccess file path
+#: wp-reset.php:2027
+msgid "This action deletes the .htaccess file located in <code>%s</code><br><b>There is NO UNDO. WP Reset does not make any file backups.</b></p>"
+msgstr "この操作は、<code>%s</code> にある .htaccess ファイルを削除します。<br><b>元に戻すことはできません。WP Reset はファイルのバックアップを作成しません。</b></p>"
+
+#. translators: %d is replaced with the number of custom tables
+#: wp-reset.php:1971
+msgid "The following %d custom tables are affected by this tool: "
+msgstr "次の %d 個のカスタムテーブルがこのツールの影響を受けています： "
+
+#. translators: %s is replaced with the table prefix
+#: wp-reset.php:1968
+msgid "This action affects only custom tables with <code>%s</code> prefix. Core WP tables and other tables in the database that do not have that prefix will not be deleted/emptied. Deleting (dropping) tables completely removes them from the database. Emptying (truncating) removes all content from them, but keeps the structure intact.<br>Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before deleting custom tables\">create a snapshot</a> before using this tool if you want to be able to undo its actions.</p>"
+msgstr "この操作は、<code>%s</code> プレフィックスが付いたカスタムテーブルのみに影響します。コアのWPテーブルやデータベース内の他のテーブルで、そのプレフィックスが付いていないものは削除/空にされません。テーブルを削除（ドロップ）すると、データベースから完全に削除されます。テーブルを空にする（トリム）と、すべてのコンテンツが削除されますが、構造は保持されます。<br>このツールを使用する前に、操作を元に戻せるようにしたい場合は、必ず <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before deleting custom tables\"> スナップショットを作成</a> してください。</p>"
+
+#. translators: %1$s is replaced with the uploads folder path, %2$s is replaced
+#. with the URL to WordPress Media upload page
+#: wp-reset.php:1939
+msgid "All files in <code>%1$s</code> folder will be deleted. Including folders and subfolders, and files in subfolders. Files associated with <a href=\"%2$s\">media</a> entries will be deleted too.<br><b>There is NO UNDO. WP Reset does not make any file backups.</b>"
+msgstr "<code>%1$s</code> フォルダー内のすべてのファイルが削除されます。フォルダーとサブフォルダー、およびサブフォルダー内のファイルも含まれます。<a href=\"%2$s\">メディア</a> エントリに関連付けられたファイルも削除されます。<br><b>元に戻すことはできません。WP Reset はファイルのバックアップを作成しません。</b>"
+
+#. translators: %s is replaced with the currently active theme name
+#: wp-reset.php:1902
+msgid "All themes will be deleted. Including the currently active theme - %s.<br><b>There is NO UNDO. WP Reset does not make any file backups.</b>"
+msgstr "すべてのテーマが削除されます。現在アクティブになっているテーマ（%s）も含まれます。<br><b>元に戻すことはできません。WP Reset はファイルのバックアップを作成しません。</b>"
+
+#: wp-reset.php:266
+msgid "Unknown Notice."
+msgstr "不明な通知。"
+
+#. translators: %s is replaced with "reset"
+#: wp-reset.php:1713
+msgid "Type in: %s"
+msgstr "入力してください: %s"
+
+#: wp-reset.php:1544
+msgid "Thank you for purchasing WP Reset PRO!"
+msgstr "WP Reset PRO をご購入いただき、誠にありがとうございます！"
+
+#: wp-reset.php:2172
+msgid "Activate PRO License"
+msgstr "PRO ライセンスを有効化"
+
+#: wp-reset.php:2161
+msgid "WP Reset PRO"
+msgstr "WP Reset PRO"
+
+#: wp-reset.php:2134
+msgid "Premium Email Support"
+msgstr "プレミアムメールサポート"
+
+#: wp-reset.php:1993
+msgid "Switch WP Version"
+msgstr "WordPress バージョンを切り替える"
+
+#: wp-reset.php:1950
+msgid "Clean wp-content Folder"
+msgstr "クリーン wp-content フォルダー"
+
+#: wp-reset.php:1918
+msgid "Delete MU Plugins & Drop-ins"
+msgstr "MU プラグインとドロップインを削除する"
+
+#: wp-reset.php:1886
+msgid "Delete Widgets"
+msgstr "ウィジェットを削除する"
+
+#: wp-reset.php:1853
+msgid "Delete Content"
+msgstr "コンテンツを削除する"
+
+#: wp-reset.php:1843
+msgid "Delete Local Data"
+msgstr "ローカルデータを削除する"
+
+#: wp-reset.php:1834
+msgid "Purge Cache"
+msgstr "キャッシュを削除する"
+
+#: wp-reset.php:1814
+msgid "Reset User Roles"
+msgstr "ユーザーロールのリセット"
+
+#: wp-reset.php:1736
+msgid "Reset WordPress &amp; Delete All Custom Files &amp; Data"
+msgstr "WordPress をリセットし &amp; すべてのカスタムファイル &amp; データを削除します"
+
+#: wp-reset.php:1733
+msgid "Type <b>reset</b> in the confirmation field to confirm the reset and then click the \"Reset WordPress &amp; Delete All Custom Files &amp; Data\" button. <b>There is NO UNDO."
+msgstr "確認フィールドに<b>reset</b>と入力し、リセットを確認した後、「WordPress をリセットし &amp; すべてのカスタムファイル &amp; データを削除」ボタンをクリックしてください。<b>元に戻すことはできません。"
+
+#: wp-reset.php:1722
+msgid "Nuclear Site Reset"
+msgstr "消去サイトのリセット"
+
+#: wp-reset.php:1689
+msgid "Options Reset"
+msgstr "オプションのリセット"
+
+#: wp-reset.php:1669
+msgid "WP Reset plugin will be reactivated if that option is chosen"
+msgstr "そのオプションを選択した場合、WP Reset プラグインが再有効化されます"
+
+#: wp-reset.php:1666
+msgid "see the table above to find out what exactly will be reset or deleted"
+msgstr "上記の表を参照して、具体的に何がリセットまたは削除されるかを確認してください"
+
+#: wp-reset.php:1664
+msgid "remember, always <b>make a backup first</b> or use <a href=\"#\" class=\"change-tab\" data-tab=\"2\">snapshots</a>"
+msgstr "覚えておいてください、必ず<b>最初にバックアップを作成してください</b>、または<a href=\"#\" class=\"change-tab\" data-tab=\"2\">スナップショット</a>を使用してください"
+
+#: wp-reset.php:1662
+msgid "What happens when I run any Reset tool?"
+msgstr "リセットツールを実行するとどうなりますか？"
+
+#: wp-reset.php:1455
+msgid "PRO"
+msgstr "PRO"
+
+#: wp-reset.php:1360
+msgid "Open documentation for this tool"
+msgstr "このツールのドキュメントを開く"
+
+#: wp-reset.php:406
+msgid "is already installed"
+msgstr "既にインストールされています"
+
+#: wp-reset.php:405
+msgid "Could not install"
+msgstr "インストールできませんでした"
+
+#: wp-reset.php:404
+msgid "Could not delete"
+msgstr "削除できませんでした"
+
+#: wp-reset.php:403
+msgid "Could not deactivate"
+msgstr "無効化できませんでした"
+
+#: wp-reset.php:402
+msgid "Could not activate"
+msgstr "アクティベーションに失敗しました"
+
+#: wp-reset.php:401
+msgid "Installing"
+msgstr "インストール中"
+
+#: wp-reset.php:400
+msgid "Deleting"
+msgstr "削除中"
+
+#: wp-reset.php:399
+msgid "Deactivating"
+msgstr "無効化中"
+
+#: wp-reset.php:398
+msgid "Activating"
+msgstr "有効化中"
+
+#: wp-reset.php:395
+msgid "Enter snapshot name or brief description"
+msgstr "スナップショット名または簡単な説明を入力してください"
+
+#: wp-reset.php:394
+msgid "Snapshot name or brief description, ie: before plugin install"
+msgstr "スナップショット名または簡単な説明。例: プラグインインストール前"
+
+#: wp-reset.php:393
+msgid "Create snapshot"
+msgstr "スナップショットを作成"
+
+#: wp-reset.php:392
+msgid "Creating snapshot. Please wait."
+msgstr "スナップショットを作成しています。お待ちください。"
+
+#: wp-reset.php:391
+msgid "Snapshot created"
+msgstr "スナップショットが作成されました"
+
+#: wp-reset.php:1366
+msgid "Create Snapshot"
+msgstr "スナップショットを作成する"
+
+#: wp-reset.php:1806
+msgid "All options (mods) for all themes will be reset; not just for the active theme. The tool works only for themes that use the <a href=\"https://codex.wordpress.org/Theme_Modification_API\" target=\"_blank\">WordPress theme modification API</a>. If options are saved in some other, custom way they won't be reset.<br> Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting theme options\">create a snapshot</a> before using this tool if you want to be able to undo its actions."
+msgstr "すべてのテーマのすべてのオプション（モッド）がリセットされます。アクティブなテーマのみではありません。このツールは、<a href=\"https://codex.wordpress.org/Theme_Modification_API\" target=\"_blank\">WordPress テーマ変更 API</a> を使用するテーマでのみ機能します。オプションが他のカスタム方法（カスタム設定など）で保存されている場合、リセットされません。<br> このツールを使用する前に、操作を元に戻すために必ず <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting theme options\">スナップショットを作成</a> してください。"
+
+#: wp-reset.php:1772
+msgid "Index of Tools"
+msgstr "ツール一覧"
+
+#: wp-reset.php:1714
+msgid "Reset Site"
+msgstr "サイトをリセットする"
+
+#: wp-reset.php:1709
+msgid "Type <b>reset</b> in the confirmation field to confirm the reset and then click the \"Reset WordPress\" button.<br>Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">create a snapshot</a> before resetting if you want to be able to undo."
+msgstr "確認フィールドに<b>reset</b>と入力し、リセットを確認してから「WordPressをリセット」ボタンをクリックしてください。<br>サイトのリセットを元に戻せるようにしたい場合は、リセットを行う前に必ず<a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">スナップショットを作成</a>してください。"
+
+#: wp-reset.php:1703
+msgid "Site Reset"
+msgstr "サイトリセット"
+
+#: wp-reset.php:1665
+msgid "you will have to confirm the action one more time"
+msgstr "この操作をもう一度確認する必要があります"
+
+#: wp-reset.php:1591
+msgid "Please read carefully before proceeding"
+msgstr "次に進む前に、必ずお読みください"
+
+#: wp-reset.php:1452 wp-reset.php:2341
+msgid "Snapshots"
+msgstr "スナップショット"
+
+#: wp-reset.php:388
+msgid "Clicking \"Reset WordPress\" will reset your site to default values. All content will be lost. Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">create a snapshot</a> if you want to be able to undo.</b>"
+msgstr "「WordPress をリセット」をクリックすると、サイトがデフォルトの設定に戻ります。すべてのコンテンツが削除されます。元に戻したい場合は、必ず <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">スナップショットを作成</a> してください。</b>"
+
+#. Description of the plugin
+#: wp-reset.php
+msgid "Reset the entire site or just selected parts while reserving the option to undo by using snapshots."
+msgstr "サイト全体をリセットするか、選択した部分のみをリセットするかを選択し、スナップショットを使用して元に戻すオプションを保持したまま操作できます。"
+
+#: wp-reset.php:396
+msgid "Create a new snapshot"
+msgstr "新しいスナップショットを作成する"
+
+#: wp-reset.php:2048
+msgid "Have a set of plugins (and themes) that you install and activate after every reset? Or on every fresh WordPress installation? Well, no more clicking install &amp; active for ten minutes! Build the collection once and install it with one click as many times as needed.</p><p>WP Reset stores collections in the cloud so they're accessible on every site you build. You can use free plugins and themes from the official repo, and PRO ones by uploading a ZIP file. We'll safely store your license keys too, so you have everything in one place."
+msgstr "リセット後に毎回インストールして有効化するプラグイン（とテーマ）のセットがありますか？または、新しい WordPress インストールごとに？もう10分間「インストール」と「有効化」をクリックする必要はありません！コレクションを一度作成し、必要に応じて1クリックで何度でもインストールできます。</p><p>WP Reset はコレクションをクラウドに保存するため、作成するすべてのサイトでアクセス可能です。公式リポジトリから無料のプラグインとテーマを使用でき、PRO 版は ZIPファイルをアップロードして利用できます。ライセンスキーも安全に保存するため、すべてを一か所で管理できます。"
+
+#: wp-reset.php:1572
+msgid "Please help us spread the word &amp; keep the plugin up-to-date"
+msgstr "ご協力をお願いします。プラグインの情報を広めていただき、最新バージョンへの更新を継続的に行ってください"
+
+#: wp-reset.php:387
+msgid "Are you sure you want to reset the site?"
+msgstr "サイトのリセットを本当に実行しますか？"
+
+#: wp-reset.php:2143
+msgid "No need for donations :) If you can give us a <a href=\"https://wordpress.org/support/plugin/wp-reset/reviews/#new-post\" target=\"_blank\">five star rating</a> you'll help out more than you can imagine. A public mention <a href=\"https://twitter.com/webfactoryltd\" target=\"_blank\">@webfactoryltd</a> also does wonders. Thank you!"
+msgstr "寄付は不要です :) もし可能であれば、<a href=\"https://wordpress.org/support/plugin/wp-reset/reviews/#new-post\" target=\"_blank\">5つ星の評価</a>を付けていただけると、想像以上に役立ちます。公開での言及 <a href=\"https://twitter.com/webfactoryltd\" target=\"_blank\">@webfactoryltd</a> も大変効果的です。ありがとうございます！"
+
+#: wp-reset.php:2102
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: wp-reset.php:1804
+msgid "Reset Theme Options"
+msgstr "テーマオプションをリセットする"
+
+#: wp-reset.php:1453
+msgid "Collections"
+msgstr "コレクション"
+
+#: wp-reset.php:2024
+msgid "Delete .htaccess File"
+msgstr ".htaccess ファイルを削除する"
+
+#: wp-reset.php:271
+msgid "Notice is already dismissed."
+msgstr "通知は既に却下されています。"
+
+#: wp-reset.php:262 wp-reset.php:848
+msgid "You are not allowed to run this action."
+msgstr "この操作を実行することはできません。"
+
+#: wp-reset.php:1981
+msgid "There are no custom tables. There's nothing for this tool to empty or delete."
+msgstr "カスタムテーブルは存在しません。このツールが空にしたり削除したりする対象はありません。"
+
+#: wp-reset.php:1965
+msgid "Empty or Delete Custom Tables"
+msgstr "カスタムテーブルを空にするまたは削除する"
+
+#: wp-reset.php:1911
+msgid "All plugins will be deleted except for WP Reset which will remain active.<br><b>There is NO UNDO. WP Reset does not make any file backups.</b>"
+msgstr "すべてのプラグインが削除されます。ただし、WP Reset のみが有効なまま残ります。<br><b>元に戻す機能はありません。WP Reset はファイルのバックアップを作成しません。</b>"
+
+#: wp-reset.php:1909
+msgid "Delete Plugins"
+msgstr "プラグインの削除"
+
+#: wp-reset.php:1899
+msgid "Delete Themes"
+msgstr "テーマの削除"
+
+#: wp-reset.php:1936
+msgid "Clean uploads Folder"
+msgstr "クリーンアップロードフォルダー"
+
+#: wp-reset.php:1824
+msgid "Delete Transients"
+msgstr "一時ファイルを削除する"
+
+#: wp-reset.php:1204
+msgid "Open WP Reset Tools"
+msgstr "WP Reset ツールを開く"
+
+#: wp-reset.php:2141
+msgid "Care to Help Out?"
+msgstr "お手伝いしませんか？"
+
+#: wp-reset.php:1560
+msgid "WP Reset is not compatible with multisite!"
+msgstr "WP Resetはマルチサイトに対応していません！"
+
+#: wp-reset.php:1228 wp-reset.php:1574
+msgid "Rate the plugin ★★★★★"
+msgstr "プラグインの評価 ★★★★★"
+
+#: wp-reset.php:1228
+msgid "Rate the plugin"
+msgstr "プラグインの評価"
+
+#: wp-reset.php:376
+msgid "An error has occurred."
+msgstr "エラーが発生しました。"
+
+#: wp-reset.php:2129
+msgid "We are very active on the <a href=\"https://wordpress.org/support/plugin/wp-reset\" target=\"_blank\">official WP Reset support forum</a>. If you found a bug, have a feature idea or just want to say hi - please drop by. We love to hear back from our users."
+msgstr "私たちは、<a href=\"https://wordpress.org/support/plugin/wp-reset\" target=\"_blank\">公式WP Resetサポートフォーラム</a>で活発に活動しています。バグを発見した、機能のアイデアがある、または単に挨拶をしたい場合など、お気軽にご参加ください。ユーザーからのご意見やご感想を聞かせていただくことを楽しみにしています。"
+
+#: wp-reset.php:2127
+msgid "Public Support Forum"
+msgstr "公開サポートフォーラム"
+
+#: wp-reset.php:1451
+msgid "Tools"
+msgstr "ツール"
+
+#: wp-reset.php:852 wp-reset.php:1011
+msgid "Unknown tool."
+msgstr "不明なツール。"
+
+#: wp-reset.php:1708
+msgid "Reactivate all currently active plugins"
+msgstr "現在有効なすべてのプラグインを再有効化します"
+
+#: wp-reset.php:1706 wp-reset.php:1731
+msgid "Reactivate WP Reset plugin"
+msgstr "WP Reset プラグインを再有効化します"
+
+#: wp-reset.php:1695 wp-reset.php:1705
+msgid "Reactivate current theme"
+msgstr "現在のテーマを再有効化します"
+
+#: wp-reset.php:1369 wp-reset.php:2342
+msgid "Collapse / expand box"
+msgstr "折りたたみ / 展開ボックス"
+
+#: wp-reset.php:1561
+msgid "Please be careful when using WP Reset with multisite enabled. It's not recommended to reset the main site. Sub-sites should be OK. We're working on making it fully compatible with WP-MU. <b>Till then please be careful.</b> Thank you for understanding."
+msgstr "マルチサイトが有効になっている状態で WP Reset を使用する際はご注意ください。メインサイトをリセットすることはおすすめしません。サブサイトは問題ないはずです。 WP-MU との完全な互換性を実現するため、現在開発中です。<b>それまでの間はご注意ください。</b> ご理解いただきありがとうございます。"
+
+#. Plugin URI of the plugin
+#: wp-reset.php
+msgid "https://wpreset.com/"
+msgstr "https://wpreset.com/"
+
+#. translators: %s is replaced with the literal html "<code>--yes</code>"
+#: wp-reset.php:1676
+msgid "All actions have to be confirmed. If you want to skip confirmation use the standard %s option. Please be careful and backup first."
+msgstr "すべての操作は確認が必要です。確認をスキップしたい場合は、標準の%sオプションを使用してください。ご注意ください。まずバックアップを取ってください。"
+
+#. translators: %s is replaced with the literal html "<code>wp help
+#. reset</code>"
+#: wp-reset.php:1674
+msgid "All tools available via GUI are available in WP-CLI as well. To get the list of commands run %s. Instead of the active user, the first user with admin privileges found in the database will be restored. "
+msgstr "GUI 経由で利用可能なすべてのツールは、 WP-CLI でも利用可能です。コマンドの一覧を取得するには、 %s を実行してください。アクティブなユーザーではなく、データベースで最初に検出された管理者権限を持つユーザーが復元されます。 "
+
+#: wp-reset.php:1672
+msgid "WP-CLI Support"
+msgstr "WP-CLI のサポート"
+
+#: wp-reset.php:1574
+msgid "I've already rated it"
+msgstr "すでに評価しました"
+
+#: wp-reset.php:1574
+msgid "Rate WP Reset"
+msgstr "WP Reset の評価"
+
+#: wp-reset.php:1573
+msgid "If you use &amp; enjoy WP Reset, <b>please rate it on WordPress.org</b>. It only takes a second and helps us keep the plugin maintained. Thank you!"
+msgstr "WP Reset をご利用いただき、お楽しみいただけている場合、<b>WordPress.org で評価をお願いします</b>。たった数秒で完了し、プラグインのメンテナンスに役立ちます。ご協力ありがとうございます！"
+
+#: wp-reset.php:1431
+msgid "Sorry, you are not allowed to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#. translators: %1$s is replaced with the current user's username, %2$s is
+#. replaced with the URL to WP Reset settings page
+#: wp-reset.php:1294
+msgid "<b>Site has been successfully reset to default settings.</b><br>User \"%1$s\" was restored with the password unchanged. Open <a href=\"%2$s\">WP Reset</a> to do another reset."
+msgstr "<b>サイトがデフォルト設定に正常にリセットされました。</b><br>ユーザー「%1$s」はパスワードを変更せずに復元されました。<a href=\"%2$s\">WP Reset</a>を開いて、別のリセットを実行してください。"
+
+#: wp-reset.php:1227
+msgid "Plugin Homepage"
+msgstr "プラグインの公式ページ"
+
+#: wp-reset.php:1226 wp-reset.php:1454
+msgid "Support"
+msgstr "サポート"
+
+#: wp-reset.php:1226
+msgid "Get help"
+msgstr "サポートを受ける"
+
+#: wp-reset.php:390
+msgid "Resetting in progress. Please wait."
+msgstr "リセット中です。しばらくお待ちください。"
+
+#: wp-reset.php:386
+msgid "Are you sure you want to proceed?"
+msgstr "本当に続行しますか？"
+
+#: wp-reset.php:384
+msgid "OK"
+msgstr "OK"
+
+#: wp-reset.php:383
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: wp-reset.php:382
+msgid "Invalid confirmation"
+msgstr "確認が無効です"
+
+#: wp-reset.php:381
+msgid "Please type \"reset\" in the confirmation field."
+msgstr "確認欄に ”reset” と入力してください。"
+
+#: wp-reset.php:375
+msgid "An undocumented error has occurred. Please refresh the page and try again."
+msgstr "未記録のエラーが発生しました。ページを再読み込みして、もう一度お試しください。"
+
+#. Author URI of the plugin
+#: wp-reset.php
+msgid "https://www.webfactoryltd.com/"
+msgstr "https://www.webfactoryltd.com/"
+
+#. Author of the plugin
+#: wp-reset.php
+msgid "WebFactory Ltd"
+msgstr "WebFactory Ltd"
+
+#. Plugin Name of the plugin
+#: wp-reset.php wp-reset.php:248 wp-reset.php:377 wp-reset.php:1439
+msgid "WP Reset"
+msgstr "WP Reset"
+
+#: wp-reset.php:1735
+msgid "Type in \"reset\""
+msgstr "“reset” と入力してください"
+
+#: wp-reset.php:1450
+msgid "Reset"
+msgstr "リセット"
+
+#: wp-reset.php:1668
+msgid "you will be logged out, automatically logged back in and taken to the admin dashboard"
+msgstr "ログアウトされます。その後、自動的に再ログインされ、管理ダッシュボードに遷移します"
+
+#: wp-reset.php:1667
+msgid "site title, WordPress URL, site URL, site language, search engine visibility and current user will always be restored"
+msgstr "サイトタイトル、WordPress URL、サイトURL、サイト言語、検索エンジンへの表示設定、および現在のユーザーは常に復元されます"
+
+#: wp-reset.php:1163
+msgid "Something went wrong. Please refresh the page and try again."
+msgstr "何か問題が発生しました。ページを再読み込みして、もう一度お試しください。"
+
+#: wp-reset.php:1169
+msgid "<b>Invalid confirmation code.</b> Please type \"reset\" in the confirmation field."
+msgstr "<b>確認コードが無効です。</b> 確認欄に “reset” と入力してください。"
+
+#: wp-reset.php:389
+msgid "Click \"Cancel\" to abort."
+msgstr "「キャンセル」をクリックして中止します。"
+
+#: wp-reset.php:1268
+msgid "Visit WP Reset page for more info"
+msgstr "詳細については、WP Reset ページをご覧ください"
+
+#: wp-reset.php:385
+msgid "Reset WordPress"
+msgstr "WordPress をリセットする"

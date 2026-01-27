@@ -1,0 +1,21 @@
+{
+  "wpresidence-widgets": {
+    "advanced_search_widget.title":"Advanced Search",
+    "Featured_Agent.title": "Featured Agent",
+    "Multiple_currency_widget.title": "Change Your Currency",
+    "ag_ag_dev_search_widge.title":"Agents Search",
+    "contact_widget.title":"Contact us",
+    "contact_widget.address_info":"contact_address_info",
+    "facebook_widget.title":"",
+    "featured_widget.title":"Featured Listing",
+    "featured_widget.second_line":"",
+    "footer_latest_widget.title":"Latest Listing",
+    "measurement_unit_widget.title":"Measurement Unit",
+    "mortgage_widge.title":"Mortgage",
+    "property_categories.title":"Our Listings",
+    "social_widget.title":"Social Links",
+    "twitter-widget.title":"Latest Tweets",
+    "zillow_estimate_widget.title":"Estimate your home"
+       
+  }
+}
